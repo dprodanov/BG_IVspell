@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <identifier value="bgivanchov.wordpress.com" />
+    <version value="4.3.3" />
+    <dependencies>
+        <OpenOffice.org-minimal-version value="3.0" d:name="Необходимъ е openoffice.org 3.0 или по-новъ."/>
+    </dependencies>
+	<registration>
+		<simple-license accept-by="admin" default-license-id="en" suppress-if-required="true">
+			<license-text xlink:href="LGPL-2.1.txt" lang="en" license-id="en" />
+		</simple-license>
+	</registration>
+    
+    <display-name>
+        <name lang="bg-BG">Български рѣчници – ИВ</name>
+		<name lang="en">Bulgarian spelling dictionary in the Ivanchecv orthography</name>
+    </display-name>
+    
+	<publisher>
+		<name xlink:href="bgivanchov.wordpress.com" lang="en">Dimiter Prodanov</name>
+		<name xlink:href="bgivanchov.wordpress.com" lang="bg-BG">Димитѫръ Проданов</name>
+	</publisher>
+	
+    <icon>
+      <default xlink:href="images/logo_iv.png" />
+    </icon>
+</description>

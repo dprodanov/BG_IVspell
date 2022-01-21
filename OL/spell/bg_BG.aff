@@ -1,0 +1,2762 @@
+﻿SET UTF-8					
+FLAG long					
+NOSUGGEST XX					
+FULLSTRIP					
+TRY ъьѣѫаеноияртвслкмпздубчгцжхшфйщюЪЬѢѪАЕНОИЯРТВСЛКМПЗДУБЧГЦЖХШФЙЩЮ					
+					
+REP	101				
+REP	те	тѣ			
+REP	тѣ	те			
+REP	ът	ътъ			
+REP	ят	ятъ			
+REP	ят	ьтъ			
+REP	тта	тьта			
+REP	бел	бѣл			
+REP	бял	бѣл			
+REP	вед	вѣд			
+REP	вяд	вѣд			
+REP	вер	вѣр			
+REP	вяр	вѣр			
+REP	все	всѣ			
+REP	вся	всѣ			
+REP	две	двѣ			
+REP	двете	двѣтѣ			
+REP	дед	дѣд			
+REP	дяд	дѣд			
+REP	дел	дѣл			
+REP	дял	дѣл			
+REP	дес	дѣс			
+REP	дяс	дѣс			
+REP	леб	лѣб			
+REP	ляб	лѣб			
+REP	лев	лѣв			
+REP	ляв	лѣв			
+REP	лег	лѣг			
+REP	ляг	лѣг			
+REP	мен	мѣн			
+REP	мян	мѣн			
+REP	мер	мѣр			
+REP	мяр	мѣр			
+REP	мест	мѣст			
+REP	мяст	мѣст			
+REP	мле	млѣ			
+REP	мля	млѣ			
+REP	нем	нѣм			
+REP	ням	нѣм			
+REP	пре	прѣ			
+REP	пря	прѣ			
+REP	пред	прѣд			
+REP	свет	свѣт			
+REP	свят	свѣт			
+REP	сег	сѣг			
+REP	сяг	сѣг			
+REP	свет	свѣт			
+REP	свят	свѣт			
+REP	сред	срѣд			
+REP	сряд	срѣд			
+REP	тех	тѣх			
+REP	тях	тѣх			
+REP	цел	цѣл			
+REP	цял	цѣл			
+REP	бъд	бѫд			
+REP	въг	вѫг			
+REP	въд	вѫд			
+REP	вът	вѫт			
+REP	гъс	гѫс			
+REP	зъб	зѫб			
+REP	кръ	крѫ			
+REP	къде	кѫдѣ			
+REP	кът	кѫт			
+REP	къщ	кѫщ			
+REP	лъч	лѫч			
+REP	мък	мѫк			
+REP	мъч	мѫч			
+REP	мъж	мѫж			
+REP	път	пѫт			
+REP	ръб	рѫб			
+REP	рък	рѫк			
+REP	ръч	рѫч			
+REP	скъп	скѫп			
+REP	съд	сѫд			
+REP	същ	сѫщ			
+REP	тъг	тѫг			
+REP	тъж	тѫж			
+REP	тъп	тѫп			
+REP	шт	щ			
+REP	ис	из			
+REP	нат	над			
+REP	од	от			
+REP	рас	раз			
+REP	в	въ			
+REP	с	съ			
+REP	во	въ			
+REP	со	съ			
+REP	ър	ръ			
+REP	ръ	ър			
+REP	ъл	лъ			
+REP	лъ	ъл			
+REP	а	ъ			
+REP	е	ѣ			
+REP	й	ѝ			
+REP	ъ	ѫ			
+REP	ъ	а			
+REP	ъ	ь			
+REP	ь	ъ			
+REP	я	ѣ			
+REP	ѫ	ъ			
+REP	ѣ	я			
+REP	ѣ	е			
+					
+MAP	7				
+MAP	еѣя				
+MAP	аъѫ				
+MAP	ъь				
+MAP	ий				
+MAP	ая				
+MAP	еи				
+MAP	оу				
+					
+SFX	A0	Y	45		
+SFX	A0		и	и	.
+SFX	A0		и	ия	.
+SFX	A0		и	иятъ	.
+SFX	A0		и	ий	.
+SFX	A0		и	а	.
+SFX	A0		и	ата	.
+SFX	A0		и	о	.
+SFX	A0		и	ото	.
+SFX	A0		и	и	.
+SFX	A0		и	итѣ	.
+SFX	A0		ъ	ъ	.
+SFX	A0		ъ	ия	.
+SFX	A0		ъ	иятъ	.
+SFX	A0		ъ	ий	.
+SFX	A0		ъ	а	.
+SFX	A0		ъ	ата	.
+SFX	A0		ъ	о	[^ш]ъ
+SFX	A0		ъ	ото	[^ш]ъ
+SFX	A0		ъ	о	ошъ
+SFX	A0		ъ	ото	ошъ
+SFX	A0		ъ	е	[^о]шъ
+SFX	A0		ъ	ето	[^о]шъ
+SFX	A0		ъ	и	.
+SFX	A0		ъ	итѣ	.
+SFX	A0		ь	ь	.
+SFX	A0		ь	ия	.
+SFX	A0		ь	иятъ	.
+SFX	A0		ь	ий	.
+SFX	A0		ь	я	.
+SFX	A0		ь	ята	.
+SFX	A0		ь	ьо	.
+SFX	A0		ь	ьото	.
+SFX	A0		ь	и	.
+SFX	A0		ь	итѣ	.
+SFX	A0		й	й	.
+SFX	A0		й	я	.
+SFX	A0		й	ятъ	.
+SFX	A0		й	йта	.
+SFX	A0		й	ята	.
+SFX	A0		й	е	.
+SFX	A0		й	ето	.
+SFX	A0		й	йто	.
+SFX	A0		й	и	.
+SFX	A0		й	итѣ	.
+SFX	A0		й	йтѣ	.
+					
+SFX	A1	Y	30		
+SFX	A1		ви	ви	.
+SFX	A1		ви	вия	.
+SFX	A1		ви	виятъ	.
+SFX	A1		ви	вий	.
+SFX	A1		ви	вя	.
+SFX	A1		ви	вята	.
+SFX	A1		ви	ве	.
+SFX	A1		ви	вето	.
+SFX	A1		ви	ви	.
+SFX	A1		ви	витѣ	.
+SFX	A1		зи	зи	.
+SFX	A1		зи	зия	.
+SFX	A1		зи	зиятъ	.
+SFX	A1		зи	зий	.
+SFX	A1		зи	зя	.
+SFX	A1		зи	зята	.
+SFX	A1		зи	зе	.
+SFX	A1		зи	зето	.
+SFX	A1		зи	зи	.
+SFX	A1		зи	зитѣ	.
+SFX	A1		чи	чи	.
+SFX	A1		чи	чия	.
+SFX	A1		чи	чиятъ	.
+SFX	A1		чи	чий	.
+SFX	A1		чи	ча	.
+SFX	A1		чи	чата	.
+SFX	A1		чи	че	.
+SFX	A1		чи	чето	.
+SFX	A1		чи	чи	.
+SFX	A1		чи	читѣ	.
+					
+SFX	A2	Y	19		
+SFX	A2		енъ	енъ	.
+SFX	A2		енъ	ния	.
+SFX	A2		енъ	ниятъ	.
+SFX	A2		енъ	ний	.
+SFX	A2		енъ	на	.
+SFX	A2		енъ	ната	.
+SFX	A2		енъ	но	.
+SFX	A2		енъ	ното	.
+SFX	A2		енъ	ни	.
+SFX	A2		енъ	нитѣ	.
+SFX	A2		инъ	инъ	.
+SFX	A2		инъ	иния	.
+SFX	A2		инъ	иниятъ	.
+SFX	A2		инъ	на	.
+SFX	A2		инъ	ната	.
+SFX	A2		инъ	но	.
+SFX	A2		инъ	ното	.
+SFX	A2		инъ	ни	.
+SFX	A2		инъ	нитѣ	.
+					
+SFX	A4	Y	82		
+SFX	A4		ъвъ	ъвъ	.
+SFX	A4		ъвъ	вия	.
+SFX	A4		ъвъ	виятъ	.
+SFX	A4		ъвъ	вий	.
+SFX	A4		ъвъ	ва	.
+SFX	A4		ъвъ	вата	.
+SFX	A4		ъвъ	во	.
+SFX	A4		ъвъ	вото	.
+SFX	A4		ъвъ	ви	.
+SFX	A4		ъвъ	витѣ	.
+SFX	A4		ъгъ	ъгъ	.
+SFX	A4		ъгъ	гия	.
+SFX	A4		ъгъ	гиятъ	.
+SFX	A4		ъгъ	гий	.
+SFX	A4		ъгъ	га	.
+SFX	A4		ъгъ	гата	.
+SFX	A4		ъгъ	го	.
+SFX	A4		ъгъ	гото	.
+SFX	A4		ъгъ	ги	.
+SFX	A4		ъгъ	гитѣ	.
+SFX	A4		ъкъ	ъкъ	.
+SFX	A4		ъкъ	кия	.
+SFX	A4		ъкъ	киятъ	.
+SFX	A4		ъкъ	кий	.
+SFX	A4		ъкъ	ка	.
+SFX	A4		ъкъ	ката	.
+SFX	A4		ъкъ	ко	.
+SFX	A4		ъкъ	кото	.
+SFX	A4		ъкъ	ки	.
+SFX	A4		ъкъ	китѣ	.
+SFX	A4		ълъ	ълъ/L1	.
+SFX	A4		ъръ	ъръ	.
+SFX	A4		ъръ	рия	.
+SFX	A4		ъръ	риятъ	.
+SFX	A4		ъръ	рий	.
+SFX	A4		ъръ	ра	.
+SFX	A4		ъръ	рата	.
+SFX	A4		ъръ	ро	.
+SFX	A4		ъръ	рото	.
+SFX	A4		ъръ	ри	.
+SFX	A4		ъръ	ритѣ	.
+SFX	A4		ѣвъ	ѣвъ	.
+SFX	A4		ѣвъ	ѣвия	.
+SFX	A4		ѣвъ	ѣвиятъ	.
+SFX	A4		ѣвъ	ѣвий	.
+SFX	A4		ѣвъ	ѣва	.
+SFX	A4		ѣвъ	ѣвата	.
+SFX	A4		ѣвъ	ѣво	.
+SFX	A4		ѣвъ	ѣвото	.
+SFX	A4		ѣвъ	ѣви	.
+SFX	A4		ѣвъ	ѣвитѣ	.
+SFX	A4		ѣкъ	ѣкъ	.
+SFX	A4		ѣкъ	ѣкия	.
+SFX	A4		ѣкъ	ѣкиятъ	.
+SFX	A4		ѣкъ	ѣкий	.
+SFX	A4		ѣкъ	ѣка	.
+SFX	A4		ѣкъ	ѣката	.
+SFX	A4		ѣкъ	ѣко	.
+SFX	A4		ѣкъ	ѣкото	.
+SFX	A4		ѣкъ	ѣки	.
+SFX	A4		ѣкъ	ѣкитѣ	.
+SFX	A4		ѣлъ	ѣлъ/L5	.
+SFX	A4		ѣмъ	ѣмъ	.
+SFX	A4		ѣмъ	ѣмия	.
+SFX	A4		ѣмъ	ѣмиятъ	.
+SFX	A4		ѣмъ	ѣмий	.
+SFX	A4		ѣмъ	ѣма	.
+SFX	A4		ѣмъ	ѣмата	.
+SFX	A4		ѣмъ	ѣмо	.
+SFX	A4		ѣмъ	ѣмото	.
+SFX	A4		ѣмъ	ѣми	.
+SFX	A4		ѣмъ	ѣмитѣ	.
+SFX	A4		ѣпъ	ѣпъ	.
+SFX	A4		ѣпъ	ѣпия	.
+SFX	A4		ѣпъ	ѣпиятъ	.
+SFX	A4		ѣпъ	ѣпий	.
+SFX	A4		ѣпъ	ѣпа	.
+SFX	A4		ѣпъ	ѣпата	.
+SFX	A4		ѣпъ	ѣпо	.
+SFX	A4		ѣпъ	ѣпото	.
+SFX	A4		ѣпъ	ѣпи	.
+SFX	A4		ѣпъ	ѣпитѣ	.
+					
+SFX	A5	Y	4		
+SFX	A5		ръбъ	ърбъ/A0	.
+SFX	A5		ръзъ	ързъ/A0	.
+SFX	A5		ръхъ	ърхъ/A0	.
+SFX	A5		ързъкъ	ръзъкъ/A4	.
+					
+SFX	A6	Y	10		
+SFX	A6		енъ	енъ	.
+SFX	A6		енъ	йния	.
+SFX	A6		енъ	йниятъ	.
+SFX	A6		енъ	йна	.
+SFX	A6		енъ	йната	.
+SFX	A6		енъ	йний	.
+SFX	A6		енъ	йно	.
+SFX	A6		енъ	йното	.
+SFX	A6		енъ	йни	.
+SFX	A6		енъ	йнитѣ	.
+					
+//SFX	A7	Y	0		
+					
+SFX	A8	Y	2		
+SFX	A8		ъ	ъ	.
+SFX	A8		и	и	.
+					
+SFX	B0	Y	4		
+SFX	B0		ь	ь	.
+SFX	B0		ь	ьта	.
+SFX	B0		ь	и	.
+SFX	B0		ь	итѣ	.
+					
+SFX	B1	Y	2		
+SFX	B1		0	0	.
+SFX	B1		0	та	.
+					
+SFX	B2	Y	4		
+SFX	B2		а	а	.
+SFX	B2		а	ата	.
+SFX	B2		и	и	.
+SFX	B2		и	итѣ	.
+					
+SFX	B3	Y	12		
+SFX	B3		ень	ень	.
+SFX	B3		ень	еньта	.
+SFX	B3		ень	ни	.
+SFX	B3		ень	нитѣ	.
+SFX	B3		ъль	ъль	.
+SFX	B3		ъль	ъльта	.
+SFX	B3		ъль	ли	.
+SFX	B3		ъль	литѣ	.
+SFX	B3		ънь	ънь	.
+SFX	B3		ънь	ъньта	.
+SFX	B3		ънь	ни	.
+SFX	B3		ънь	нитѣ	.
+					
+SFX	B4	Y	8		
+SFX	B4		ръвь	ръвь	.
+SFX	B4		ръвь	ръвьта	.
+SFX	B4		ръвь	ърви	.
+SFX	B4		ръвь	ървитѣ	.
+SFX	B4		ръбь	ръбь	.
+SFX	B4		ръбь	ръбьта	.
+SFX	B4		ръбь	ърби	.
+SFX	B4		ръбь	ърбитѣ	.
+					
+//SFX	B5	Y	0		
+					
+SFX	C0	Y	43		
+SFX	C0		единъ	единъ/A2	.
+SFX	C0		два	два	.
+SFX	C0		два	двата	.
+SFX	C0		два	двѣ	.
+SFX	C0		два	двѣтѣ	.
+SFX	C0		два	двѣ	.
+SFX	C0		два	двѣтѣ	.
+SFX	C0		два	двама	.
+SFX	C0		два	двамата	.
+SFX	C0		ри	ри	.
+SFX	C0		ри	ритѣ	.
+SFX	C0		ри	ри	.
+SFX	C0		ри	ритѣ	.
+SFX	C0		ри	ри	.
+SFX	C0		ри	ритѣ	.
+SFX	C0		ри	рима	.
+SFX	C0		ри	римата	.
+SFX	C0		ть	ть	.
+SFX	C0		ть	тьтѣ	.
+SFX	C0		ть	ть	.
+SFX	C0		ть	тьтѣ	.
+SFX	C0		ть	ть	.
+SFX	C0		ть	тьтѣ	.
+SFX	C0		ть	тима	.
+SFX	C0		ть	тимата	.
+SFX	C0		емь	емь	.
+SFX	C0		емь	емьтѣ	.
+SFX	C0		емь	емь	.
+SFX	C0		емь	емьтѣ	.
+SFX	C0		емь	емь	.
+SFX	C0		емь	емьтѣ	.
+SFX	C0		емь	мина	.
+SFX	C0		емь	мината	.
+SFX	C0		а	а	.
+SFX	C0		а	ата	.
+SFX	C0		а	и	.
+SFX	C0		а	итѣ	.
+SFX	C0		а	а	.
+SFX	C0		а	ата	.
+SFX	C0		а	а	.
+SFX	C0		а	ата	.
+SFX	C0		а	а	.
+SFX	C0		а	ата	.
+					
+SFX	C1	Y	15		
+SFX	C1		на	на	.
+SFX	C1		на	ната	.
+SFX	C1		нь	нь	.
+SFX	C1		нь	ньтѣ	.
+SFX	C1		нь	нь	.
+SFX	C1		нь	ньтѣ	.
+SFX	C1		нь	нь	.
+SFX	C1		нь	ньтѣ	.
+SFX	C1		нь	на	.
+SFX	C1		нь	ната	.
+SFX	C1		ть	ть/C0	.
+SFX	C1		ть	тина	.
+SFX	C1		ть	тината	.
+SFX	C1		ъ	ъ/D9	.
+SFX	C1		ъ	а	.
+					
+SFX	C2	Y	8		
+SFX	C2		0	0	.
+SFX	C2		0	тѣ	.
+SFX	C2		0	0	.
+SFX	C2		0	тѣ	.
+SFX	C2		0	0	.
+SFX	C2		0	тѣ	.
+SFX	C2		0	тина	.
+SFX	C2		0	тината	.
+					
+SFX	C3	Y	3		
+SFX	C3		пръвъ	пръвъ	.
+SFX	C3		пръвъ	първи/A0	.
+SFX	C3		и	и/A0	.
+					
+SFX	D0	Y	5		
+SFX	D0		ъ	ъ	.
+SFX	D0		ъ	а	.
+SFX	D0		ъ	ътъ	.
+SFX	D0		ъ	ове	.
+SFX	D0		ъ	оветѣ	.
+					
+SFX	D1	Y	5		
+SFX	D1		й	й	.
+SFX	D1		й	я	.
+SFX	D1		й	ятъ	.
+SFX	D1		й	еве	.
+SFX	D1		й	еветѣ	.
+					
+SFX	D2	Y	10		
+SFX	D2		й	й	.
+SFX	D2		й	я	.
+SFX	D2		й	ятъ	.
+SFX	D2		й	йове	.
+SFX	D2		й	йоветѣ	.
+SFX	D2		ь	ь	.
+SFX	D2		ь	я	.
+SFX	D2		ь	ьтъ	.
+SFX	D2		ь	ьове	.
+SFX	D2		ь	ьоветѣ	.
+					
+SFX	D3	Y	15		
+SFX	D3		й	й	.
+SFX	D3		й	я	.
+SFX	D3		й	ятъ	.
+SFX	D3		й	ища	.
+SFX	D3		й	ищата	.
+SFX	D3		ь	ь	.
+SFX	D3		ь	я	.
+SFX	D3		ь	ьтъ	.
+SFX	D3		ь	ища	.
+SFX	D3		ь	ищата	.
+SFX	D3		ъ	ъ	.
+SFX	D3		ъ	а	.
+SFX	D3		ъ	ътъ	.
+SFX	D3		ъ	ища	.
+SFX	D3		ъ	ищата	.
+					
+SFX	D4	Y	6		
+SFX	D4		търъ	търъ	.
+SFX	D4		търъ	търа	.
+SFX	D4		търъ	търътъ	.
+SFX	D4		търъ	трове	.
+SFX	D4		търъ	троветѣ	.
+SFX	D4		търъ	тре	.
+					
+SFX	D5	Y	9		
+SFX	D5		ъ	ъ	.
+SFX	D5		ъ	а	.
+SFX	D5		ъ	ътъ	.
+SFX	D5		ъ	ове	.
+SFX	D5		ъ	оветѣ	.
+SFX	D5		ъ	е	[^гкх]е
+SFX	D5		гъ	же	.
+SFX	D5		къ	че	.
+SFX	D5		хъ	ше	.
+					
+SFX	D6	Y	15		
+SFX	D6		ръхъ	ръхъ	.
+SFX	D6		ръхъ	ърха	.
+SFX	D6		ръхъ	ърхътъ	.
+SFX	D6		ръхъ	ърхове	.
+SFX	D6		ръхъ	ърховетѣ	.
+SFX	D6		ръбъ	ръбъ	.
+SFX	D6		ръбъ	ърба	.
+SFX	D6		ръбъ	ърбътъ	.
+SFX	D6		ръбъ	ърбове	.
+SFX	D6		ръбъ	ърбоветѣ	.
+SFX	D6		ръмъ	ръмъ	.
+SFX	D6		ръмъ	ърма	.
+SFX	D6		ръмъ	ърмътъ	.
+SFX	D6		ръмъ	ърмове	.
+SFX	D6		ръмъ	ърмоветѣ	.
+					
+SFX	D7	Y	5		
+SFX	D7		ъ	ъ	.
+SFX	D7		ъ	а	.
+SFX	D7		ъ	ътъ	.
+SFX	D7		ъ	илища	.
+SFX	D7		ъ	илищата	.
+					
+SFX	D8	Y	10		
+SFX	D8		й	йо	.
+SFX	D8		й	йко	.
+SFX	D8		ь	ьо	.
+SFX	D8		ь	ко	.
+SFX	D8		гъ	гъ	.
+SFX	D8		гъ	га	.
+SFX	D8		гъ	гътъ	.
+SFX	D8		гъ	зи	.
+SFX	D8		гъ	зитѣ	.
+SFX	D8		гъ	же	.
+					
+SFX	D9	Y	6		
+SFX	D9		ъ	ъ	.
+SFX	D9		ъ	а	.
+SFX	D9		ъ	ътъ	.
+SFX	D9		ъ	и	.
+SFX	D9		ъ	итѣ	.
+SFX	D9		ъ	е	.
+					
+SFX	E0	Y	6		
+SFX	E0		ь	ь	.
+SFX	E0		ь	я	.
+SFX	E0		ь	ьтъ	.
+SFX	E0		ь	и	.
+SFX	E0		ь	итѣ	.
+SFX	E0		ь	ю	.
+					
+SFX	E1	Y	13		
+SFX	E1		ь	ь	.
+SFX	E1		ь	я	.
+SFX	E1		ь	ьтъ	.
+SFX	E1		ь	е	.
+SFX	E1		ь	етѣ	.
+SFX	E1		ь	ю	.
+SFX	E1		ъ	ъ	.
+SFX	E1		ъ	а	.
+SFX	E1		ъ	ътъ	.
+SFX	E1		ъ	е	.
+SFX	E1		ъ	етѣ	.
+SFX	E1		зъ	же	.
+SFX	E1		жъ	жо	.
+					
+SFX	E2	Y	16		
+SFX	E2		день	день	.
+SFX	E2		день	деня	.
+SFX	E2		день	деньтъ	.
+SFX	E2		день	дена	.
+SFX	E2		день	дни	.
+SFX	E2		день	днитѣ	.
+SFX	E2		огънь	огънь	.
+SFX	E2		огънь	огъня	.
+SFX	E2		огънь	огъньтъ	.
+SFX	E2		огънь	огньове	.
+SFX	E2		огънь	огньоветѣ	.
+SFX	E2		къть	къть	.
+SFX	E2		къть	кътя	.
+SFX	E2		къть	кътьтъ	.
+SFX	E2		къть	кти	.
+SFX	E2		къть	ктитѣ	.
+					
+SFX	E3	Y	7		
+SFX	E3		ь	ь	.
+SFX	E3		ь	я	.
+SFX	E3		ь	ьтъ	.
+SFX	E3		ь	и	.
+SFX	E3		ь	итѣ	.
+SFX	E3		ь	е	.
+SFX	E3		ь	ю	.
+					
+SFX	F0	Y	13		
+SFX	F0		а	а	.
+SFX	F0		а	ата	.
+SFX	F0		а	и	.
+SFX	F0		а	итѣ	.
+SFX	F0		а	о	.
+SFX	F0		а	е	[^аеиоуъьюяѣѫ]ка
+SFX	F0		а	е	[ий]ца
+SFX	F0		я	я	.
+SFX	F0		я	ята	.
+SFX	F0		я	и	.
+SFX	F0		я	итѣ	.
+SFX	F0		я	йо	[аеийоуъьюяѣѫ]я
+SFX	F0		я	ьо	[^аеийоуъьюяѣѫ]я
+					
+SFX	F1	Y	20		
+SFX	F1		ца	ца	.
+SFX	F1		ца	цата	.
+SFX	F1		ца	це	.
+SFX	F1		ца	цетѣ	.
+SFX	F1		ца	цо	.
+SFX	F1		ня	ня	.
+SFX	F1		ня	нята	.
+SFX	F1		ня	не	.
+SFX	F1		ня	нетѣ	.
+SFX	F1		ня	ньо	.
+SFX	F1		ка	ка	.
+SFX	F1		ка	ката	.
+SFX	F1		ка	цѣ	.
+SFX	F1		ка	цѣтѣ	.
+SFX	F1		ка	ко	.
+SFX	F1		га	га	.
+SFX	F1		га	гата	.
+SFX	F1		га	зѣ	.
+SFX	F1		га	зѣтѣ	.
+SFX	F1		га	го	.
+					
+SFX	F2	Y	12		
+SFX	F2		а	ка/F0	[бвдлрстш]а
+SFX	F2		а	чица/F0	[бвдлрстш]а
+SFX	F2		а	ка/F0	[мнпфч]а
+SFX	F2		га	жка/F0	.
+SFX	F2		га	жчица/F0	.
+SFX	F2		ка	чица/F0	.
+SFX	F2		ца	чка/F0	.
+SFX	F2		ха	шка/F0	.
+SFX	F2		ха	шчица/F0	.
+SFX	F2		я	йка/F0	[аеиоу]я
+SFX	F2		я	ка/F0	[л]я
+SFX	F2		я	чица/F0	[л]я
+					
+SFX	F3	Y	10		
+SFX	F3		а	ица/F0	[бвгджзклмнпрстфхшщ]а
+SFX	F3		а	ичка/F0	[бвгджзклмнпрстфхшщ]а
+SFX	F3		ца	чица/F0	.
+SFX	F3		ца	чичка/F0	.
+SFX	F3		ча	чица/F0	.
+SFX	F3		ча	чичка/F0	.
+SFX	F3		ь	ица/F0	.
+SFX	F3		ь	ичка/F0	.
+SFX	F3		я	ица/F0	[абдлмнео]я
+SFX	F3		я	ичка/F0	[абдлмнео]я
+					
+SFX	F4	Y	7		
+SFX	F4		ень	ничка/F0	.
+SFX	F4		ка	чка/F0	[^ч]ка
+SFX	F4		ка	ица/F0	[ч]ка
+SFX	F4		ха	шица/F0	.
+SFX	F4		ха	шичка/F0	.
+SFX	F4		ца	цка/F0	.
+SFX	F4		ъль	личка/F0	.
+					
+SFX	F5	Y	5		
+SFX	F5		й	чица/F0	.
+SFX	F5		ка	чица/F0	.
+SFX	F5		ка	чичка/F0	.
+SFX	F5		на	нчица/F0	.
+SFX	F5		ь	чица/F0	.
+					
+SFX	F6	Y	7		
+SFX	F6		ла	лца/B2	.
+SFX	F6		ра	рица/B2	.
+SFX	F6		та	тки/B2	.
+SFX	F6		ти	тки/B2	.
+SFX	F6		ща	щенца/B2	.
+SFX	F6		ща	щета/B2	.
+SFX	F6		щи	щички/B2	.
+					
+SFX	F7	Y	13		
+SFX	F7		й	йче/J0	.
+SFX	F7		й	йченце/J3	.
+SFX	F7		е	енце/J3	.
+SFX	F7		и	инце/J3	.
+SFX	F7		о	енце/J3	.
+SFX	F7		ърво	ръвце/J3	.
+SFX	F7		ълво	лъбце/J3	.
+SFX	F7		ъ	е/J0	чъ
+SFX	F7		ъ	енце/J3	чъ
+SFX	F7		ъ	че/J0	[^ч]ъ
+SFX	F7		ъ	ченце/J3	[^ч]ъ
+SFX	F7		ь	че/J0	.
+SFX	F7		ь	ченце/J3	.
+					
+SFX	F8	Y	32		
+SFX	F8		бло	бълце/J3	.
+SFX	F8		бро	бърце/J3	.
+SFX	F8		гло	гълце/J3	.
+SFX	F8		гне	гънце/J3	.
+SFX	F8		динъ	динчо/J8	.
+SFX	F8		дло	делче/J0	.
+SFX	F8		дро	дърце/J3	.
+SFX	F8		ене	енце/J3	.
+SFX	F8		елъ	ле/J0	.
+SFX	F8		елъ	ленце/J3	.
+SFX	F8		жъ	жле/J0	.
+SFX	F8		жъ	жленце/J3	.
+SFX	F8		кло	кълце/J3	.
+SFX	F8		кно	кънце/J3	.
+SFX	F8		ко	че/J0	.
+SFX	F8		ко	ченце/J3	.
+SFX	F8		къ	че/J0	.
+SFX	F8		къ	ченце/J3	.
+SFX	F8		сло	сълце/J3	.
+SFX	F8		смо	съмце/J3	.
+SFX	F8		тно	тънце/J3	.
+SFX	F8		тъ	тле/J0	.
+SFX	F8		тъ	тленце/J3	.
+SFX	F8		хо	ше/J0	.
+SFX	F8		хо	шенце/J3	.
+SFX	F8		чъ	чле/J0	.
+SFX	F8		чъ	членце/J3	.
+SFX	F8		шно	шънце/J3	.
+SFX	F8		ърво	ръвче/J0	.
+SFX	F8		ърво	ръвченце/J3	.
+SFX	F8		ерво	ревце/J3	.
+SFX	F8		ърно	рънце/J3	.
+					
+SFX	F9	Y	15		
+SFX	F9		екъ	йче/J0	[аеоиуяѣ]екъ
+SFX	F9		екъ	йченце/J3	[аеоиуяѣ]екъ
+SFX	F9		ецъ	че/J0	[^аеоиуяѣ]ецъ
+SFX	F9		ецъ	ченце/J3	[^аеоиуяѣ]ецъ
+SFX	F9		ецъ	йче/J0	[аеоиуяѣ]ецъ
+SFX	F9		ецъ	йченце/J3	[аеоиуяѣ]ецъ
+SFX	F9		ие	ийце/J3	.
+SFX	F9		инъ	че/J0	[^аеоиуяѣ]инъ
+SFX	F9		инъ	йче/J0	[аеоиуяѣ]инъ
+SFX	F9		ио	ийце/J3	.
+SFX	F9		ия	ийче/J0	.
+SFX	F9		ко	кце/J3	.
+SFX	F9		ко	чице/J3	.
+SFX	F9		о	це/J3	[^ик]о
+SFX	F9		це	чице/J3	.
+					
+SFX	G0	Y	6		
+SFX	G0		ъ	ъ	.
+SFX	G0		ъ	а	.
+SFX	G0		ъ	ътъ	.
+SFX	G0		ъ	и	.
+SFX	G0		ъ	итѣ	.
+SFX	G0		ъ	о	.
+					
+SFX	H0	Y	50		
+SFX	H0		азъ	азъ	.
+SFX	H0		азъ	менъ	.
+SFX	H0		азъ	мене	.
+SFX	H0		азъ	ме	.
+SFX	H0		азъ	менъ	.
+SFX	H0		азъ	мене	.
+SFX	H0		азъ	ми	.
+SFX	H0		ти	ти	.
+SFX	H0		ти	тебъ	.
+SFX	H0		ти	тебе	.
+SFX	H0		ти	те	.
+SFX	H0		ти	тебъ	.
+SFX	H0		ти	тебе	.
+SFX	H0		ти	ти	.
+SFX	H0		той	той	.
+SFX	H0		той	него	.
+SFX	H0		той	го	.
+SFX	H0		той	нему	.
+SFX	H0		той	него	.
+SFX	H0		той	му	.
+SFX	H0		тя	тя	.
+SFX	H0		тя	нея	.
+SFX	H0		тя	я	.
+SFX	H0		тя	ней	.
+SFX	H0		тя	нея	.
+SFX	H0		тя	ѝ	.
+SFX	H0		то	то	.
+SFX	H0		то	него	.
+SFX	H0		то	го	.
+SFX	H0		то	нему	.
+SFX	H0		то	него	.
+SFX	H0		то	му	.
+SFX	H0		ние	ние	.
+SFX	H0		ние	насъ	.
+SFX	H0		ние	ни	.
+SFX	H0		ние	намъ	.
+SFX	H0		ние	насъ	.
+SFX	H0		ние	ни	.
+SFX	H0		вие	вие	.
+SFX	H0		вие	васъ	.
+SFX	H0		вие	ви	.
+SFX	H0		вие	вамъ	.
+SFX	H0		вие	васъ	.
+SFX	H0		вие	ви	.
+SFX	H0		тѣ	тѣ	.
+SFX	H0		тѣ	тѣхъ	.
+SFX	H0		тѣ	ги	.
+SFX	H0		тѣ	тѣмъ	.
+SFX	H0		тѣ	тѣхъ	.
+SFX	H0		тѣ	имъ	.
+					
+SFX	H1	Y	32		
+SFX	H1		този	този	.
+SFX	H1		този	тази	.
+SFX	H1		този	това	.
+SFX	H1		този	тѣзи	.
+SFX	H1		тозъ	тозъ	.
+SFX	H1		тозъ	тазъ	.
+SFX	H1		тозъ	това	.
+SFX	H1		тозъ	тѣзъ	.
+SFX	H1		онзи	онзи	.
+SFX	H1		онзи	онази	.
+SFX	H1		онзи	оназъ	.
+SFX	H1		онзи	онова	.
+SFX	H1		онзи	онѣзи	.
+SFX	H1		онзи	онѣзъ	.
+SFX	H1		тоя	тоя	.
+SFX	H1		тоя	тая	.
+SFX	H1		тоя	туй	.
+SFX	H1		тоя	тия	.
+SFX	H1		оня	оня	.
+SFX	H1		оня	оная	.
+SFX	H1		оня	онуй	.
+SFX	H1		оня	ония	.
+SFX	H1		такъвъ	такъвъ	.
+SFX	H1		такъвъ	такава	.
+SFX	H1		такъвъ	такова	.
+SFX	H1		такъвъ	такива	.
+SFX	H1		онакъвъ	онакъвъ	.
+SFX	H1		онакъвъ	онакава	.
+SFX	H1		онакъвъ	онакова	.
+SFX	H1		онакъвъ	онакива	.
+SFX	H1		толкавъ	толкавъ/A0	.
+SFX	H1		инакъвъ	инакъвъ/A4	.
+					
+SFX	H2	Y	25		
+SFX	H2		мой	мой/A0	.
+SFX	H2		мой	ми	.
+SFX	H2		твой	твой/A0	.
+SFX	H2		твой	ти	.
+SFX	H2		свой	свой/A0	.
+SFX	H2		свой	си	.
+SFX	H2		неговъ	неговъ/A0	.
+SFX	H2		неговъ	му	.
+SFX	H2		неинъ	неинъ	.
+SFX	H2		неинъ	нейния	.
+SFX	H2		неинъ	нейниятъ	.
+SFX	H2		неинъ	нейний	.
+SFX	H2		неинъ	нейна	.
+SFX	H2		неинъ	нейнана	.
+SFX	H2		неинъ	нейно	.
+SFX	H2		неинъ	нейното	.
+SFX	H2		неинъ	нейни	.
+SFX	H2		неинъ	нейнитѣ	.
+SFX	H2		неинъ	ѝ	.
+SFX	H2		нашъ	нашъ/A0	.
+SFX	H2		нашъ	ни	.
+SFX	H2		вашъ	вашъ/A0	.
+SFX	H2		вашъ	ви	.
+SFX	H2		тѣхенъ	тѣхенъ/A2	.
+SFX	H2		тѣхенъ	имъ	.
+					
+SFX	H3	Y	19		
+SFX	H3		кой	кой	.
+SFX	H3		кой	кого	.
+SFX	H3		кой	кому	.
+SFX	H3		кой	кого	.
+SFX	H3		кой	коя	.
+SFX	H3		кой	кое	.
+SFX	H3		кой	кои	.
+SFX	H3		чий	чий	.
+SFX	H3		чий	чия	.
+SFX	H3		чий	чие	.
+SFX	H3		чий	чии	.
+SFX	H3		какъвъ	какъвъ	.
+SFX	H3		какъвъ	каква	.
+SFX	H3		какъвъ	какво	.
+SFX	H3		какъвъ	какви	.
+SFX	H3		колкавъ	колкавъ	.
+SFX	H3		колкавъ	колкава	.
+SFX	H3		колкавъ	колкаво	.
+SFX	H3		колкавъ	колкави	.
+					
+SFX	H4	Y	15		
+SFX	H4		който	който	.
+SFX	H4		който	когото	.
+SFX	H4		който	комуто	.
+SFX	H4		който	когото	.
+SFX	H4		който	която	.
+SFX	H4		който	което	.
+SFX	H4		който	които	.
+SFX	H4		чийто	чийто	.
+SFX	H4		чийто	чиято	.
+SFX	H4		чийто	чието	.
+SFX	H4		чийто	чиито	.
+SFX	H4		какъвто	какъвто	.
+SFX	H4		какъвто	каквато	.
+SFX	H4		какъвто	каквото	.
+SFX	H4		какъвто	каквито	.
+					
+SFX	H5	Y	3		
+SFX	H5		нѣкой	нѣкой/H3	.
+SFX	H5		нѣчий	нѣчий/H3	.
+SFX	H5		нѣкакъвъ	нѣкакъвъ/H3	.
+					
+SFX	H6	Y	3		
+SFX	H6		никой	никой/H3	.
+SFX	H6		ничий	ничий/H3	.
+SFX	H6		никакъвъ	никакъвъ/H3	.
+					
+SFX	H7	Y	20		
+SFX	H7		всѣкой	всѣкой/H3	.
+SFX	H7		всѣки	всѣки	.
+SFX	H7		всѣки	всѣкиго	.
+SFX	H7		всѣки	всѣкиму	.
+SFX	H7		всѣки	всѣки	.
+SFX	H7		всѣки	всѣка	.
+SFX	H7		всѣки	всѣко	.
+SFX	H7		всѣкакъвъ	всѣкакъвъ/H3	.
+SFX	H7		всичкия	всичкия	.
+SFX	H7		всичкия	всичкиятъ	.
+SFX	H7		всичкия	всичкий	.
+SFX	H7		всичкия	всичка	.
+SFX	H7		всичкия	всичката	.
+SFX	H7		всичкия	всичко	.
+SFX	H7		всичкия	всичкото	.
+SFX	H7		всичкия	всички	.
+SFX	H7		всичкия	всичкитѣ	.
+SFX	H7		все	все	.
+SFX	H7		все	вси	.
+SFX	H7		все	вситѣ	.
+					
+SFX	I0	Y	3		
+SFX	I0		ъ	ъ	.
+SFX	I0		ъ	а	.
+SFX	I0		ъ	ътъ	.
+					
+SFX	I1	Y	5		
+SFX	I1		ъ	ъ	.
+SFX	I1		ъ	а	.
+SFX	I1		ъ	ътъ	.
+SFX	I1		ъ	а	.
+SFX	I1		ъ	ата	.
+					
+SFX	J0	Y	3		
+SFX	J0		0	то	.
+SFX	J0		0	та	.
+SFX	J0		0	тата	.
+					
+SFX	J1	Y	4		
+SFX	J1		ме	ме	.
+SFX	J1		ме	мето	.
+SFX	J1		ме	мена	.
+SFX	J1		ме	мената	.
+					
+SFX	J2	Y	8		
+SFX	J2		о	о	.
+SFX	J2		о	ото	.
+SFX	J2		о	а	.
+SFX	J2		о	ата	.
+SFX	J2		о	ета	.
+SFX	J2		о	етата	.
+SFX	J2		о	еса	.
+SFX	J2		о	есата	.
+					
+SFX	J3	Y	8		
+SFX	J3		е	е	.
+SFX	J3		е	ето	.
+SFX	J3		е	а	.
+SFX	J3		е	ата	.
+SFX	J3		о	о	.
+SFX	J3		о	ото	.
+SFX	J3		о	и	.
+SFX	J3		о	итѣ	.
+					
+SFX	J4	Y	6		
+SFX	J4		о	о	.
+SFX	J4		о	ото	.
+SFX	J4		о	а	.
+SFX	J4		о	ата	.
+SFX	J4		о	ѣ	.
+SFX	J4		о	ѣтѣ	.
+					
+SFX	J5	Y	10		
+SFX	J5		о	о	.
+SFX	J5		о	ото	.
+SFX	J5		о	еса	.
+SFX	J5		о	есата	.
+SFX	J5		е	е	.
+SFX	J5		е	ето	.
+SFX	J5		е	ета	.
+SFX	J5		е	етата	.
+SFX	J5		е	еса	.
+SFX	J5		е	есата	.
+					
+SFX	J6	Y	12		
+SFX	J6		ко	ко	.
+SFX	J6		ко	кото	.
+SFX	J6		ко	чи	.
+SFX	J6		ко	читѣ	.
+SFX	J6		хо	хо	.
+SFX	J6		хо	хото	.
+SFX	J6		хо	ши	.
+SFX	J6		хо	шитѣ	.
+SFX	J6		те	те	.
+SFX	J6		те	тето	.
+SFX	J6		те	ца	.
+SFX	J6		те	цата	.
+					
+SFX	J7	Y	10		
+SFX	J7		е	е	.
+SFX	J7		е	ето	.
+SFX	J7		е	я	.
+SFX	J7		е	ята	.
+SFX	J7		мо	мо	.
+SFX	J7		мо	мото	.
+SFX	J7		мо	мена	.
+SFX	J7		мо	мената	.
+SFX	J7		мо	менѣ	.
+SFX	J7		мо	менѣтѣ	.
+					
+SFX	J8	Y	1		
+SFX	J8		0	то	.
+					
+//SFX	K0	Y	0		
+					
+SFX	L0	Y	19		
+SFX	L0		а	а	.
+SFX	L0		а	ата	.
+SFX	L0		а	и	.
+SFX	L0		а	итѣ	.
+SFX	L0		а	о	.
+SFX	L0		ецъ	ецъ	.
+SFX	L0		ецъ	еца	.
+SFX	L0		ецъ	ецътъ	.
+SFX	L0		ецъ	ецо	.
+SFX	L0		ецъ	ци	.
+SFX	L0		ецъ	цитѣ	.
+SFX	L0		ие	ие	.
+SFX	L0		ие	ието	.
+SFX	L0		ие	ия	.
+SFX	L0		ие	ията	.
+SFX	L0		о	о	.
+SFX	L0		о	ото	.
+SFX	L0		о	а	.
+SFX	L0		о	ата	.
+					
+SFX	L1	Y	10		
+SFX	L1		ълъ	ълъ	.
+SFX	L1		ълъ	лия	.
+SFX	L1		ълъ	лиятъ	.
+SFX	L1		ълъ	лий	.
+SFX	L1		ълъ	ла	.
+SFX	L1		ълъ	лата	.
+SFX	L1		ълъ	ли	.
+SFX	L1		ълъ	литѣ	.
+SFX	L1		ълъ	ло	.
+SFX	L1		ълъ	лото	.
+					
+SFX	L2	Y	4		
+SFX	L2		лъ	лъ	.
+SFX	L2		лъ	ла	.
+SFX	L2		лъ	ло	.
+SFX	L2		лъ	ли	.
+					
+SFX	L3	Y	10		
+SFX	L3		щъ	щъ	.
+SFX	L3		щъ	щия	.
+SFX	L3		щъ	щиятъ	.
+SFX	L3		щъ	щий	.
+SFX	L3		щъ	ща	.
+SFX	L3		щъ	щата	.
+SFX	L3		щъ	що	.
+SFX	L3		щъ	щото	.
+SFX	L3		щъ	щи	.
+SFX	L3		щъ	щитѣ	.
+					
+SFX	L4	Y	20		
+SFX	L4		нъ	нъ	.
+SFX	L4		нъ	ния	.
+SFX	L4		нъ	ниятъ	.
+SFX	L4		нъ	ний	.
+SFX	L4		нъ	на	.
+SFX	L4		нъ	ната	.
+SFX	L4		нъ	но	.
+SFX	L4		нъ	ното	.
+SFX	L4		нъ	ни	.
+SFX	L4		нъ	нитѣ	.
+SFX	L4		тъ	тъ	.
+SFX	L4		тъ	тия	.
+SFX	L4		тъ	тиятъ	.
+SFX	L4		тъ	тий	.
+SFX	L4		тъ	та	.
+SFX	L4		тъ	тата	.
+SFX	L4		тъ	то	.
+SFX	L4		тъ	тото	.
+SFX	L4		тъ	ти	.
+SFX	L4		тъ	титѣ	.
+					
+PFX	L4	Y	1		
+PFX	L4		0	не	.
+					
+SFX	L5	Y	10		
+SFX	L5		лъ	лъ	.
+SFX	L5		лъ	лия	.
+SFX	L5		лъ	лиятъ	.
+SFX	L5		лъ	лий	.
+SFX	L5		лъ	ла	.
+SFX	L5		лъ	лата	.
+SFX	L5		лъ	ло	.
+SFX	L5		лъ	лото	.
+SFX	L5		лъ	ли	.
+SFX	L5		лъ	литѣ	.
+					
+SFX	M0	Y	45		
+SFX	M0		ецъ	ецъ	.
+SFX	M0		ецъ	еца	.
+SFX	M0		ецъ	ецътъ	.
+SFX	M0		ецъ	ецо	.
+SFX	M0		зъмъ	зъмъ	.
+SFX	M0		зъмъ	зма	.
+SFX	M0		зъмъ	змътъ	.
+SFX	M0		зъмъ	зми	.
+SFX	M0		зъмъ	змитѣ	.
+SFX	M0		зъмъ	зме	.
+SFX	M0		инъ	инъ	.
+SFX	M0		инъ	ина	.
+SFX	M0		инъ	инътъ	.
+SFX	M0		инъ	и	.
+SFX	M0		инъ	итѣ	.
+SFX	M0		инъ	ино	.
+SFX	M0		ия	ия	.
+SFX	M0		ия	ията	.
+SFX	M0		ия	ии	.
+SFX	M0		ия	иитѣ	.
+SFX	M0		ия	ийо	.
+SFX	M0		й	й	.
+SFX	M0		й	я	.
+SFX	M0		й	ятъ	.
+SFX	M0		й	и	.
+SFX	M0		й	итѣ	.
+SFX	M0		й	ю	.
+SFX	M0		ълъ	ълъ	.
+SFX	M0		ълъ	ъла	.
+SFX	M0		ълъ	ълътъ	.
+SFX	M0		ълъ	ли	.
+SFX	M0		ълъ	литѣ	.
+SFX	M0		ълъ	ъле	.
+SFX	M0		ъмъ	ъмъ	[^з]ъмъ
+SFX	M0		ъмъ	ъма	[^з]ъмъ
+SFX	M0		ъмъ	ъмътъ	[^з]ъмъ
+SFX	M0		ъмъ	ми	[^з]ъмъ
+SFX	M0		ъмъ	митѣ	[^з]ъмъ
+SFX	M0		ъмъ	ъме	[^з]ъмъ
+SFX	M0		ъръ	ъръ	.
+SFX	M0		ъръ	ъра	.
+SFX	M0		ъръ	ърътъ	.
+SFX	M0		ъръ	ри	.
+SFX	M0		ъръ	ритѣ	.
+SFX	M0		ъръ	ъре	.
+					
+SFX	M1	Y	24		
+SFX	M1		динъ	динъ	.
+SFX	M1		динъ	дина	.
+SFX	M1		динъ	динътъ	.
+SFX	M1		динъ	да	.
+SFX	M1		динъ	дата	.
+SFX	M1		динъ	дине	.
+SFX	M1		елъ	елъ	.
+SFX	M1		елъ	ела	.
+SFX	M1		елъ	елътъ	.
+SFX	M1		елъ	ли	.
+SFX	M1		елъ	литѣ	.
+SFX	M1		елъ	еле	.
+SFX	M1		чинъ	чинъ	.
+SFX	M1		чинъ	чина	.
+SFX	M1		чинъ	чинътъ	.
+SFX	M1		чинъ	ци	.
+SFX	M1		чинъ	цитѣ	.
+SFX	M1		чинъ	чино	.
+SFX	M1		ъръ	ъръ	.
+SFX	M1		ъръ	ъра	.
+SFX	M1		ъръ	ърътъ	.
+SFX	M1		ъръ	ра	.
+SFX	M1		ъръ	ри	.
+SFX	M1		ъръ	ритѣ	.
+					
+SFX	M2	Y	6		
+SFX	M2		ецъ	ецъ	.
+SFX	M2		ецъ	еца	.
+SFX	M2		ецъ	ецътъ	.
+SFX	M2		ецъ	йци	.
+SFX	M2		ецъ	йцитѣ	.
+SFX	M2		ецъ	ецо	.
+					
+SFX	M3	Y	5		
+SFX	M3		ецъ	ецъ	.
+SFX	M3		ецъ	еца	.
+SFX	M3		ецъ	ецътъ	.
+SFX	M3		ецъ	овце	.
+SFX	M3		ецъ	овцетѣ	.
+					
+SFX	M6	Y	12		
+SFX	M6		вецъ	вецъ	.
+SFX	M6		вецъ	веца	.
+SFX	M6		вецъ	вецътъ	.
+SFX	M6		вецъ	ъвци	.
+SFX	M6		вецъ	ъвцитѣ	.
+SFX	M6		вецъ	вецо	.
+SFX	M6		лецъ	лецъ	.
+SFX	M6		лецъ	леца	.
+SFX	M6		лецъ	лецътъ	.
+SFX	M6		лецъ	ълци	.
+SFX	M6		лецъ	ълцитѣ	.
+SFX	M6		лецъ	лецо	.
+					
+SFX	M7	Y	6		
+SFX	M7		ецъ	ецъ	.
+SFX	M7		ецъ	еца	.
+SFX	M7		ецъ	ецътъ	.
+SFX	M7		ецъ	еци	.
+SFX	M7		ецъ	ецитѣ	.
+SFX	M7		ецъ	ецо	.
+					
+//SFX	N0	Y	0		
+					
+//SFX	N1	Y	0		
+					
+//SFX	N2	Y	0		
+					
+//SFX	N3	Y	0		
+					
+//SFX	N4	Y	0		
+					
+SFX	N5	Y	99		
+SFX	N5		ба	бски/A0	.
+SFX	N5		ва	вски/A0	[аео]ва
+SFX	N5		ва	овски/A0	[кт]ва
+SFX	N5		га	жки/A0	.
+SFX	N5		да	дски/A0	.
+SFX	N5		джа	джански/A0	.
+SFX	N5		ежа	ешки/A0	.
+SFX	N5		за	зки/A0	.
+SFX	N5		ка	кански/A0	.
+SFX	N5		ла	лски/A0	[аеио]ла
+SFX	N5		ла	ленски/A0	[сѣ]ла
+SFX	N5		ика	икански/A0	.
+SFX	N5		нка	нски/A0	.
+SFX	N5		пка	пченски/A0	.
+SFX	N5		рка	рски/A0	.
+SFX	N5		тка	тски/A0	.
+SFX	N5		ма	мски/A0	[ауя]ма
+SFX	N5		арма	рмски/A0	.
+SFX	N5		ерма	рменски/A0	.
+SFX	N5		ирма	рмански/A0	.
+SFX	N5		на	нски/A0	[аеиояѣ]на
+SFX	N5		на	ненски/A0	[рс]на
+SFX	N5		йна	ински/A0	.
+SFX	N5		па	пски/A0	.
+SFX	N5		ара	арски/A0	.
+SFX	N5		дра	дренски/A0	.
+SFX	N5		ера	ерски/A0	.
+SFX	N5		йра	йрски/A0	.
+SFX	N5		кра	кренски/A0	.
+SFX	N5		ора	орски/A0	.
+SFX	N5		тра	тренски/A0	.
+SFX	N5		ура	урски/A0	.
+SFX	N5		са	ски/A0	.
+SFX	N5		та	тски/A0	[аеору]та
+SFX	N5		та	тенски/A0	[лс]та
+SFX	N5		уа	уански/A0	.
+SFX	N5		ца	шки/A0	.
+SFX	N5		ша	шки/A0	.
+SFX	N5		ща	шенски/A0	.
+SFX	N5		ве	вски/A0	.
+SFX	N5		ге	генски/A0	.
+SFX	N5		ие	ски/A0	.
+SFX	N5		оле	олски/A0	.
+SFX	N5		не	нски/A0	[еиоѣя]не
+SFX	N5		ре	рски/A0	.
+SFX	N5		се	сенски/A0	.
+SFX	N5		фе	фски/A0	.
+SFX	N5		ще	шки/A0	.
+SFX	N5		и	ски/A0	[бдлмт]и
+SFX	N5		зи	зки/A0	.
+SFX	N5		ки	кски/A0	[аи]ки
+SFX	N5		зки	зки/A0	.
+SFX	N5		ски	ски/A0	.
+SFX	N5		аси	ашки/A0	.
+SFX	N5		иси	иски/A0	.
+SFX	N5		ърси	ърски/A0	.
+SFX	N5		ачи	ачки/A0	.
+SFX	N5		о	ски/A0	[вгдмнптх]о
+SFX	N5		ао	аоски/A0	.
+SFX	N5		ко	кски/A0	[ан]ко
+SFX	N5		ко	кански/A0	[иос]ко
+SFX	N5		ро	рски/A0	[^й]ро
+SFX	N5		йро	ирски/A0	.
+SFX	N5		ьо	ски/A0	.
+SFX	N5		у	уански/A0	[адр]у
+SFX	N5		у	уски/A0	[лоф]у
+SFX	N5		ту	тски/A0	.
+SFX	N5		ъ	ски/A0	[бвгдклмнпртфх]ъ
+SFX	N5		ъ	ки/A0	[жзчшщ]ъ
+SFX	N5		къ	шки/A0	.
+SFX	N5		съ	ски/A0	[аийклнроу]съ
+SFX	N5		съ	шки/A0	[е]съ
+SFX	N5		цъ	цки/A0	[иу]цъ
+SFX	N5		вецъ	вешки/A0	[ае]вецъ
+SFX	N5		вецъ	вишки/A0	[о]вецъ
+SFX	N5		децъ	дешки/A0	.
+SFX	N5		лецъ	лешки/A0	.
+SFX	N5		мецъ	мишки/A0	.
+SFX	N5		нецъ	нишки/A0	.
+SFX	N5		уецъ	уецки/A0	.
+SFX	N5		я	ски/A0	[лнр]я
+SFX	N5		ия	ски/A0	[бднп]ия
+SFX	N5		джия	джиански/A0	.
+SFX	N5		азия	азиятски/A0	.
+SFX	N5		изия	изки/A0	.
+SFX	N5		узия	узински/A0	.
+SFX	N5		акия	ашки/A0	.
+SFX	N5		ския	ски/A0	.
+SFX	N5		алия	алски/A0	.
+SFX	N5		илия	илиански/A0	.
+SFX	N5		рия	рски/A0	[ау]рия
+SFX	N5		ория	ориански/A0	.
+SFX	N5		сия	ски/A0	.
+SFX	N5		тия	тийски/A0	.
+SFX	N5		ехия	ешки/A0	.
+SFX	N5		ация	атински/A0	.
+SFX	N5		еция	ециянски/A0	.
+SFX	N5		кя	кянски/A0	.
+SFX	N5		оя	оянски/A0	.
+					
+SFX	N6	Y	38		
+SFX	N6		ба	бински/A0	.
+SFX	N6		ва	вайски/A0	.
+SFX	N6		да	денски/A0	[вжр]да
+SFX	N6		нда	ндийски/A0	.
+SFX	N6		дика	дикийски/A0	.
+SFX	N6		тика	тически/A0	.
+SFX	N6		йка	йски/A0	.
+SFX	N6		нка	нкски/A0	.
+SFX	N6		на	найски/A0	.
+SFX	N6		па	пейски/A0	.
+SFX	N6		сра	срийски/A0	.
+SFX	N6		аца	ачански/A0	.
+SFX	N6		ица	енски/A0	.
+SFX	N6		та	тийски/A0	.
+SFX	N6		уа	уаски/A0	.
+SFX	N6		ча	ченски/A0	.
+SFX	N6		ве	вийски/A0	.
+SFX	N6		нде	ндейски/A0	.
+SFX	N6		ие	ийски/A0	.
+SFX	N6		уе	уейски/A0	.
+SFX	N6		и	ийски/A0	.
+SFX	N6		й	йски/A0	.
+SFX	N6		го	гоански/A0	.
+SFX	N6		ео	ейски/A0	.
+SFX	N6		ио	ийски/A0	.
+SFX	N6		у	уйски/A0	.
+SFX	N6		гъ	жки/A0	.
+SFX	N6		къ	кски/A0	[аеийло]къ
+SFX	N6		скъ	ски/A0	.
+SFX	N6		пъ	пийски/A0	.
+SFX	N6		исъ	изийски/A0	.
+SFX	N6		ецъ	ски/A0	.
+SFX	N6		ечъ	шки/A0	.
+SFX	N6		ая	айски/A0	.
+SFX	N6		ея	ейски/A0	.
+SFX	N6		ия	ийски/A0	.
+SFX	N6		оя	ойски/A0	.
+SFX	N6		ня	ненски/A0	.
+					
+SFX	N7	Y	7		
+SFX	N7		и	и/B2	.
+SFX	N7		ди	дски/A0	.
+SFX	N7		зи	зки/A0	.
+SFX	N7		ми	мски/A0	.
+SFX	N7		ни	нски/A0	.
+SFX	N7		пи	пийски/A0	.
+SFX	N7		чи	чки/A0	.
+					
+//SFX	N8	Y	0		
+					
+SFX	N9	Y	15		
+SFX	N9		тикъ	тически/A0	.
+SFX	N9		рдо	рдоски/A0	.
+SFX	N9		нуа	нуазийски/A0	.
+SFX	N9		дания	датски/A0	.
+SFX	N9		италия	италиански/A0	.
+SFX	N9		силия	силски/A0	.
+SFX	N9		турция	турски/A0	.
+SFX	N9		сърбия	сръбски/A0	.
+SFX	N9		франция	френски/A0	.
+SFX	N9		швеция	шведски/A0	.
+SFX	N9		ренция	рентински/A0	.
+SFX	N9		гърция	гръцки/A0	.
+SFX	N9		норвегия	норвежки/A0	.
+SFX	N9		полша	полски/A0	.
+SFX	N9		спарта	спартански/A0	.
+					
+SFX	NA	Y	14		
+SFX	NA		а	инъ/A0	[дмнпртю]а
+SFX	NA		а	овъ/A0	[в]а
+SFX	NA		е	евъ/A0	.
+SFX	NA		и	евъ/A0	.
+SFX	NA		цки	цкиевъ/A0	.
+SFX	NA		нри	нриевъ/A0	.
+SFX	NA		рфи	рфиевъ/A0	.
+SFX	NA		й	евъ/A0	.
+SFX	NA		й	я	.
+SFX	NA		о	овъ/A0	.
+SFX	NA		о	а	.
+SFX	NA		ъ	овъ/A0	.
+SFX	NA		ъ	а	.
+SFX	NA		я	инъ/A0	.
+					
+SFX	NB	Y	1		
+SFX	NB		ъ	а	.
+					
+SFX	NC	Y	5		
+SFX	NC		и	ийски/A0	.
+SFX	NC		ь	ски/A0	.
+SFX	NC		ъ	ски/A0	[^с]ъ
+SFX	NC		ъ	а	.
+SFX	NC		съ	ски/A0	.
+					
+SFX	ND	Y	4		
+SFX	ND		ъръ	ровъ/A0	.
+SFX	ND		ъръ	ра	.
+SFX	ND		елъ	ловъ/A0	.
+SFX	ND		елъ	ела	.
+					
+//SFX	NN	Y	0		
+					
+SFX	O0	Y	29		
+SFX	O0		не	не	.
+SFX	O0		не	нето	.
+SFX	O0		не	ния	.
+SFX	O0		не	нията	.
+SFX	O0		й	й	.
+SFX	O0		й	и	.
+SFX	O0		й	итѣ	.
+SFX	O0		й	я	.
+SFX	O0		й	ятъ	.
+SFX	O0		къ	къ	.
+SFX	O0		къ	ка	.
+SFX	O0		къ	кътъ	.
+SFX	O0		къ	ци	.
+SFX	O0		къ	цитѣ	.
+SFX	O0		о	о	.
+SFX	O0		о	ото	.
+SFX	O0		о	овци	.
+SFX	O0		о	овцитѣ	.
+SFX	O0		хъ	хъ	.
+SFX	O0		хъ	ха	.
+SFX	O0		хъ	хътъ	.
+SFX	O0		хъ	си	.
+SFX	O0		хъ	ситѣ	.
+SFX	O0		хъ	хо	.
+SFX	O0		тъ	та	.
+SFX	O0		тъ	тътъ	.
+SFX	O0		тъ	тя	.
+SFX	O0		тъ	тята	.
+SFX	O0		тъ	те	.
+					
+SFX	O1	Y	7		
+SFX	O1		ръкъ	ръкъ	.
+SFX	O1		ръкъ	ърка	.
+SFX	O1		ръкъ	ъркътъ	.
+SFX	O1		ръкъ	ърци	.
+SFX	O1		ръкъ	ърцитѣ	.
+SFX	O1		ръкъ	ърко	.
+SFX	O1		ръкъ	ърче/J0	.
+					
+SFX	O2	Y	1		
+SFX	O2		къ	ко	.
+					
+SFX	O3	Y	6		
+SFX	O3		къ	къ	.
+SFX	O3		къ	ка	.
+SFX	O3		къ	кътъ	.
+SFX	O3		къ	ко	.
+SFX	O3		къ	ни	.
+SFX	O3		къ	нитѣ	.
+					
+SFX	O4	Y	12		
+SFX	O4		екъ	екъ	.
+SFX	O4		екъ	ека	.
+SFX	O4		екъ	екътъ	.
+SFX	O4		екъ	йци	.
+SFX	O4		екъ	йцитѣ	.
+SFX	O4		екъ	йко	.
+SFX	O4		ъкъ	ъкъ	.
+SFX	O4		ъкъ	ъка	.
+SFX	O4		ъкъ	ъкътъ	.
+SFX	O4		ъкъ	ци	.
+SFX	O4		ъкъ	цитѣ	.
+SFX	O4		ъкъ	ко	.
+					
+SFX	P0	Y	70		
+SFX	P0		бѫда	бѫда	.
+SFX	P0		бѫда	бѫдешъ	.
+SFX	P0		бѫда	бѫде	.
+SFX	P0		бѫда	бѫдемъ	.
+SFX	P0		бѫда	бѫдете	.
+SFX	P0		бѫда	бѫдатъ	.
+SFX	P0		бѫда	бихъ	.
+SFX	P0		бѫда	бидохъ	.
+SFX	P0		бѫда	би	.
+SFX	P0		бѫда	бидѣ	.
+SFX	P0		бѫда	би	.
+SFX	P0		бѫда	бидѣ	.
+SFX	P0		бѫда	бихме	.
+SFX	P0		бѫда	бидохме	.
+SFX	P0		бѫда	бихте	.
+SFX	P0		бѫда	бидохте	.
+SFX	P0		бѫда	биха	.
+SFX	P0		бѫда	бидоха	.
+SFX	P0		бѫда	бѫдехъ	.
+SFX	P0		бѫда	бѫдеше	.
+SFX	P0		бѫда	бѫдеше	.
+SFX	P0		бѫда	бѫдехме	.
+SFX	P0		бѫда	бѫдехте	.
+SFX	P0		бѫда	бѫдеха	.
+SFX	P0		бѫда	бѫделъ/L2	.
+SFX	P0		бѫда	бѫди	.
+SFX	P0		бѫда	бѫдете	.
+SFX	P0		бѫда	бѫдещъ/L3	.
+SFX	P0		бѫда	бѫдейки	.
+SFX	P0		бѫда	бидейки	.
+SFX	P0		съмъ	съмъ	.
+SFX	P0		съмъ	си	.
+SFX	P0		съмъ	е	.
+SFX	P0		съмъ	сме	.
+SFX	P0		съмъ	сте	.
+SFX	P0		съмъ	сѫ	.
+SFX	P0		съмъ	бѣхъ	.
+SFX	P0		съмъ	бѣ	.
+SFX	P0		съмъ	бѣше	.
+SFX	P0		съмъ	бѣ	.
+SFX	P0		съмъ	бѣше	.
+SFX	P0		съмъ	бѣхме	.
+SFX	P0		съмъ	бѣхте	.
+SFX	P0		съмъ	бѣха	.
+SFX	P0		съмъ	бѣхъ	.
+SFX	P0		съмъ	бѣше	.
+SFX	P0		съмъ	бѣше	.
+SFX	P0		съмъ	бѣхме	.
+SFX	P0		съмъ	бѣхте	.
+SFX	P0		съмъ	бѣха	.
+SFX	P0		съмъ	билъ/L5	.
+SFX	P0		съмъ	билъ/L2	.
+SFX	P0		ща	ща	.
+SFX	P0		ща	щешъ	.
+SFX	P0		ща	ще	.
+SFX	P0		ща	щемъ	.
+SFX	P0		ща	щете	.
+SFX	P0		ща	щатъ	.
+SFX	P0		ща	щѣхъ	.
+SFX	P0		ща	щѣ	.
+SFX	P0		ща	щѣше	.
+SFX	P0		ща	щѣ	.
+SFX	P0		ща	щѣше	.
+SFX	P0		ща	щѣхме	.
+SFX	P0		ща	щѣхте	.
+SFX	P0		ща	щѣха	.
+SFX	P0		ща	щѣлъ/L2	.
+SFX	P0		ща	щѣнъ/L4	.
+SFX	P0		ща	щѣщъ/L3	.
+SFX	P0		ща	щѣйки	.
+					
+SFX	P1	Y	196		
+SFX	P1		га	га	.
+SFX	P1		га	жешъ	.
+SFX	P1		га	же	.
+SFX	P1		га	жемъ	.
+SFX	P1		га	жете	.
+SFX	P1		га	гатъ	.
+SFX	P1		га	жахъ	.
+SFX	P1		га	жа	.
+SFX	P1		га	жа	.
+SFX	P1		га	жахме	.
+SFX	P1		га	жахте	.
+SFX	P1		га	жаха	.
+SFX	P1		га	жехъ	.
+SFX	P1		га	жеше	.
+SFX	P1		га	жеше	.
+SFX	P1		га	жехме	.
+SFX	P1		га	жехте	.
+SFX	P1		га	жеха	.
+SFX	P1		га	жещъ/L3	.
+SFX	P1		га	гълъ/L1	.
+SFX	P1		га	желъ/L2	.
+SFX	P1		видя	вижъ	.
+SFX	P1		видя	вижте	.
+SFX	P1		дойда	ела	.
+SFX	P1		дойда	елате	.
+SFX	P1		държа	държа	.
+SFX	P1		държа	държишъ	.
+SFX	P1		държа	държи	.
+SFX	P1		държа	държимъ	.
+SFX	P1		държа	държите	.
+SFX	P1		държа	държатъ	.
+SFX	P1		държа	държахъ	.
+SFX	P1		държа	държа	.
+SFX	P1		държа	държа	.
+SFX	P1		държа	държимъ	.
+SFX	P1		държа	държите	.
+SFX	P1		държа	държатъ	.
+SFX	P1		държа	държехъ	.
+SFX	P1		държа	държеше	.
+SFX	P1		държа	държеше	.
+SFX	P1		държа	държехме	.
+SFX	P1		държа	държехте	.
+SFX	P1		държа	държеха	.
+SFX	P1		държа	дръжъ	.
+SFX	P1		държа	дръжте	.
+SFX	P1		държа	държалъ/L5	.
+SFX	P1		държа	държелъ/L2	.
+SFX	P1		коля	коля	.
+SFX	P1		коля	колишъ	.
+SFX	P1		коля	коли	.
+SFX	P1		коля	колимъ	.
+SFX	P1		коля	колите	.
+SFX	P1		коля	колятъ	.
+SFX	P1		коля	колихъ	.
+SFX	P1		коля	коли	.
+SFX	P1		коля	коли	.
+SFX	P1		коля	колихме	.
+SFX	P1		коля	колихте	.
+SFX	P1		коля	колиха	.
+SFX	P1		коля	клахъ	.
+SFX	P1		коля	кла	.
+SFX	P1		коля	кла	.
+SFX	P1		коля	клахме	.
+SFX	P1		коля	клахте	.
+SFX	P1		коля	клаха	.
+SFX	P1		коля	колѣхъ	.
+SFX	P1		коля	колѣше	.
+SFX	P1		коля	колѣше	.
+SFX	P1		коля	колѣхме	.
+SFX	P1		коля	колѣхте	.
+SFX	P1		коля	колѣха	.
+SFX	P1		коля	коли	.
+SFX	P1		коля	колете	.
+SFX	P1		коля	клалъ/L5	.
+SFX	P1		коля	колилъ/L2	.
+SFX	P1		коля	колѣлъ/L2	.
+SFX	P1		кълна	кълна	.
+SFX	P1		кълна	кълнешъ	.
+SFX	P1		кълна	кълне	.
+SFX	P1		кълна	кълнемъ	.
+SFX	P1		кълна	кълнете	.
+SFX	P1		кълна	кълнатъ	.
+SFX	P1		кълна	клѣхъ	.
+SFX	P1		кълна	клѣ	.
+SFX	P1		кълна	клѣ	.
+SFX	P1		кълна	клѣхме	.
+SFX	P1		кълна	клѣхте	.
+SFX	P1		кълна	клѣха	.
+SFX	P1		кълна	кълнѣхъ	.
+SFX	P1		кълна	кълнѣше	.
+SFX	P1		кълна	кълнѣше	.
+SFX	P1		кълна	кълнѣхме	.
+SFX	P1		кълна	кълнѣхте	.
+SFX	P1		кълна	кълнѣха	.
+SFX	P1		кълна	кълни	.
+SFX	P1		кълна	кълнете	.
+SFX	P1		кълна	клѣлъ/L5	.
+SFX	P1		кълна	кълнѣлъ/L2	.
+SFX	P1		меля	меля	.
+SFX	P1		меля	мелишъ	.
+SFX	P1		меля	мели	.
+SFX	P1		меля	мелимъ	.
+SFX	P1		меля	мелите	.
+SFX	P1		меля	мелятъ	.
+SFX	P1		меля	млѣхъ	.
+SFX	P1		меля	млѣ	.
+SFX	P1		меля	млѣ	.
+SFX	P1		меля	млѣхме	.
+SFX	P1		меля	млѣхте	.
+SFX	P1		меля	млѣха	.
+SFX	P1		меля	мелихъ	.
+SFX	P1		меля	мели	.
+SFX	P1		меля	мели	.
+SFX	P1		меля	мелихме	.
+SFX	P1		меля	мелихте	.
+SFX	P1		меля	мелиха	.
+SFX	P1		меля	мелѣхъ	.
+SFX	P1		меля	мелѣше	.
+SFX	P1		меля	мелѣше	.
+SFX	P1		меля	мелѣхме	.
+SFX	P1		меля	мелѣхте	.
+SFX	P1		меля	мелѣха	.
+SFX	P1		меля	мели	.
+SFX	P1		меля	мелете	.
+SFX	P1		меля	мли	.
+SFX	P1		меля	млете	.
+SFX	P1		меля	млѣлъ/L5	.
+SFX	P1		меля	мелѣлъ/L2	.
+SFX	P1		раста	раста	.
+SFX	P1		раста	растешъ	.
+SFX	P1		раста	расте	.
+SFX	P1		раста	растемъ	.
+SFX	P1		раста	растете	.
+SFX	P1		раста	растатъ	.
+SFX	P1		раста	растохъ	.
+SFX	P1		раста	растѣ	.
+SFX	P1		раста	растѣ	.
+SFX	P1		раста	растохме	.
+SFX	P1		раста	растохте	.
+SFX	P1		раста	растоха	.
+SFX	P1		раста	растѣхъ	.
+SFX	P1		раста	растѣше	.
+SFX	P1		раста	растѣше	.
+SFX	P1		раста	растѣхме	.
+SFX	P1		раста	растѣхте	.
+SFX	P1		раста	растѣха	.
+SFX	P1		раста	расти	.
+SFX	P1		раста	растете	.
+SFX	P1		раста	расълъ/L1	.
+SFX	P1		раста	растѣлъ/L2	.
+SFX	P1		спя	спя	.
+SFX	P1		спя	спишъ	.
+SFX	P1		спя	спи	.
+SFX	P1		спя	спимъ	.
+SFX	P1		спя	спите	.
+SFX	P1		спя	спятъ	.
+SFX	P1		спя	спахъ	.
+SFX	P1		спя	спа	.
+SFX	P1		спя	спа	.
+SFX	P1		спя	спахме	.
+SFX	P1		спя	спахте	.
+SFX	P1		спя	спаха	.
+SFX	P1		спя	спѣхъ	.
+SFX	P1		спя	спѣше	.
+SFX	P1		спя	спѣше	.
+SFX	P1		спя	спѣхме	.
+SFX	P1		спя	спѣхте	.
+SFX	P1		спя	спѣха	.
+SFX	P1		спя	спи	.
+SFX	P1		спя	спете	.
+SFX	P1		спя	спалъ/L5	.
+SFX	P1		спя	спѣлъ/L2	.
+SFX	P1		стоя	стоя	.
+SFX	P1		стоя	стоишъ	.
+SFX	P1		стоя	стои	.
+SFX	P1		стоя	стоимъ	.
+SFX	P1		стоя	стоите	.
+SFX	P1		стоя	стоятъ	.
+SFX	P1		стоя	стояхъ	.
+SFX	P1		стоя	стоя	.
+SFX	P1		стоя	стоя	.
+SFX	P1		стоя	стояхме	.
+SFX	P1		стоя	стояхте	.
+SFX	P1		стоя	стояха	.
+SFX	P1		стоя	стоехъ	.
+SFX	P1		стоя	стоеше	.
+SFX	P1		стоя	стоеше	.
+SFX	P1		стоя	стоехме	.
+SFX	P1		стоя	стоехте	.
+SFX	P1		стоя	стоеха	.
+SFX	P1		стоя	стой	.
+SFX	P1		стоя	стойте	.
+SFX	P1		стоя	стоялъ/L5	.
+SFX	P1		стоя	стоялъ/L2	.
+SFX	P1		стоя	стоелъ/L5	.
+SFX	P1		стоя	стоелъ/L2	.
+					
+SFX	P2	Y	10		
+SFX	P2		държа	държанъ/L4	.
+SFX	P2		коля	колeнъ/L4	.
+SFX	P2		коля	кланъ/L4	.
+SFX	P2		кълна	клѣтъ/L4	.
+SFX	P2		меля	мелѣнъ/L4	.
+SFX	P2		меля	млѣнъ/L4	.
+SFX	P2		меля	млѣтъ/L4	.
+SFX	P2		спя	спанъ/L4	.
+SFX	P2		стоя	стоянъ/L4	.
+SFX	P2		стоя	стоeнъ/L4	.
+					
+SFX	P3	Y	14		
+SFX	P3		държа	държейки	.
+SFX	P3		държа	държащъ/L3	.
+SFX	P3		коля	колѣйки	.
+SFX	P3		коля	колѣщъ/L3	.
+SFX	P3		кълна	кълнѣйки	.
+SFX	P3		кълна	кълнѣщъ/L3	.
+SFX	P3		меля	мелѣйки	.
+SFX	P3		меля	мелѣщъ/L3	.
+SFX	P3		раста	растѣйки	.
+SFX	P3		раста	растѣщъ/L3	.
+SFX	P3		спя	спѣйки	.
+SFX	P3		спя	спѣщъ/L3	.
+SFX	P3		стоя	стоейки	.
+SFX	P3		стоя	стоящъ/L3	.
+					
+SFX	Q0	Y	44		
+SFX	Q0		на	на	.
+SFX	Q0		на	нешъ	.
+SFX	Q0		на	не	.
+SFX	Q0		на	немъ	.
+SFX	Q0		на	нете	.
+SFX	Q0		на	натъ	.
+SFX	Q0		на	нахъ	.
+SFX	Q0		на	на	.
+SFX	Q0		на	на	.
+SFX	Q0		на	нахме	.
+SFX	Q0		на	нахте	.
+SFX	Q0		на	наха	.
+SFX	Q0		на	нехъ	.
+SFX	Q0		на	неше	.
+SFX	Q0		на	неше	.
+SFX	Q0		на	нехме	.
+SFX	Q0		на	нехте	.
+SFX	Q0		на	неха	.
+SFX	Q0		на	ни	.
+SFX	Q0		на	нете	.
+SFX	Q0		на	налъ/L5	.
+SFX	Q0		на	нелъ/L2	.
+SFX	Q0		я	я	.
+SFX	Q0		я	ишъ	.
+SFX	Q0		я	и	.
+SFX	Q0		я	имъ	.
+SFX	Q0		я	ите	.
+SFX	Q0		я	ятъ	.
+SFX	Q0		я	ихъ	.
+SFX	Q0		я	и	.
+SFX	Q0		я	и	.
+SFX	Q0		я	ихме	.
+SFX	Q0		я	ихте	.
+SFX	Q0		я	иха	.
+SFX	Q0		я	ѣхъ	.
+SFX	Q0		я	ѣше	.
+SFX	Q0		я	ѣше	.
+SFX	Q0		я	ѣхме	.
+SFX	Q0		я	ѣхте	.
+SFX	Q0		я	ѣха	.
+SFX	Q0		я	и	.
+SFX	Q0		я	ете	.
+SFX	Q0		я	илъ/L5	.
+SFX	Q0		я	ѣлъ/L2	.
+					
+SFX	Q1	Y	2		
+SFX	Q1		а	атъ/L4	.
+SFX	Q1		я	енъ/L4	.
+					
+SFX	Q2	Y	4		
+SFX	Q2		на	нещъ/L3	.
+SFX	Q2		на	нейки	.
+SFX	Q2		я	ѣщъ/L3	.
+SFX	Q2		я	ѣйки	.
+					
+SFX	R0	Y	44		
+SFX	R0		ера	ера	.
+SFX	R0		ера	ерешъ	.
+SFX	R0		ера	ере	.
+SFX	R0		ера	еремъ	.
+SFX	R0		ера	ерете	.
+SFX	R0		ера	ератъ	.
+SFX	R0		ера	рахъ	.
+SFX	R0		ера	ра	.
+SFX	R0		ера	ра	.
+SFX	R0		ера	рахме	.
+SFX	R0		ера	рахте	.
+SFX	R0		ера	раха	.
+SFX	R0		ера	ерѣхъ	.
+SFX	R0		ера	ерѣше	.
+SFX	R0		ера	ерѣше	.
+SFX	R0		ера	ерѣхме	.
+SFX	R0		ера	ерѣхте	.
+SFX	R0		ера	ерѣха	.
+SFX	R0		ера	ери	.
+SFX	R0		ера	ерете	.
+SFX	R0		ера	ралъ/L5	.
+SFX	R0		ера	ерѣлъ/L2	.
+SFX	R0		ша	ша	.
+SFX	R0		ша	шешъ	.
+SFX	R0		ша	ше	.
+SFX	R0		ша	шемъ	.
+SFX	R0		ша	шете	.
+SFX	R0		ша	шатъ	.
+SFX	R0		ша	сахъ	.
+SFX	R0		ша	са	.
+SFX	R0		ша	са	.
+SFX	R0		ша	сахме	.
+SFX	R0		ша	сахте	.
+SFX	R0		ша	саха	.
+SFX	R0		ша	шехъ	.
+SFX	R0		ша	шеше	.
+SFX	R0		ша	шеше	.
+SFX	R0		ша	шехме	.
+SFX	R0		ша	шехте	.
+SFX	R0		ша	шеха	.
+SFX	R0		ша	ши	.
+SFX	R0		ша	шете	.
+SFX	R0		ша	салъ/L5	.
+SFX	R0		ша	шелъ/L2	.
+					
+SFX	R1	Y	2		
+SFX	R1		ера	ранъ/L4	.
+SFX	R1		ша	санъ/L4	.
+					
+SFX	R2	Y	4		
+SFX	R2		ера	ерѣщъ/L3	.
+SFX	R2		ера	ерѣйки	.
+SFX	R2		ша	шещъ/L3	.
+SFX	R2		ша	шейки	.
+					
+SFX	S0	Y	44		
+SFX	S0		амъ	амъ	.
+SFX	S0		амъ	ашъ	.
+SFX	S0		амъ	а	.
+SFX	S0		амъ	аме	.
+SFX	S0		амъ	ате	.
+SFX	S0		амъ	атъ	.
+SFX	S0		амъ	ахъ	.
+SFX	S0		амъ	а	.
+SFX	S0		амъ	а	.
+SFX	S0		амъ	ахме	.
+SFX	S0		амъ	ахте	.
+SFX	S0		амъ	аха	.
+SFX	S0		амъ	ахъ	.
+SFX	S0		амъ	аше	.
+SFX	S0		амъ	аше	.
+SFX	S0		амъ	ахме	.
+SFX	S0		амъ	ахте	.
+SFX	S0		амъ	аха	.
+SFX	S0		амъ	ай	.
+SFX	S0		амъ	айте	.
+SFX	S0		амъ	алъ/L5	.
+SFX	S0		амъ	алъ/L2	.
+SFX	S0		я	я	.
+SFX	S0		я	ишъ	.
+SFX	S0		я	и	.
+SFX	S0		я	имъ	.
+SFX	S0		я	ите	.
+SFX	S0		я	ятъ	.
+SFX	S0		я	ѣхъ	.
+SFX	S0		я	ѣ	.
+SFX	S0		я	ѣ	.
+SFX	S0		я	ѣхме	.
+SFX	S0		я	ѣхте	.
+SFX	S0		я	ѣха	.
+SFX	S0		я	ѣхъ	.
+SFX	S0		я	ѣше	.
+SFX	S0		я	ѣше	.
+SFX	S0		я	ѣхме	.
+SFX	S0		я	ѣхте	.
+SFX	S0		я	ѣха	.
+SFX	S0		я	и	.
+SFX	S0		я	ете	.
+SFX	S0		я	ѣлъ/L5	.
+SFX	S0		я	ѣлъ/L2	.
+					
+SFX	S1	Y	2		
+SFX	S1		амъ	анъ/L4	.
+SFX	S1		я	ѣнъ/L4	.
+					
+SFX	S2	Y	4		
+SFX	S2		амъ	ащъ/L3	.
+SFX	S2		амъ	айки	.
+SFX	S2		я	ѣщъ/L3	.
+SFX	S2		я	ѣйки	.
+					
+SFX	S3	Y	7		
+SFX	S3		я	ихъ	.
+SFX	S3		я	и	.
+SFX	S3		я	и	.
+SFX	S3		я	ихме	.
+SFX	S3		я	ихте	.
+SFX	S3		я	иха	.
+SFX	S3		я	илъ/L5	.
+					
+SFX	T0	Y	44		
+SFX	T0		я	я	.
+SFX	T0		я	ешъ	.
+SFX	T0		я	е	.
+SFX	T0		я	емъ	.
+SFX	T0		я	ете	.
+SFX	T0		я	ятъ	.
+SFX	T0		я	хъ	.
+SFX	T0		я	0	.
+SFX	T0		я	0	.
+SFX	T0		я	хме	.
+SFX	T0		я	хте	.
+SFX	T0		я	ха	.
+SFX	T0		я	ехъ	.
+SFX	T0		я	еше	.
+SFX	T0		я	еше	.
+SFX	T0		я	ехме	.
+SFX	T0		я	ехте	.
+SFX	T0		я	еха	.
+SFX	T0		я	й	.
+SFX	T0		я	йте	.
+SFX	T0		я	лъ/L5	.
+SFX	T0		я	елъ/L2	.
+SFX	T0		ямъ	ямъ	.
+SFX	T0		ямъ	яшъ	.
+SFX	T0		ямъ	я	.
+SFX	T0		ямъ	яме	.
+SFX	T0		ямъ	яте	.
+SFX	T0		ямъ	ятъ	.
+SFX	T0		ямъ	яхъ	.
+SFX	T0		ямъ	я	.
+SFX	T0		ямъ	я	.
+SFX	T0		ямъ	яхме	.
+SFX	T0		ямъ	яхте	.
+SFX	T0		ямъ	яха	.
+SFX	T0		ямъ	яхъ	.
+SFX	T0		ямъ	яше	.
+SFX	T0		ямъ	яше	.
+SFX	T0		ямъ	яхме	.
+SFX	T0		ямъ	яхте	.
+SFX	T0		ямъ	яха	.
+SFX	T0		ямъ	яй	.
+SFX	T0		ямъ	яйте	.
+SFX	T0		ямъ	ялъ/L5	.
+SFX	T0		ямъ	ялъ/L2	.
+					
+SFX	T1	Y	1		
+SFX	T1		ямъ	янъ/L4	.
+					
+SFX	T2	Y	4		
+SFX	T2		я	ещъ/L3	.
+SFX	T2		я	ейки	.
+SFX	T2		ямъ	ящъ/L3	.
+SFX	T2		ямъ	яйки	.
+					
+SFX	U0	Y	88		
+SFX	U0		да	да	.
+SFX	U0		да	дешъ	.
+SFX	U0		да	де	.
+SFX	U0		да	демъ	.
+SFX	U0		да	дете	.
+SFX	U0		да	датъ	.
+SFX	U0		да	дохъ	.
+SFX	U0		да	дѣ	.
+SFX	U0		да	дѣ	.
+SFX	U0		да	дохме	.
+SFX	U0		да	дохте	.
+SFX	U0		да	доха	.
+SFX	U0		да	дѣхъ	.
+SFX	U0		да	дѣше	.
+SFX	U0		да	дѣше	.
+SFX	U0		да	дѣхме	.
+SFX	U0		да	дѣхте	.
+SFX	U0		да	дѣха	.
+SFX	U0		да	ди	.
+SFX	U0		да	дете	.
+SFX	U0		да	лъ/L5	.
+SFX	U0		да	дѣлъ/L2	.
+SFX	U0		жа	жа	.
+SFX	U0		жа	жишъ	.
+SFX	U0		жа	жи	.
+SFX	U0		жа	жимъ	.
+SFX	U0		жа	жите	.
+SFX	U0		жа	жатъ	.
+SFX	U0		жа	захъ	.
+SFX	U0		жа	за	.
+SFX	U0		жа	за	.
+SFX	U0		жа	захме	.
+SFX	U0		жа	захте	.
+SFX	U0		жа	заха	.
+SFX	U0		жа	жехъ	.
+SFX	U0		жа	жеше	.
+SFX	U0		жа	жеше	.
+SFX	U0		жа	жехме	.
+SFX	U0		жа	жехте	.
+SFX	U0		жа	жеха	.
+SFX	U0		жа	жи	.
+SFX	U0		жа	жете	.
+SFX	U0		жа	залъ/L5	.
+SFX	U0		жа	желъ/L2	.
+SFX	U0		та	та	.
+SFX	U0		та	тешъ	.
+SFX	U0		та	те	.
+SFX	U0		та	темъ	.
+SFX	U0		та	тете	.
+SFX	U0		та	татъ	.
+SFX	U0		та	тохъ	.
+SFX	U0		та	тѣ	.
+SFX	U0		та	тѣ	.
+SFX	U0		та	тохме	.
+SFX	U0		та	тохте	.
+SFX	U0		та	тоха	.
+SFX	U0		та	тѣхъ	.
+SFX	U0		та	тѣше	.
+SFX	U0		та	тѣше	.
+SFX	U0		та	тѣхме	.
+SFX	U0		та	тѣхте	.
+SFX	U0		та	тѣха	.
+SFX	U0		та	ти	.
+SFX	U0		та	тете	.
+SFX	U0		та	лъ/L5	.
+SFX	U0		та	тѣлъ/L2	.
+SFX	U0		я	я	.
+SFX	U0		я	ешъ	.
+SFX	U0		я	е	.
+SFX	U0		я	емъ	.
+SFX	U0		я	ете	.
+SFX	U0		я	ятъ	.
+SFX	U0		я	хъ	.
+SFX	U0		я	0	.
+SFX	U0		я	0	.
+SFX	U0		я	хме	.
+SFX	U0		я	хте	.
+SFX	U0		я	ха	.
+SFX	U0		я	ехъ	.
+SFX	U0		я	еше	.
+SFX	U0		я	еше	.
+SFX	U0		я	еха	.
+SFX	U0		я	ехме	.
+SFX	U0		я	еха	.
+SFX	U0		я	й	.
+SFX	U0		я	йте	.
+SFX	U0		я	лъ/L5	.
+SFX	U0		я	елъ/L2	.
+					
+SFX	U1	Y	4		
+SFX	U1		да	денъ/L4	.
+SFX	U1		жа	занъ/L4	.
+SFX	U1		та	тенъ/L4	.
+SFX	U1		я	нъ/L4	.
+					
+SFX	U2	Y	8		
+SFX	U2		да	дѣщъ/L3	.
+SFX	U2		да	дѣйки	.
+SFX	U2		жа	жещъ/L3	.
+SFX	U2		жа	жейки	.
+SFX	U2		та	тѣщъ/L3	.
+SFX	U2		та	тѣйки	.
+SFX	U2		я	ещъ/L3	.
+SFX	U2		я	ейки	.
+					
+SFX	U3	Y	23		
+SFX	U3		да	да	.
+SFX	U3		да	дешъ	.
+SFX	U3		да	де	.
+SFX	U3		да	демъ	.
+SFX	U3		да	дете	.
+SFX	U3		да	датъ	.
+SFX	U3		да	дохъ	.
+SFX	U3		да	дѣ	.
+SFX	U3		да	дѣ	.
+SFX	U3		да	дохме	.
+SFX	U3		да	дохте	.
+SFX	U3		да	доха	.
+SFX	U3		да	дѣхъ	.
+SFX	U3		да	дѣше	.
+SFX	U3		да	дѣше	.
+SFX	U3		да	дѣхме	.
+SFX	U3		да	дѣхте	.
+SFX	U3		да	дѣха	.
+SFX	U3		да	ди	.
+SFX	U3		да	дете	.
+SFX	U3		йда	шълъ/L1	.
+SFX	U3		да	шълъ/L1	[^й]да
+SFX	U3		да	дѣлъ/L2	.
+					
+SFX	U4	Y	17		
+SFX	U4		да	да	.
+SFX	U4		да	дешъ	.
+SFX	U4		да	де	.
+SFX	U4		да	демъ	.
+SFX	U4		да	дете	.
+SFX	U4		да	датъ	.
+SFX	U4		да	дѣхъ	.
+SFX	U4		да	дѣше	.
+SFX	U4		да	дѣше	.
+SFX	U4		да	дѣхме	.
+SFX	U4		да	дѣхте	.
+SFX	U4		да	дѣха	.
+SFX	U4		да	ди	.
+SFX	U4		да	дете	.
+SFX	U4		да	дѣлъ/L2	.
+SFX	U4		да	дѣщъ/L3	.
+SFX	U4		да	дѣйки	.
+					
+SFX	V0	Y	44		
+SFX	V0		а	а	.
+SFX	V0		а	ишъ	.
+SFX	V0		а	и	.
+SFX	V0		а	имъ	.
+SFX	V0		а	ите	.
+SFX	V0		а	атъ	.
+SFX	V0		а	ахъ	.
+SFX	V0		а	а	.
+SFX	V0		а	а	.
+SFX	V0		а	ахме	.
+SFX	V0		а	ахте	.
+SFX	V0		а	аха	.
+SFX	V0		а	ехъ	.
+SFX	V0		а	еше	.
+SFX	V0		а	еше	.
+SFX	V0		а	ехме	.
+SFX	V0		а	ехте	.
+SFX	V0		а	еха	.
+SFX	V0		а	и	.
+SFX	V0		а	ете	.
+SFX	V0		а	алъ/L5	.
+SFX	V0		а	елъ/L2	.
+SFX	V0		я	я	.
+SFX	V0		я	ишъ	.
+SFX	V0		я	и	.
+SFX	V0		я	имъ	.
+SFX	V0		я	ите	.
+SFX	V0		я	ятъ	.
+SFX	V0		я	ихъ	.
+SFX	V0		я	и	.
+SFX	V0		я	и	.
+SFX	V0		я	ихме	.
+SFX	V0		я	ихте	.
+SFX	V0		я	иха	.
+SFX	V0		я	яхъ	.
+SFX	V0		я	еше	.
+SFX	V0		я	еше	.
+SFX	V0		я	яхме	.
+SFX	V0		я	яхте	.
+SFX	V0		я	яха	.
+SFX	V0		я	й	.
+SFX	V0		я	йте	.
+SFX	V0		я	илъ/L5	.
+SFX	V0		я	ялъ/L2	.
+					
+SFX	V1	Y	2		
+SFX	V1		а	анъ/L4	.
+SFX	V1		я	енъ/L4	.
+					
+SFX	V2	Y	4		
+SFX	V2		а	ащъ/L3	.
+SFX	V2		а	ейки	.
+SFX	V2		я	ящъ/L3	.
+SFX	V2		я	ейки	.
+					
+SFX	V3	Y	44		
+SFX	V3		а	а	.
+SFX	V3		а	ишъ	.
+SFX	V3		а	и	.
+SFX	V3		а	имъ	.
+SFX	V3		а	ите	.
+SFX	V3		а	атъ	.
+SFX	V3		а	ихъ	.
+SFX	V3		а	и	.
+SFX	V3		а	и	.
+SFX	V3		а	ихме	.
+SFX	V3		а	ихте	.
+SFX	V3		а	иха	.
+SFX	V3		а	ехъ	.
+SFX	V3		а	еше	.
+SFX	V3		а	еше	.
+SFX	V3		а	ехме	.
+SFX	V3		а	ехте	.
+SFX	V3		а	еха	.
+SFX	V3		а	и	.
+SFX	V3		а	ете	.
+SFX	V3		а	илъ/L5	.
+SFX	V3		а	елъ/L2	.
+SFX	V3		я	я	.
+SFX	V3		я	ишъ	.
+SFX	V3		я	и	.
+SFX	V3		я	имъ	.
+SFX	V3		я	ите	.
+SFX	V3		я	ятъ	.
+SFX	V3		я	ихъ	.
+SFX	V3		я	и	.
+SFX	V3		я	и	.
+SFX	V3		я	ихме	.
+SFX	V3		я	ихте	.
+SFX	V3		я	иха	.
+SFX	V3		я	ѣхъ	.
+SFX	V3		я	ѣше	.
+SFX	V3		я	ѣше	.
+SFX	V3		я	ѣхме	.
+SFX	V3		я	ѣхте	.
+SFX	V3		я	ѣха	.
+SFX	V3		я	и	.
+SFX	V3		я	ете	.
+SFX	V3		я	илъ/L5	.
+SFX	V3		я	ѣлъ/L2	.
+					
+SFX	V4	Y	2		
+SFX	V4		а	енъ/L4	.
+SFX	V4		я	енъ/L4	.
+					
+SFX	V5	Y	4		
+SFX	V5		а	ещъ/L3	.
+SFX	V5		а	ейки	.
+SFX	V5		я	ѣщъ/L3	.
+SFX	V5		я	ѣйки	.
+					
+SFX	W0	Y	68		
+SFX	W0		ея	ея	.
+SFX	W0		ея	еешъ	.
+SFX	W0		ея	ее	.
+SFX	W0		ея	ей	.
+SFX	W0		ея	еемъ	.
+SFX	W0		ея	еете	.
+SFX	W0		ея	еятъ	.
+SFX	W0		ея	ахъ	.
+SFX	W0		ея	а	.
+SFX	W0		ея	а	.
+SFX	W0		ея	ахме	.
+SFX	W0		ея	ахте	.
+SFX	W0		ея	аха	.
+SFX	W0		ея	еехъ	.
+SFX	W0		ея	ееше	.
+SFX	W0		ея	ееше	.
+SFX	W0		ея	еехме	.
+SFX	W0		ея	еeхте	.
+SFX	W0		ея	ееха	.
+SFX	W0		ея	ей	.
+SFX	W0		ея	ейте	.
+SFX	W0		ея	алъ/L5	.
+SFX	W0		ея	еелъ/L2	.
+SFX	W0		ѣя	ѣя	.
+SFX	W0		ѣя	ѣешъ	.
+SFX	W0		ѣя	ѣе	.
+SFX	W0		ѣя	ѣй	.
+SFX	W0		ѣя	ѣемъ	.
+SFX	W0		ѣя	ѣете	.
+SFX	W0		ѣя	ѣятъ	.
+SFX	W0		ѣя	ѣхъ	.
+SFX	W0		ѣя	ѣ	.
+SFX	W0		ѣя	ѣ	.
+SFX	W0		ѣя	ѣхме	.
+SFX	W0		ѣя	ѣхте	.
+SFX	W0		ѣя	ѣха	.
+SFX	W0		ѣя	ѣехъ	.
+SFX	W0		ѣя	ѣеше	.
+SFX	W0		ѣя	ѣеше	.
+SFX	W0		ѣя	ѣехме	.
+SFX	W0		ѣя	ѣeхте	.
+SFX	W0		ѣя	ѣеха	.
+SFX	W0		ѣя	ѣй	.
+SFX	W0		ѣя	ѣйте	.
+SFX	W0		ѣя	ѣлъ/L5	.
+SFX	W0		ѣя	ѣелъ/L2	.
+SFX	W0		жа	жа	.
+SFX	W0		жа	жешъ	.
+SFX	W0		жа	же	.
+SFX	W0		жа	жемъ	.
+SFX	W0		жа	жете	.
+SFX	W0		жа	жатъ	.
+SFX	W0		жа	захъ	.
+SFX	W0		жа	за	.
+SFX	W0		жа	за	.
+SFX	W0		жа	захме	.
+SFX	W0		жа	захте	.
+SFX	W0		жа	заха	.
+SFX	W0		жа	жехъ	.
+SFX	W0		жа	жеше	.
+SFX	W0		жа	жеше	.
+SFX	W0		жа	жехме	.
+SFX	W0		жа	жехте	.
+SFX	W0		жа	жеха	.
+SFX	W0		жа	жи	.
+SFX	W0		жа	жете	.
+SFX	W0		жа	залъ/L5	.
+SFX	W0		жа	желъ/L2	.
+					.
+SFX	W1	Y	2		
+SFX	W1		ея	анъ/L4	.
+SFX	W1		ѣя	ѣнъ/L4	.
+					.
+SFX	W2	Y	2		
+SFX	W2		ея	еянъ/L4	.
+SFX	W2		ѣя	ѣянъ/L4	.
+					.
+SFX	W3	Y	2		
+SFX	W3		ея	атъ/L4	.
+SFX	W3		ѣя	ѣтъ/L4	.
+					.
+SFX	W4	Y	1		
+SFX	W4		жа	занъ/L4	.
+					
+SFX	W5	Y	6		
+SFX	W5		жа	жещъ/L3	.
+SFX	W5		жа	жейки	.
+SFX	W5		ея	еещъ/L3	.
+SFX	W5		ея	еейки	.
+SFX	W5		ѣя	ѣещъ/L3	.
+SFX	W5		ѣя	ѣейки	.
+					
+SFX	X0	Y	66		
+SFX	X0		а	а	.
+SFX	X0		а	ешъ	.
+SFX	X0		а	е	.
+SFX	X0		а	емъ	.
+SFX	X0		а	ете	.
+SFX	X0		а	атъ	.
+SFX	X0		а	ахъ	.
+SFX	X0		а	а	.
+SFX	X0		а	а	.
+SFX	X0		а	ахме	.
+SFX	X0		а	ахте	.
+SFX	X0		а	аха	.
+SFX	X0		а	ѣхъ	.
+SFX	X0		а	ѣше	.
+SFX	X0		а	ѣше	.
+SFX	X0		а	ѣхме	.
+SFX	X0		а	ѣхте	.
+SFX	X0		а	ѣха	.
+SFX	X0		а	и	.
+SFX	X0		а	ете	.
+SFX	X0		а	алъ/L5	.
+SFX	X0		а	ѣлъ/L2	.
+SFX	X0		мъ	мъ	.
+SFX	X0		мъ	дешъ	.
+SFX	X0		мъ	де	.
+SFX	X0		мъ	демъ	.
+SFX	X0		мъ	дете	.
+SFX	X0		мъ	датъ	.
+SFX	X0		мъ	дохъ	.
+SFX	X0		мъ	дѣ	.
+SFX	X0		мъ	дѣ	.
+SFX	X0		мъ	дохме	.
+SFX	X0		мъ	дохте	.
+SFX	X0		мъ	доха	.
+SFX	X0		мъ	дѣхъ	.
+SFX	X0		мъ	дѣше	.
+SFX	X0		мъ	дѣше	.
+SFX	X0		мъ	дѣхме	.
+SFX	X0		мъ	дѣхте	.
+SFX	X0		мъ	дѣха	.
+SFX	X0		мъ	й	.
+SFX	X0		мъ	йте	.
+SFX	X0		мъ	лъ/L5	.
+SFX	X0		мъ	дѣлъ/L2	.
+SFX	X0		я	я	.
+SFX	X0		я	ешъ	.
+SFX	X0		я	е	.
+SFX	X0		я	емъ	.
+SFX	X0		я	ете	.
+SFX	X0		я	ятъ	.
+SFX	X0		я	ахъ	.
+SFX	X0		я	а	.
+SFX	X0		я	а	.
+SFX	X0		я	ахме	.
+SFX	X0		я	ахте	.
+SFX	X0		я	аха	.
+SFX	X0		я	ѣхъ	.
+SFX	X0		я	ѣше	.
+SFX	X0		я	ѣше	.
+SFX	X0		я	ѣхме	.
+SFX	X0		я	ѣхте	.
+SFX	X0		я	ѣха	.
+SFX	X0		я	и	.
+SFX	X0		я	ете	.
+SFX	X0		я	алъ/L5	.
+SFX	X0		я	ѣлъ/L2	.
+					
+SFX	X1	Y	3		
+SFX	X1		а	анъ/L4	.
+SFX	X1		мъ	денъ/L4	.
+SFX	X1		я	анъ/L4	.
+					
+SFX	X2	Y	4		
+SFX	X2		а	ѣщъ/L3	.
+SFX	X2		а	ѣйки	.
+SFX	X2		я	ѣщъ/L3	.
+SFX	X2		я	ѣйки	.
+					
+//SFX	XX	Y	0		
+					
+SFX	Y0	Y	88		
+SFX	Y0		жа	жа	.
+SFX	Y0		жа	жешъ	.
+SFX	Y0		жа	же	.
+SFX	Y0		жа	жемъ	.
+SFX	Y0		жа	жете	.
+SFX	Y0		жа	жатъ	.
+SFX	Y0		жа	гахъ	.
+SFX	Y0		жа	га	.
+SFX	Y0		жа	га	.
+SFX	Y0		жа	гохме	.
+SFX	Y0		жа	гохте	.
+SFX	Y0		жа	гоха	.
+SFX	Y0		жа	жехъ	.
+SFX	Y0		жа	жеше	.
+SFX	Y0		жа	жеше	.
+SFX	Y0		жа	жехме	.
+SFX	Y0		жа	жехте	.
+SFX	Y0		жа	жеха	.
+SFX	Y0		жа	жи	.
+SFX	Y0		жа	жете	.
+SFX	Y0		жа	галъ/L5	.
+SFX	Y0		жа	желъ/L2	.
+SFX	Y0		са	са	.
+SFX	Y0		са	сешъ	.
+SFX	Y0		са	се	.
+SFX	Y0		са	семъ	.
+SFX	Y0		са	сете	.
+SFX	Y0		са	сатъ	.
+SFX	Y0		са	сохъ	.
+SFX	Y0		са	сѣ	.
+SFX	Y0		са	сѣ	.
+SFX	Y0		са	сохме	.
+SFX	Y0		са	сохте	.
+SFX	Y0		са	соха	.
+SFX	Y0		са	сѣхъ	.
+SFX	Y0		са	сѣше	.
+SFX	Y0		са	сѣше	.
+SFX	Y0		са	сѣхме	.
+SFX	Y0		са	сѣхте	.
+SFX	Y0		са	сѣха	.
+SFX	Y0		са	си	.
+SFX	Y0		са	сете	.
+SFX	Y0		са	сълъ/L1	.
+SFX	Y0		са	сѣлъ/L2	.
+SFX	Y0		ка	ка	.
+SFX	Y0		ка	чешъ	.
+SFX	Y0		ка	че	.
+SFX	Y0		ка	чемъ	.
+SFX	Y0		ка	чете	.
+SFX	Y0		ка	катъ	.
+SFX	Y0		ка	кохъ	.
+SFX	Y0		ка	че	.
+SFX	Y0		ка	че	.
+SFX	Y0		ка	кохме	.
+SFX	Y0		ка	кохте	.
+SFX	Y0		ка	коха	.
+SFX	Y0		ка	чахъ	.
+SFX	Y0		ка	чеше	.
+SFX	Y0		ка	чеше	.
+SFX	Y0		ка	чахме	.
+SFX	Y0		ка	чахте	.
+SFX	Y0		ка	чаха	.
+SFX	Y0		ка	чи	.
+SFX	Y0		ка	чете	.
+SFX	Y0		ка	кълъ/L1	.
+SFX	Y0		ка	чалъ/L2	.
+SFX	Y0		ча	ча	.
+SFX	Y0		ча	чешъ	.
+SFX	Y0		ча	че	.
+SFX	Y0		ча	чемъ	.
+SFX	Y0		ча	чете	.
+SFX	Y0		ча	чатъ	.
+SFX	Y0		ча	кахъ	.
+SFX	Y0		ча	ка	.
+SFX	Y0		ча	ка	.
+SFX	Y0		ча	кахме	.
+SFX	Y0		ча	кахте	.
+SFX	Y0		ча	каха	.
+SFX	Y0		ча	чехъ	.
+SFX	Y0		ча	чеше	.
+SFX	Y0		ча	чеше	.
+SFX	Y0		ча	чехме	.
+SFX	Y0		ча	чехте	.
+SFX	Y0		ча	чеха	.
+SFX	Y0		ча	чи	.
+SFX	Y0		ча	чете	.
+SFX	Y0		ча	калъ/L5	.
+SFX	Y0		ча	челъ/L2	.
+					
+SFX	Y1	Y	4		
+SFX	Y1		жа	ганъ/L4	.
+SFX	Y1		ча	канъ/L4	.
+SFX	Y1		ка	ченъ/L4	.
+SFX	Y1		са	сенъ/L4	.
+					
+SFX	Y2	Y	8		
+SFX	Y2		жа	жещъ/L3	.
+SFX	Y2		жа	жейки	.
+SFX	Y2		са	сѣщъ/L3	.
+SFX	Y2		са	сѣйки	.
+SFX	Y2		ка	чещъ/L3	.
+SFX	Y2		ка	чейки	.
+SFX	Y2		ча	чещъ/L3	.
+SFX	Y2		ча	чейки	.
+					
+SFX	Y3	Y	22		
+SFX	Y3		ка	ка	.
+SFX	Y3		ка	чешъ	.
+SFX	Y3		ка	че	.
+SFX	Y3		ка	чемъ	.
+SFX	Y3		ка	чете	.
+SFX	Y3		ка	катъ	.
+SFX	Y3		ка	кахъ	.
+SFX	Y3		ка	ка	.
+SFX	Y3		ка	ка	.
+SFX	Y3		ка	кахме	.
+SFX	Y3		ка	кахте	.
+SFX	Y3		ка	каха	.
+SFX	Y3		ка	чехъ	.
+SFX	Y3		ка	чеше	.
+SFX	Y3		ка	чеше	.
+SFX	Y3		ка	чехме	.
+SFX	Y3		ка	чехте	.
+SFX	Y3		ка	чеха	.
+SFX	Y3		ка	чи	.
+SFX	Y3		ка	чете	.
+SFX	Y3		ка	калъ/L5	.
+SFX	Y3		ка	челъ/L2	.
+					
+SFX	Y4	Y	1		
+SFX	Y4		ка	канъ/L4	.
+					
+SFX	Z0	Y	66		
+SFX	Z0		а	а	.
+SFX	Z0		а	ешъ	.
+SFX	Z0		а	е	.
+SFX	Z0		а	емъ	.
+SFX	Z0		а	ете	.
+SFX	Z0		а	атъ	.
+SFX	Z0		а	ѣхъ	.
+SFX	Z0		а	ѣ	.
+SFX	Z0		а	ѣ	.
+SFX	Z0		а	ѣхме	.
+SFX	Z0		а	ѣхте	.
+SFX	Z0		а	ѣха	.
+SFX	Z0		а	ѣхъ	.
+SFX	Z0		а	ѣше	.
+SFX	Z0		а	ѣше	.
+SFX	Z0		а	ѣхме	.
+SFX	Z0		а	ѣхте	.
+SFX	Z0		а	ѣха	.
+SFX	Z0		а	и	.
+SFX	Z0		а	ете	.
+SFX	Z0		а	ѣлъ/L5	.
+SFX	Z0		а	ѣлъ/L2	.
+SFX	Z0		мъ	мъ	.
+SFX	Z0		мъ	дешъ	.
+SFX	Z0		мъ	де	.
+SFX	Z0		мъ	демъ	.
+SFX	Z0		мъ	дете	.
+SFX	Z0		мъ	датъ	.
+SFX	Z0		мъ	дохъ	.
+SFX	Z0		мъ	дѣ	.
+SFX	Z0		мъ	дѣ	.
+SFX	Z0		мъ	дохме	.
+SFX	Z0		мъ	дохте	.
+SFX	Z0		мъ	доха	.
+SFX	Z0		мъ	дѣхъ	.
+SFX	Z0		мъ	дѣше	.
+SFX	Z0		мъ	дѣше	.
+SFX	Z0		мъ	дѣхме	.
+SFX	Z0		мъ	дѣхте	.
+SFX	Z0		мъ	дѣха	.
+SFX	Z0		мъ	жъ	.
+SFX	Z0		мъ	жте	.
+SFX	Z0		мъ	лъ/L5	.
+SFX	Z0		мъ	дѣлъ/L2	.
+SFX	Z0		ая	ая	.
+SFX	Z0		ая	аешъ	.
+SFX	Z0		ая	ае	.
+SFX	Z0		ая	аемъ	.
+SFX	Z0		ая	аете	.
+SFX	Z0		ая	аятъ	.
+SFX	Z0		ая	аяхъ	.
+SFX	Z0		ая	ая	.
+SFX	Z0		ая	ая	.
+SFX	Z0		ая	аяхме	.
+SFX	Z0		ая	аяхте	.
+SFX	Z0		ая	аяха	.
+SFX	Z0		ая	аехъ	.
+SFX	Z0		ая	аеше	.
+SFX	Z0		ая	аеше	.
+SFX	Z0		ая	аехме	.
+SFX	Z0		ая	аехте	.
+SFX	Z0		ая	аеха	.
+SFX	Z0		ая	ай	.
+SFX	Z0		ая	айте	.
+SFX	Z0		ая	аялъ/L5	.
+SFX	Z0		ая	аелъ/L2	.
+					
+SFX	Z1	Y	23		
+SFX	Z1		ма	ма	.
+SFX	Z1		ма	мешъ	.
+SFX	Z1		ма	ме	.
+SFX	Z1		ма	мемъ	.
+SFX	Z1		ма	мете	.
+SFX	Z1		ма	матъ	.
+SFX	Z1		ма	хъ	.
+SFX	Z1		ма	0	.
+SFX	Z1		ма	0	.
+SFX	Z1		ма	хме	.
+SFX	Z1		ма	хте	.
+SFX	Z1		ма	ха	.
+SFX	Z1		ма	мехъ	.
+SFX	Z1		ма	меше	.
+SFX	Z1		ма	меше	.
+SFX	Z1		ма	мехме	.
+SFX	Z1		ма	мехте	.
+SFX	Z1		ма	мѣха	.
+SFX	Z1		ма	ми	.
+SFX	Z1		ма	мете	.
+SFX	Z1		ма	лъ/L5	.
+SFX	Z1		ма	мелъ/L2	.
+SFX	Z1		знамъ	знамъ	.
+					
+SFX	Z2	Y	22		
+SFX	Z2		за	за	.
+SFX	Z2		за	зешъ	.
+SFX	Z2		за	зе	.
+SFX	Z2		за	земъ	.
+SFX	Z2		за	зете	.
+SFX	Z2		за	затъ	.
+SFX	Z2		за	зохъ	.
+SFX	Z2		за	зе	.
+SFX	Z2		за	зе	.
+SFX	Z2		за	зохме	.
+SFX	Z2		за	зохте	.
+SFX	Z2		за	зоха	.
+SFX	Z2		за	зехъ	.
+SFX	Z2		за	зеше	.
+SFX	Z2		за	зеше	.
+SFX	Z2		за	зехме	.
+SFX	Z2		за	зехте	.
+SFX	Z2		за	зеха	.
+SFX	Z2		за	зъ	.
+SFX	Z2		за	зте	.
+SFX	Z2		за	зълъ/L1	.
+SFX	Z2		за	зелъ/L2	.
+					
+SFX	Z3	Y	1		
+SFX	Z3		ая	аянъ/L4	.
+					
+SFX	Z4	Y	10		
+SFX	Z4		ая	аенъ	.
+SFX	Z4		ая	айния	.
+SFX	Z4		ая	айниятъ	.
+SFX	Z4		ая	айний	.
+SFX	Z4		ая	айна	.
+SFX	Z4		ая	айната	.
+SFX	Z4		ая	айно	.
+SFX	Z4		ая	айното	.
+SFX	Z4		ая	айни	.
+SFX	Z4		ая	айнитѣ	.
+					
+SFX	Z5	Y	3		
+SFX	Z5		мъ	денъ/L4	.
+SFX	Z5		а	ѣнъ/L4	[^м]а
+SFX	Z5		ма	тъ/L4	.
+					
+SFX	Z6	Y	3		
+SFX	Z6		а	ѣщъ/L3	.
+SFX	Z6		мъ	дѣщъ/L3	.
+SFX	Z6		ая	аещъ/L3	.
+					
+SFX	Z7	Y	4		
+SFX	Z7		ая	атъ/L4	.
+SFX	Z7		ия	итъ/L4	.
+SFX	Z7		уя	утъ/L4	.
+SFX	Z7		юя	ютъ/L4	.
