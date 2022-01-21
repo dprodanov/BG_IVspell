@@ -24,9 +24,9 @@
                 <value>bg-BG</value>
             </prop>
         </node>
-<!--         <node oor:name="ThesDic_bgBG" oor:op="fuse">
+        <node oor:name="ThesDic_bgBG" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/thes/th_bg_BG.dat %origin%/thes/th_bg_BG.idx</value>
+                <value>%origin%/thes/th_bg_BG_v2.dat %origin%/thes/th_bg_BG_v2.idx</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_THES</value>
@@ -34,7 +34,7 @@
             <prop oor:name="Locales" oor:type="oor:string-list">
                 <value>bg-BG</value>
             </prop>
-        </node> -->
+        </node>
     </node>
  </node>  
 </oor:component-data>

@@ -7,12 +7,12 @@
     </dependencies>
 	<registration>
 		<simple-license accept-by="admin" default-license-id="en" suppress-if-required="true">
-			<license-text xlink:href="MPL2.txt" lang="en" license-id="en" />
+			<license-text xlink:href="MPL-2.txt" lang="en" license-id="en" />
 		</simple-license>
 	</registration>
     
     <display-name>
-        <name lang="bg-BG">Български рѣчници – ИВ</name>
+        <name lang="bg-BG">Български рѣчници – Иванчевъ правописъ</name>
 		<name lang="en">Bulgarian spelling dictionary in the Ivanchev orthography</name>
     </display-name>
     
