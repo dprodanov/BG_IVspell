@@ -1,0 +1,951 @@
+This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2022.1.16)  21 JAN 2022 13:01
+ restricted system commands enabled.
+**testcyrold2.tex
+(./testcyrold2.tex
+LaTeX2e <2020-10-01> patch level 4
+Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
+Lua module: lualibs 2020-12-30 2.73 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-12-30 2.73 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/prodanov/AppData/Local/MiK
+TeX/2.9/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-01-07.lua" from kpse-res
+olved path "C:/Program Files/MiKTeX 2.9/tex/luatex/luaotfload/fontloader-2021-01
+-07.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e76c8b439581p+1
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "C:/Users/prodanov/AppData/Local/MiK
+TeX/2.9/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2021-05-11>
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/size10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/prodanov/AppData/Loca
+l/MiKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/fontspec/fontspec.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/l3packages/xparse/xparse.sty"
+("C:/Program Files/MiKTeX 2.9/tex/latex/l3kernel/expl3.sty"
+Package: expl3 2021-05-11 L3 programming layer (loader) 
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/l3backend/l3backend-luatex.def"
+File: l3backend-luatex.def 2021-05-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count183
+\l__pdf_internal_box=\box47
+))
+("C:/Program Files/MiKTeX 2.9/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
+" ("C:/Program Files/MiKTeX 2.9/tex/latex/l3packages/xparse/xparse-generic.tex"
+)))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX ("
+C:/Program Files/MiKTeX 2.9/tex/latex/fontspec/fontspec-luatex.sty"
+Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count184
+\l__fontspec_language_int=\count185
+\l__fontspec_strnum_int=\count186
+\l__fontspec_tmp_int=\count187
+\l__fontspec_tmpa_int=\count188
+\l__fontspec_tmpb_int=\count189
+\l__fontspec_tmpc_int=\count190
+\l__fontspec_em_int=\count191
+\l__fontspec_emdef_int=\count192
+\l__fontspec_strong_int=\count193
+\l__fontspec_strongdef_int=\count194
+\l__fontspec_tmpa_dim=\dimen139
+\l__fontspec_tmpb_dim=\dimen140
+\l__fontspec_tmpc_dim=\dimen141
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/fontspec/fontspec.cfg")))
+luaotfload | cache : Lookup cache loaded from C:/Users/prodanov/AppData/Local/Mi
+KTeX/2.9/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'FreeSerif(0)' created for font 'FreeSerif'
+(fontspec)             with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FreeSerif:mode=node;script=latn;language=dflt;+tlig;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"FreeSerif:mode=node;script=latn;language=dflt;+tlig;
++smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"FreeSerif/B:mode=node;script=latn;language=dflt;+tli
+g;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"FreeSerif/B:mode=node;script=latn;language=dflt;+tli
+g;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"FreeSerif/I:mode=node;script=latn;language=dflt;+tli
+g;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"FreeSerif/BI:mode=node;script=latn;language=dflt;+tl
+ig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'FreeSans(0)' created for font 'FreeSans'
+(fontspec)             with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FreeSans:mode=node;script=latn;language=dflt;+tlig;"
+
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"FreeSans:mode=node;script=latn;language=dflt;+tlig;+
+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"FreeSans/B:mode=node;script=latn;language=dflt;+tlig
+;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"FreeSans/B:mode=node;script=latn;language=dflt;+tlig
+;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"FreeSans/I:mode=node;script=latn;language=dflt;+tlig
+;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"FreeSans/BI:mode=node;script=latn;language=dflt;+tli
+g;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 53 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 54 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 55 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'FreeMono(0)' created for font 'FreeMono'
+(fontspec)             with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FreeMono:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"FreeMono/B:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"FreeMono/I:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"FreeMono/BI:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/polyglossia/polyglossia.sty"
+Package: polyglossia 2021/04/12 v1.53 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/etoolbox/etoolbox.sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/makecmds/makecmds.sty"
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty"
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/xkeyval.tex"
+("C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/xkvutils.tex"
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/keyval.tex"))
+\XKV@depth=\count196
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:/Program Files/MiKTeX 2.9/tex/generic/iftex/iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/l3packages/l3keys2e/l3keys2e.sty"
+Package: l3keys2e 2021-05-07 LaTeX2e option processing using LaTeX3 keys
+)
+("C:/Program Files/MiKTeX 2.9/tex/luatex/luatexbase/luatexbase.sty"
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+("C:/Program Files/MiKTeX 2.9/tex/luatex/ctablestack/ctablestack.sty"
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count197
+)
+\CatcodeTableOther=\catcodetable12
+\CatcodeTableExpl=\catcodetable13
+)
+Lua module: polyglossia 2013/05/11 1.3 Polyglossia
+("C:/Program Files/MiKTeX 2.9/tex/latex/polyglossia/gloss-latex.ldf"
+File: gloss-latex.ldf polyglossia: module for default language
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+)
+Package polyglossia Info: Default language is latex.
+Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz.
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/polyglossia/gloss-bulgarian.ldf"
+File: gloss-bulgarian.ldf polyglossia: module for bulgarian
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {bulgarian/script}  =>  {Cyrillic}
+>  {bulgarian/lcscript}  =>  {cyrillic}
+>  {bulgarian/scripttag}  =>  {cyrl}
+>  {bulgarian/language}  =>  {Bulgarian}
+>  {bulgarian/langtag}  =>  {BGR}
+>  {bulgarian/bcp47}  =>  {bg}
+>  {bulgarian/hyphennames}  =>  {bulgarian}
+>  {bulgarian/direction}  =>  {LR}
+>  {bulgarian/hyphenmins}  =>  {2,2}
+>  {bulgarian/frenchspacing}  =>  {true}
+>  {bulgarian/indentfirst}  =>  {false}
+>  {bulgarian/fontsetup}  =>  {true}
+>  {bulgarian/envname}  =>  {bulgarian}
+>  {bulgarian/babelname}  =>  {bulgarian}
+>  {bulgarian/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {bulgarian/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+Module polyglossia Info: Language data for bulgarian
+(polyglossia)            loader	loadhyph-bg.tex
+(polyglossia)            patterns	hyph-bg.pat.txt
+(polyglossia)            synonyms	
+(polyglossia)            righthyphenmin	2
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            hyphenation	 on input line 12
+Module polyglossia Info: Language bulgarian was not yet loaded; created with id 
+2 on input line 12
+)
+Package polyglossia Info: Default language is bulgarian.
+
+(./testcyrold2.aux
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+luaotfload | aux : font no 60 (nil) does not define feature smcp for script cyrl
+ with language dflt
+luaotfload | aux : font no 61 (nil) does not define feature smcp for script cyrl
+ with language dflt
+luaotfload | aux : font no 62 (nil) does not define feature smcp for script cyrl
+ with language dflt
+luaotfload | aux : font no 63 (nil) does not define feature smcp for script cyrl
+ with language dflt
+
+Package fontspec Info: Font family 'FreeSerif(1)' created for font 'FreeSerif'
+(fontspec)             with options [Ligatures=TeX,Script=Cyrillic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FreeSerif:mode=node;script=cyrl;language=dflt;+tlig;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"FreeSerif/B:mode=node;script=cyrl;language=dflt;+tli
+g;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"FreeSerif/I:mode=node;script=cyrl;language=dflt;+tli
+g;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"FreeSerif/BI:mode=node;script=cyrl;language=dflt;+tl
+ig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+luaotfload | aux : font no 70 (nil) does not define feature smcp for script cyrl
+ with language bgr
+luaotfload | aux : font no 71 (nil) does not define feature smcp for script cyrl
+ with language bgr
+luaotfload | aux : font no 72 (nil) does not define feature smcp for script cyrl
+ with language bgr
+luaotfload | aux : font no 73 (nil) does not define feature smcp for script cyrl
+ with language bgr
+
+Package fontspec Info: Font family 'FreeSerif(2)' created for font 'FreeSerif'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,Script=Cyrillic,Language=Bulgarian].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FreeSerif:mode=node;script=cyrl;language=BGR;+tlig;"
+
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"FreeSerif/B:mode=node;script=cyrl;language=BGR;+tlig
+;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"FreeSerif/I:mode=node;script=cyrl;language=BGR;+tlig
+;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"FreeSerif/BI:mode=node;script=cyrl;language=BGR;+tli
+g;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+)
+\openout1 = testcyrold2.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+2.
+ ("C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmr.fd"
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 22.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 22.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 22.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 22.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 22.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 22.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 22.
+LaTeX Font Info:    Redeclaring math accent \check on input line 22.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 22.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 22.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 22.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 22.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 22.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/FreeSerif(0)/m/n on input line 22.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 22.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/FreeSerif(0)/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/FreeSerif(0)/m/n --> TU/FreeSerif(0)/m/n on input li
+ne 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/FreeSerif(0)/m/it on input line 22.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/FreeSerif(0)/b/n on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/FreeSans(0)/m/n on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/FreeMono(0)/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/FreeSerif(0)/m/n --> TU/FreeSerif(0)/b/n on input li
+ne 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/FreeSerif(0)/b/it on input line 22
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/FreeSans(0)/b/n on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/FreeMono(0)/b/n on input line 22.
+LaTeX Info: Redefining \rmfamily on input line 22.
+LaTeX Info: Redefining \sffamily on input line 22.
+LaTeX Info: Redefining \ttfamily on input line 22.
+LaTeX Info: Redefining \rmfamily on input line 22.
+LaTeX Info: Redefining \sffamily on input line 22.
+LaTeX Info: Redefining \ttfamily on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 27.
+
+
+LaTeX Warning: No \author given.
+
+
+Overfull \hbox (6.4733pt too wide) in paragraph at lines 43--44
+[]\TU/FreeSerif(2)/m/n/10 : вѫди-ца, вѫди-чар-с-ки, вѫди-
+чар-с-т-во, вѫди-ча-рь, вѫдич-
+ []
+
+[1
+
+{C:/Users/prodanov/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (10.68999pt too wide) in paragraph at lines 53--54
+[]\TU/FreeSerif(2)/m/n/10 : вглѫбе-нос-ть, вглѫбя, вглѫб
+я-ва-мъ, вглѫбя-ва-не, глѫби-на, углѫбя,
+ []
+
+
+Overfull \hbox (22.10683pt too wide) in paragraph at lines 55--56
+\TU/FreeSerif(2)/m/n/10 гнѫсо-тия, гнѫсь, гнѫся, догнѫ
+ся-ва-мъ, догнѫся-ва-не, погнѫса, погнѫсе-но, 
+погнѫся,
+ []
+
+
+Overfull \hbox (0.49667pt too wide) in paragraph at lines 67--68
+\TU/FreeSerif(2)/m/n/10 гѫзур-ча, гѫз-че, гѫзъ, из-гѫза-
+ря, из-гѫза-ря-ва-мъ, из-гѫза-рѣя, из-гѫз-ва-м
+ъ, из-гѫзя,
+ []
+
+
+Overfull \hbox (4.78008pt too wide) in paragraph at lines 67--68
+\TU/FreeSerif(2)/m/n/10 на-гѫза-рѣя, на-гѫз-ва-мъ, на-гѫ
+зур-ч-ва-мъ, на-гѫзур-ч-ва-не, на-гѫзя, огѫз-в
+а-мъ, огѫзя,
+ []
+
+
+Overfull \hbox (1.3233pt too wide) in paragraph at lines 79--80
+[]\TU/FreeSerif(2)/m/n/10 : без-зѫбъ, зѫба-рь, зѫба-тъ, з
+ѫбе-не, зѫбе-нъ, зѫбе-ръ, зѫбес-тъ, зѫбе-
+ []
+
+
+Overfull \hbox (5.06996pt too wide) in paragraph at lines 79--80
+\TU/FreeSerif(2)/m/n/10 цъ, зѫбо-бо-лъ, зѫбо-ви-де-нъ, з
+ѫбо-лѣкар-ка, зѫбо-лѣкар-с-ки, зѫбо-лѣкар-с-т-
+во, зѫбо-
+ []
+
+
+Overfull \hbox (14.18669pt too wide) in paragraph at lines 81--82
+[]\TU/FreeSerif(2)/m/n/10 : закрѫг-ле-ни-чъ-къ, закрѫг-л
+е-но, закрѫг-ле-нос-ть, закрѫг-
+ []
+
+
+Overfull \hbox (1.18pt too wide) in paragraph at lines 81--82
+\TU/FreeSerif(2)/m/n/10 ле-нъ, закрѫг-ля, закрѫг-ля-ва-
+мъ, закрѫг-ля-ва-не, закрѫг-ля-мъ, закрѫг-ля-
+не, крѫг-
+ []
+
+
+Overfull \hbox (6.09001pt too wide) in paragraph at lines 81--82
+\TU/FreeSerif(2)/m/n/10 ли-чъ-къ, крѫг-ло, крѫг-ло-ли-къ, 
+крѫго-ви-де-нъ, крѫгов-ра-те-нъ, крѫгов-ра-тъ, 
+крѫго-
+ []
+
+
+Overfull \hbox (7.37662pt too wide) in paragraph at lines 81--82
+\TU/FreeSerif(2)/m/n/10 крѫгъ-лъ, крѫжа, крѫже-не, крѫж
+е-цъ, крѫжи-ло, крѫжо-къ, крѫжо-че-нъ, крѫжоч-
+ []
+
+
+Overfull \hbox (15.37001pt too wide) in paragraph at lines 81--82
+\TU/FreeSerif(2)/m/n/10 ни-къ, крѫжоч-нич-ка, об-крѫжа, 
+об-крѫжа-ва-мъ, об-крѫжа-ва-не, об-крѫже-ние, 
+окрѫг-
+ []
+
+
+Overfull \hbox (2.61005pt too wide) in paragraph at lines 81--82
+\TU/FreeSerif(2)/m/n/10 нъ, окрѫжие, окрѫж-нос-ть, по-з
+акрѫг-ля, по-закрѫг-ля-ва-мъ, по-закрѫг-ля-ва-
+не, по-
+ []
+
+[2]
+Overfull \hbox (5.78659pt too wide) in paragraph at lines 83--84
+[]\TU/FreeSerif(2)/m/n/10 : всѣкѫдѣ, до-кѫдѣ, до-кѫдѣто, 
+до-ни-кѫдѣ, до-нѣкѫдѣ, кѫдѣ, кѫдѣто,
+ []
+
+
+Overfull \hbox (8.93011pt too wide) in paragraph at lines 90--91
+\TU/FreeSerif(2)/m/n/10 о-кѫся-ва-не, по-о-кѫсѣя, поскѫ
+са-мъ, поскѫса-не, поскѫся, поскѫся-ва-мъ, по
+скѫся-
+ []
+
+
+Overfull \hbox (6.1801pt too wide) in paragraph at lines 90--91
+\TU/FreeSerif(2)/m/n/10 ва-не, про-кѫса-мъ, про-кѫса-не, 
+про-кѫс-ва-мъ, про-кѫс-ва-не, прѣкѫс-ва-е-мъ, 
+прѣкѫс-
+ []
+
+
+Overfull \hbox (3.39012pt too wide) in paragraph at lines 90--91
+\TU/FreeSerif(2)/m/n/10 по-кѫса-нос-ть, раз-по-кѫс-ва-м
+ъ, раз-по-кѫс-ва-не, скѫса-мъ, скѫса-не, скѫса-
+нъ, скѫс-
+ []
+
+[3]
+Overfull \hbox (0.88002pt too wide) in paragraph at lines 94--95
+[]\TU/FreeSerif(2)/m/n/10 : вкѫщи, вър-то-кѫщ-ни-къ, вър-
+то-кѫщ-ни-ца, кѫща, кѫще-нъ, кѫщи-
+ []
+
+
+Overfull \hbox (3.95328pt too wide) in paragraph at lines 98--99
+\TU/FreeSerif(2)/m/n/10 нъ, лѫко-въ, лѫкъ, лѫча, лѫче-въ, 
+лѫче-за-ре-нъ, лѫче-зар-но, лѫче-зар-нос-ть, Л
+ѫче-
+ []
+
+
+Overfull \hbox (2.05336pt too wide) in paragraph at lines 104--105
+[]\TU/FreeSerif(2)/m/n/10 : въз-мѫжа-ва-мъ, въз-мѫжа-ва-н
+е, въз-мѫжа-лос-ть, въз-мѫжея, мѫжа-
+ []
+
+
+Overfull \hbox (13.06007pt too wide) in paragraph at lines 104--105
+\TU/FreeSerif(2)/m/n/10 га, мѫжем-раз-ка, мѫжес-т-ве-но
+с-ть, мѫжес-т-ве-нъ, мѫжес-т-во, мѫже-у-бийс-т-
+во, мѫже-
+ []
+
+
+Overfull \hbox (2.33673pt too wide) in paragraph at lines 104--105
+\TU/FreeSerif(2)/m/n/10 у-бий-ца, мѫж-ка-ра-на, мѫж-кар-
+ка, мѫж-кар-с-ки, мѫж-ка-рь, мѫж-ки, мѫж-ле, мѫ
+жо-
+ []
+
+
+Overfull \hbox (13.32675pt too wide) in paragraph at lines 104--105
+\TU/FreeSerif(2)/m/n/10 въ, мѫжъ, не-мѫжес-т-ве-нъ, не-о-
+мѫже-нъ, но-во-о-мѫже-нъ, омѫжа, омѫж-ва-мъ, о
+мѫж-
+ []
+
+
+Overfull \hbox (1.44006pt too wide) in paragraph at lines 106--107
+\TU/FreeSerif(2)/m/n/10 мѫче-не, мѫче-ние, мѫче-ни-къ, м
+ѫче-ни-ца, мѫче-ни-чес-ки, мѫче-ни-чес-т-во, м
+ѫче-
+ []
+
+
+Overfull \hbox (5.76343pt too wide) in paragraph at lines 106--107
+\TU/FreeSerif(2)/m/n/10 по-из-мѫч-ва-не, по-мѫча, по-мѫч-
+ва-мъ, по-мѫч-ва-не, пър-во-мѫче-ни-къ, са-мо-и
+з-мѫча,
+ []
+
+[4]
+Overfull \hbox (4.33336pt too wide) in paragraph at lines 112--113
+[]\TU/FreeSerif(2)/m/n/10 : из-пѫде-нъ, из-пѫдя, из-пѫж-д
+а-мъ, из-пѫж-да-не, на-пѫдя,
+ []
+
+
+Overfull \hbox (6.98012pt too wide) in paragraph at lines 116--117
+\TU/FreeSerif(2)/m/n/10 пѫп-ку-ва-не, пѫп-ча-са-мъ, пѫп-
+час-ва-мъ, пѫп-час-ва-не, пѫп-чес-тъ, пѫп-чи-в
+ос-ть, пѫп-
+ []
+
+
+Overfull \hbox (10.6034pt too wide) in paragraph at lines 118--119
+\TU/FreeSerif(2)/m/n/10 пѫте-у-ка-за-те-ль, пѫтеч-ка, пѫ
+те-шес-т-ва-мъ, пѫте-шес-т-ва-не, пѫте-шес-т-в
+е-ни-къ, пѫте-
+ []
+
+
+Overfull \hbox (2.00337pt too wide) in paragraph at lines 122--123
+\TU/FreeSerif(2)/m/n/10 орѫже-но-се-цъ, орѫдие, орѫжие, 
+прѣвъ-о-рѫжа, прѣвъ-о-рѫжа-ва-мъ, прѣвъ-о-рѫж
+а-
+ []
+
+[5]
+Overfull \hbox (1.16331pt too wide) in paragraph at lines 124--125
+[]\TU/FreeSerif(2)/m/n/10 : без-рѫкъ, бър-зо-рѫкъ, вза-и-
+мо-по-рѫчи-те-ль, врѫча, врѫч-
+ []
+
+
+Overfull \hbox (3.64339pt too wide) in paragraph at lines 124--125
+\TU/FreeSerif(2)/m/n/10 по-рѫч-ва-мъ, по-рѫч-ва-не, по-р
+ѫче-ние, по-рѫчи-тел-ка, по-рѫчи-тел-с-т-ва-мъ, 
+по-рѫчи-
+ []
+
+
+Overfull \hbox (1.66672pt too wide) in paragraph at lines 124--125
+\TU/FreeSerif(2)/m/n/10 тел-с-т-ва-не, по-рѫчи-тел-с-т-в
+о, по-рѫчи-тел-с-т-ву-ва-мъ, по-рѫчи-тел-с-т-ву-
+ва-не, по-рѫчи-
+ []
+
+
+Overfull \hbox (4.21008pt too wide) in paragraph at lines 124--125
+\TU/FreeSerif(2)/m/n/10 те-ль, по-рѫч-ка, прѣпо-рѫка, пр
+ѣпо-рѫча-мъ, прѣпо-рѫча-не, прѣпо-рѫча-но, пр
+ѣпо-
+ []
+
+
+Overfull \hbox (6.87012pt too wide) in paragraph at lines 124--125
+\TU/FreeSerif(2)/m/n/10 ха-не, рѫко-па-ше-нъ, рѫко-пи-се-
+нъ, рѫко-пис-но, рѫко-пи-съ, рѫкоп-лѣс-ка-мъ, 
+рѫкоп-
+ []
+
+
+Overfull \hbox (15.99672pt too wide) in paragraph at lines 124--125
+\TU/FreeSerif(2)/m/n/10 тис-ка-не, рѫкох-ват-ка, рѫку-в
+а-мъ, рѫку-ва-не, рѫче-ни-къ, рѫче-ни-ца, рѫче-
+нъ, рѫчич-
+ []
+
+
+Overfull \hbox (6.7501pt too wide) in paragraph at lines 128--130
+\TU/FreeSerif(2)/m/n/10 чес-ки, скѫпер-ни-чес-т-во, скѫ
+по, скѫпо-тия, скѫпо-це-не-нъ, скѫпо-цен-нос-
+ть, скѫп-
+ []
+
+
+Overfull \hbox (5.0168pt too wide) in paragraph at lines 131--133
+[]\TU/FreeSerif(2)/m/n/10 : бо-го-от-с-тѫп-ни-къ, бо-го-от-
+с-тѫп-ни-чес-ки, бо-го-от-с-тѫп-ни-чес-т-во, во-
+ []
+
+
+Overfull \hbox (5.15341pt too wide) in paragraph at lines 131--133
+\TU/FreeSerif(2)/m/n/10 ен-ноп-рѣс-тѫп-ни-къ, встѫп-ва-
+мъ, встѫп-ва-не, встѫпи-те-ле-нъ, встѫп-ле-ни
+е, встѫпя,
+ []
+
+
+Overfull \hbox (18.91013pt too wide) in paragraph at lines 131--133
+\TU/FreeSerif(2)/m/n/10 ни-къ, застѫп-ни-ца, застѫп-ни-
+чес-ки, застѫп-ни-чес-т-во, застѫпя, застѫпя-
+мъ, застѫпя-
+ []
+
+
+Overfull \hbox (0.41676pt too wide) in paragraph at lines 131--133
+\TU/FreeSerif(2)/m/n/10 ки, клет-воп-рѣс-тѫп-ни-чес-т-в
+о, кон-т-ра-нас-тѫп-ле-ние, лес-но-дос-тѫпе-нъ, 
+лес-но-дос-
+ []
+
+
+Overfull \hbox (0.84013pt too wide) in paragraph at lines 131--133
+\TU/FreeSerif(2)/m/n/10 мъ, настѫпя-не, нев-с-тѫпи-лъ, н
+е-дос-тѫпе-нъ, не-дос-тѫп-нос-ть, не-от-с-тѫп-
+ва-щъ, не-
+ []
+
+
+Overfull \hbox (6.89015pt too wide) in paragraph at lines 131--133
+\TU/FreeSerif(2)/m/n/10 ва-не, постѫп-ка, постѫп-ле-ние, 
+постѫпя, пристѫп-ва-мъ, пристѫп-ва-не, прист
+ѫпъ,
+ []
+
+
+Overfull \hbox (0.67343pt too wide) in paragraph at lines 131--133
+\TU/FreeSerif(2)/m/n/10 тѫп-ни-чес-ки, ро-до-от-с-тѫп-ни-
+чес-т-во, стѫпа-ло, стѫпа-ло-ви-де-нъ, стѫп-ва-
+мъ, стѫп-
+ []
+
+
+Overfull \hbox (8.37685pt too wide) in paragraph at lines 131--133
+\TU/FreeSerif(2)/m/n/10 ва-не, стѫпи-са-мъ, стѫпи-са-не, 
+стѫпис-ва-мъ, стѫпис-ва-не, стѫп-ка, стѫп-ка-
+нъ, стѫп-
+ []
+
+[6]
+Overfull \hbox (0.82669pt too wide) in paragraph at lines 134--135
+[]\TU/FreeSerif(2)/m/n/10 : Сѫбе-въ, Сѫби, Сѫб-ко-въ, сѫб
+о-та, сѫбо-те-нъ, Сѫбо-ти-но-въ, Сѫбо-
+ []
+
+
+Overfull \hbox (3.46667pt too wide) in paragraph at lines 136--137
+[]\TU/FreeSerif(2)/m/n/10 : без-раз-сѫде-нъ, без-раз-сѫд-
+но, без-раз-сѫд-нос-ть, без-раз-
+ []
+
+
+Overfull \hbox (10.37666pt too wide) in paragraph at lines 136--137
+\TU/FreeSerif(2)/m/n/10 сѫд-с-тво, без-раз-сѫд-с-тву-ва-
+мъ, без-раз-сѫд-с-тву-ва-не, без-сѫдър-жа-те-л
+е-нъ, без-сѫдър-
+ []
+
+
+Overfull \hbox (4.78673pt too wide) in paragraph at lines 136--137
+\TU/FreeSerif(2)/m/n/10 осѫдя, осѫж-да-мъ, осѫж-да-не, о
+т-сѫдя, от-сѫж-да-мъ, от-сѫж-да-не, под-сѫде-н
+ъ, под-
+ []
+
+
+Overfull \hbox (4.30014pt too wide) in paragraph at lines 140--141
+\TU/FreeSerif(2)/m/n/10 щъ, при-сѫс-т-ва-мъ, при-сѫс-т-в
+а-не, при-сѫс-т-ва-щъ, при-сѫс-т-ве-нъ, при-сѫс-
+т-вие, при-
+ []
+
+
+Overfull \hbox (2.76013pt too wide) in paragraph at lines 142--143
+\TU/FreeSerif(2)/m/n/10 нъ, еди-но-сѫщъ, лес-но-о-сѫщес-
+т-ви-мъ, на-сѫще-нъ, на-сѫщ-но, на-сѫщъ, не-о-с
+ѫщес-
+ []
+
+
+Overfull \hbox (1.40343pt too wide) in paragraph at lines 142--143
+\TU/FreeSerif(2)/m/n/10 ву-ва-ние, не-сѫщес-т-ву-ва-щъ, 
+не-сѫщъ, осѫщес-т-ви-мос-ть, осѫщес-т-ви-мъ, о
+сѫщес-
+ []
+
+[7]
+Overfull \hbox (1.46002pt too wide) in paragraph at lines 144--145
+\TU/FreeSerif(2)/m/n/10 трѫбе-не, трѫбе-нъ, трѫбес-тъ, 
+трѫбич-ка, трѫбо-ви-де-нъ, трѫбо-об-ра-зе-нъ, 
+трѫбо-
+ []
+
+
+Overfull \hbox (1.40341pt too wide) in paragraph at lines 146--147
+[]\TU/FreeSerif(2)/m/n/10 : за-тѫгу-ва-мъ, за-тѫгу-ва-не, 
+за-тѫжа, за-тѫжа-ва-мъ, за-тѫжа-
+ []
+
+
+Overfull \hbox (1.14665pt too wide) in paragraph at lines 146--147
+\TU/FreeSerif(2)/m/n/10 тѫж-ба, тѫже-нъ, тѫжи-тел-ка, тѫ
+жи-те-ль, тѫж-ни-чъ-къ, тѫж-но, тѫжо-ве-нъ, тѫж
+ов-
+ []
+
+
+Overfull \hbox (1.12009pt too wide) in paragraph at lines 150--151
+[]\TU/FreeSerif(2)/m/n/10 : за-тѫпи-те-ле-нъ, за-тѫп-ка-н
+ъ, за-тѫп-к-ва-мъ, за-тѫп-к-ва-не, за-тѫп-ча, за-
+ []
+
+
+Overfull \hbox (3.13342pt too wide) in paragraph at lines 154--155
+\TU/FreeSerif(2)/m/n/10 во-ѫгъл-ни-къ, рав-но-ѫгъ-ле-нъ, 
+сед-мо-ѫгъ-ле-нъ, сед-мо-ѫгъл-ни-къ, три-ѫгъ-л
+е-нъ, три-
+ []
+
+
+Overfull \hbox (1.02007pt too wide) in paragraph at lines 154--155
+\TU/FreeSerif(2)/m/n/10 шес-то-ѫгъ-ле-нъ, шес-то-ѫгъл-н
+и-къ, ѫг-лес-то, ѫг-лес-тъ, ѫг-ло-ва-то, ѫг-ло-в
+а-тос-ть, ѫг-
+ []
+
+[8]
+Overfull \hbox (3.60684pt too wide) in paragraph at lines 159--160
+[]\TU/FreeSerif(2)/m/n/10 Иван-чев-с-ки-я-тъ пра-во-пи-с
+ъ прѣмах-ва до-то-га-ваш-на-та упот-рѣба (т.е. 
+съг-лас-но Дри-
+ []
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {bulgarian/script}  =>  {Cyrillic}
+>  {bulgarian/lcscript}  =>  {cyrillic}
+>  {bulgarian/scripttag}  =>  {cyrl}
+>  {bulgarian/language}  =>  {Bulgarian}
+>  {bulgarian/langtag}  =>  {BGR}
+>  {bulgarian/bcp47}  =>  {bg}
+>  {bulgarian/hyphennames}  =>  {bulgarian}
+>  {bulgarian/direction}  =>  {LR}
+>  {bulgarian/hyphenmins}  =>  {2,2}
+>  {bulgarian/frenchspacing}  =>  {true}
+>  {bulgarian/indentfirst}  =>  {false}
+>  {bulgarian/fontsetup}  =>  {true}
+>  {bulgarian/envname}  =>  {bulgarian}
+>  {bulgarian/babelname}  =>  {bulgarian}
+>  {bulgarian/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {bulgarian/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+[9] (./testcyrold2.aux
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+))
+
+Here is how much of LuaTeX's memory you used:
+ 4111 strings out of 478378
+ 100000,552014 words of node,token memory allocated
+ 406 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 48 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:232,3:142,4:5,5:34,6:34,7:8869,8:1,9:158,10:4,11:1515,12:1
+ 24129 multiletter control sequences out of 65536+600000
+ 90 fonts using 54622039 bytes
+ 68i,6n,84p,3575b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Program Files/MiKTeX 2.9/fonts/opentype/public/simple-resume-cv/freeserifbol
+d.otf><C:/Program Files/MiKTeX 2.9/fonts/opentype/public/simple-resume-cv/FreeSe
+rif.otf>
+Output written on testcyrold2.pdf (9 pages, 31547 bytes).
+
+PDF statistics: 44 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
