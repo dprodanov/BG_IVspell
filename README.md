@@ -15,3 +15,4 @@
 	Рѣчникътъ се основава върху http://ivanchevski.grazhdani.eu/slovnik.html
 	и Правописния рѣчникъ на В. Василѣвъ, 1921
 	
+	![](screenshot.png?raw=true)
