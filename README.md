@@ -1,5 +1,5 @@
 # BG_IVspell
- Ivanchevski spelling of the Bulgarian language
+ The Ivanchevski spelling of the Bulgarian language based on hunspell
 
 	Речникъ на българския езикъ, съдържащъ слова и тѣхнитѣ форми споредъ изискванията на иванчевския правописъ.
 	Иванчевски правописъ е името, давано понѣкога на първиятъ официаленъ български правописъ, невъведенъ съ наредба на министъра на народното просвѣщение Тодоръ Иванчовъ прѣзъ 1899.
@@ -15,4 +15,4 @@
 	Рѣчникътъ се основава върху http://ivanchevski.grazhdani.eu/slovnik.html
 	и Правописния рѣчникъ на В. Василѣвъ, 1921
 	
-	![](screenshot.png?raw=true)
+![Thes1](screenshot1.png)
