@@ -7,7 +7,7 @@
     </dependencies>
 	<registration>
 		<simple-license accept-by="admin" default-license-id="en" suppress-if-required="true">
-			<license-text xlink:href="LGPL-2.1.txt" lang="en" license-id="en" />
+			<license-text xlink:href="MPL2.txt" lang="en" license-id="en" />
 		</simple-license>
 	</registration>
     
