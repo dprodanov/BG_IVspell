@@ -1,1 +1,4 @@
 *.zip
+*.log
+*.aux
+*.synctex.gz
