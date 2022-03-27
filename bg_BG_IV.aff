@@ -1,4 +1,6 @@
-﻿SET UTF-8					
+﻿# Ivanchevski spelling of the Bulgarian language 
+#
+SET UTF-8					
 FLAG long					
 NOSUGGEST XX					
 FULLSTRIP					
@@ -318,7 +320,7 @@ SFX	A6		енъ	йното	.
 SFX	A6		енъ	йни	.
 SFX	A6		енъ	йнитѣ	.
 					
-//SFX	A7	Y	0		
+	
 					
 SFX	A8	Y	2		
 SFX	A8		ъ	ъ	.
@@ -364,7 +366,7 @@ SFX	B4		ръбь	ръбьта	.
 SFX	B4		ръбь	ърби	.
 SFX	B4		ръбь	ърбитѣ	.
 					
-//SFX	B5	Y	0		
+ 	
 					
 SFX	C0	Y	43		
 SFX	C0		единъ	единъ/A2	.
@@ -469,12 +471,7 @@ SFX	D2		ь	ьтъ	.
 SFX	D2		ь	ьове	.
 SFX	D2		ь	ьоветѣ	.
 					
-SFX	D3	Y	15		
-SFX	D3		й	й	.
-SFX	D3		й	я	.
-SFX	D3		й	ятъ	.
-SFX	D3		й	ища	.
-SFX	D3		й	ищата	.
+SFX	D3	Y	10		
 SFX	D3		ь	ь	.
 SFX	D3		ь	я	.
 SFX	D3		ь	ьтъ	.
@@ -548,7 +545,15 @@ SFX	D9		ъ	ътъ	.
 SFX	D9		ъ	и	.
 SFX	D9		ъ	итѣ	.
 SFX	D9		ъ	е	.
-					
+
+SFX	A7	Y     5
+SFX	A7		й	й	.
+SFX	A7		й	я	.
+SFX	A7		й	ятъ	.
+SFX	A7		й	ища	.
+SFX	A7		й	ищата	.
+
+
 SFX	E0	Y	6		
 SFX	E0		ь	ь	.
 SFX	E0		ь	я	.
@@ -1235,16 +1240,7 @@ SFX	M7		ецъ	ецътъ	.
 SFX	M7		ецъ	еци	.
 SFX	M7		ецъ	ецитѣ	.
 SFX	M7		ецъ	ецо	.
-					
-//SFX	N0	Y	0		
-					
-//SFX	N1	Y	0		
-					
-//SFX	N2	Y	0		
-					
-//SFX	N3	Y	0		
-					
-//SFX	N4	Y	0		
+							
 					
 SFX	N5	Y	99		
 SFX	N5		ба	бски/A0	.
@@ -1395,8 +1391,7 @@ SFX	N7		ми	мски/A0	.
 SFX	N7		ни	нски/A0	.
 SFX	N7		пи	пийски/A0	.
 SFX	N7		чи	чки/A0	.
-					
-//SFX	N8	Y	0		
+						
 					
 SFX	N9	Y	15		
 SFX	N9		тикъ	тически/A0	.
@@ -1447,7 +1442,7 @@ SFX	ND		ъръ	ра	.
 SFX	ND		елъ	ловъ/A0	.
 SFX	ND		елъ	ела	.
 					
-//SFX	NN	Y	0		
+	
 					
 SFX	O0	Y	29		
 SFX	O0		не	не	.
@@ -1459,11 +1454,11 @@ SFX	O0		й	и	.
 SFX	O0		й	итѣ	.
 SFX	O0		й	я	.
 SFX	O0		й	ятъ	.
-SFX	O0		къ	къ	.
-SFX	O0		къ	ка	.
-SFX	O0		къ	кътъ	.
-SFX	O0		къ	ци	.
-SFX	O0		къ	цитѣ	.
+//SFX	O0		къ	къ	.
+//SFX	O0		къ	ка	.
+//SFX	O0		къ	кътъ	.
+//SFX	O0		къ	ци	.
+//SFX	O0		къ	цитѣ	.
 SFX	O0		о	о	.
 SFX	O0		о	ото	.
 SFX	O0		о	овци	.
