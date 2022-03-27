@@ -366,7 +366,7 @@ SFX	B4		ръбь	ръбьта	.
 SFX	B4		ръбь	ърби	.
 SFX	B4		ръбь	ърбитѣ	.
 					
- 	
+# numericals 	
 					
 SFX	C0	Y	43		
 SFX	C0		единъ	единъ/A2	.
@@ -412,7 +412,8 @@ SFX	C0		а	а	.
 SFX	C0		а	ата	.
 SFX	C0		а	а	.
 SFX	C0		а	ата	.
-					
+
+# adjectives		
 SFX	C1	Y	15		
 SFX	C1		на	на	.
 SFX	C1		на	ната	.
@@ -691,7 +692,8 @@ SFX	F6		ти	тки/B2	.
 SFX	F6		ща	щенца/B2	.
 SFX	F6		ща	щета/B2	.
 SFX	F6		щи	щички/B2	.
-					
+
+# diminutives					
 SFX	F7	Y	13		
 SFX	F7		й	йче/J0	.
 SFX	F7		й	йченце/J3	.
