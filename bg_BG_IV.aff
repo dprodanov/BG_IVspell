@@ -1,6 +1,6 @@
 ﻿# Ivanchevski spelling of the Bulgarian language 
 #
-SET UTF-8					
+SET UTF-8
 FLAG long					
 NOSUGGEST XX					
 FULLSTRIP					
