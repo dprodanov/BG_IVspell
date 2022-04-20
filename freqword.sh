@@ -5,7 +5,7 @@
 # sort wordlist | uniq >> yourlang.dic
 
 
-tr -d "\n" < wordlist \
+tr -d "\n" < $1  \
 | while read -n1 char; \
 do echo $char; \
 done \

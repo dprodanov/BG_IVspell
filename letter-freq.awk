@@ -5,7 +5,8 @@
 BEGIN { LETTERS = "ъьѣѫаеноияртвслкмпздубчгцжхшфйщюЪЬѢѪАЕНОИЯРТВСЛКМПЗДУБЧГЦЖХШФЙЩЮ" }
  
 {
-    len = length($0); for (i = 1; i <= len; i++) {
+    len = length($0); 
+    for (i = 1; i <= len; i++) {
         c = substr($0, i, 1);
         ltr = index(LETTERS, c);
  
@@ -15,18 +16,29 @@ BEGIN { LETTERS = "ъьѣѫаеноияртвслкмпздубчгцжхшфй�
     }
 }
  
+
+
 # print relative frequency of each letter
    
 END {
     min = count[1]; 
-	ls= length(LETTERS);
-	for (ltr = 2; ltr <= ls; ltr++) {
+	len = length(LETTERS); 
+	for (ltr = 2; ltr <= len; ltr++) {
         if (count[ltr] < min) {
             min = count[ltr];
         }
     }
  
-    for (ltr = 1; ltr <= ls; ltr++) {
-        print substr(LETTERS, ltr, 1), int(count[ltr] / min);
-    }
+
+  
+ PROCINFO["sorted_in"] = "@val_num_desc"
+
+    for (i in count)  
+    str=sprintf("%s%s",str,substr(LETTERS, i, 1));
+    print str;
+
+ #   for (i=1; i<=n; i++) {
+ #           print ind[i] " : " substr(LETTERS, ind[i], 1) " : " count[ind[i]]
+ #   }
+
 }
