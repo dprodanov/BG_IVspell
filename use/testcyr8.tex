@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage[X2]{fontenc}
+\usepackage{newunicodechar}
+
+\DeclareUnicodeCharacter{0466}{\CYRLYUS}
+\DeclareUnicodeCharacter{0467}{\cyrlyus}
+
+
+%\makeatletter
+%\@tfor\next:=%
+%{А}{а}{Б}{б}{В}{в}{Г}{г}{Д}{д}{Е}{е}
+% {Ж}{ж}{З}{з}{И}{и}{Й}{й}{К}{к}
+%{Л}{л}{М}{м}{Н}{н}{О}{о}{П}{п}{Р}{р}
+%{С}{с}{Т}{т}{У}{у}{Ф}{ф}{Х}{х}{Ц}{ц}
+%{Ч}{ч}{Ш}{ш}{Щ}{щ}{Ъ}{ъ}{Ы}{ы}{Ь}{ь}
+%{Э}{э}{Ю}{ю}{Я}{я}%{Ѧ}{ѧ}%
+%\do{%
+%	\begingroup\def\IeC{\protect\DeclareTextSymbolDefault}%
+%	\protected@edef\@temp{\endgroup\csname u8:\next\endcsname{X2}}\@temp}
+%\makeatother
+
+\usepackage{expl3}
+
+\ExplSyntaxOn
+\cs_new_protected:Nn \__recode:N
+{% #1 is \u8:<bytes> which expands to \IeC{<LICR>}
+	\exp_last_unbraced:No \__recode_aux:nn #1
+}
+\cs_new_protected:Nn \__recode_aux:nn { \DeclareTextSymbolDefault#2{X2} }
+\cs_generate_variant:Nn \__recode:N { c }
+\tl_map_inline:nn
+{
+ {А} {Б} {В} {Г} {Д} {Е} {Ж} {З} {И} {Й} {К} {Л} {М} {Н} {О} {П} {Р} {С} {Т} {У} {Ф}
+	{Х} {Ц} {Ч} {Ш} {Щ} {Ъ} {Ы} {Ь} {Э} {Ю} {Я} {а} {б} {в} {г} {д}
+	{е} {ж} {з} {и} {й} {к} {л} {м} {н} {о} {п} {р} {с} {т} {у} {ф}
+	{х} {ц} {ч} {ш} {щ} {ъ} {ы} {ь} {э} {ю} {я}  {Ѣ} {ѣ} {Ѫ} {ѫ}  {Ѧ}{ѧ}
+}
+{
+	\__recode:c { u8: \tl_to_str:n { #1 } }
+}
+\ExplSyntaxOff
+
+% iotated characters
+\newunicodechar{Ѭ}{\CYRII\CYRBYUS}
+\newunicodechar{ѭ}{\cyrii\cyrbyus}
+\newunicodechar{Ꙑ}{\CYRII\CYRHRDSN}
+\newunicodechar{ꙑ}{\cyrii\cyrhrdsn}
+
+%\newunicodechar{ѧ}{\cyrlyus}
+
+\begin{document}
+	
+\begin{itemize}
+	\item Въ пълната и кратка винителна форма на личното мѣстоимение въ 3 л. ед. ч. ж. р.: неѭ, ѭ
+	
+	\item Въ 1 л. ед. ч. сег. вр. на глаголитѣ отъ I и II спрежение, напримѣръ: азъ четѫ, азъ пишѫ, азъ играѭ, азъ мълчѫ, азъ молѭ, азъ вървѭ
+	
+	\item Въ 3 л. мн. ч. сег. вр. на глаголитѣ отъ всички спрежения, напримѣръ: тѣ четѫтъ, тѣ пишѫтъ, тѣ играѭтъ, тѣ мълчѫтъ, тѣ молѭтъ, тѣ вървѭтъ, тѣ искѫтъ, тѣ излитѫтъ, тѣ отивѫтъ
+	
+	\item Въ 3 л. мн. ч. мин. св. вр. и мин. несв. вр. на глаголитѣ, напримѣръ: тѣ четохѫ, тѣ пишехѫ, тѣ играехѫ, тѣ мълчахѫ, тѣ молихѫ, тѣ вървѣхѫ, тѣ искахѫ, тѣ излитахѫ, тѣ отивахѫ
+\end{itemize}
+
+слꙑшавъ же юноша слово 
+отиде скръбѧ  
+	
+\end{document}
