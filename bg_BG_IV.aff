@@ -2,8 +2,12 @@
 #
 SET UTF-8
 FLAG long					
-NOSUGGEST XX					
-FULLSTRIP					
+NOSUGGEST NN					
+FULLSTRIP		
+NAME  Бѫлгарски Иванчевски првописенъ речникъ
+VERSION 1.0 (2022/05/21)
+LANG bg_BG
+			
 TRY аеноиървтслкмпздяубчгѣцжьхшфйщѫюКСМБДПТВГАРНЛХИЧЕЗЦФОШЯЙЖУЮЩЪЬѢѪ					
 					
 REP	101				
@@ -165,37 +169,7 @@ SFX	A0		й	и	.
 SFX	A0		й	итѣ	.
 SFX	A0		й	йтѣ	.
 					
-SFX	A1	Y	30		
-SFX	A1		ви	ви	.
-SFX	A1		ви	вия	.
-SFX	A1		ви	виятъ	.
-SFX	A1		ви	вий	.
-SFX	A1		ви	вя	.
-SFX	A1		ви	вята	.
-SFX	A1		ви	ве	.
-SFX	A1		ви	вето	.
-SFX	A1		ви	ви	.
-SFX	A1		ви	витѣ	.
-SFX	A1		зи	зи	.
-SFX	A1		зи	зия	.
-SFX	A1		зи	зиятъ	.
-SFX	A1		зи	зий	.
-SFX	A1		зи	зя	.
-SFX	A1		зи	зята	.
-SFX	A1		зи	зе	.
-SFX	A1		зи	зето	.
-SFX	A1		зи	зи	.
-SFX	A1		зи	зитѣ	.
-SFX	A1		чи	чи	.
-SFX	A1		чи	чия	.
-SFX	A1		чи	чиятъ	.
-SFX	A1		чи	чий	.
-SFX	A1		чи	ча	.
-SFX	A1		чи	чата	.
-SFX	A1		чи	че	.
-SFX	A1		чи	чето	.
-SFX	A1		чи	чи	.
-SFX	A1		чи	читѣ	.
+
 					
 SFX	A2	Y	19		
 SFX	A2		енъ	енъ	.
@@ -320,11 +294,7 @@ SFX	A6		енъ	йното	.
 SFX	A6		енъ	йни	.
 SFX	A6		енъ	йнитѣ	.
 					
-	
-					
-SFX	A8	Y	2		
-SFX	A8		ъ	ъ	.
-SFX	A8		и	и	.
+
 					
 SFX	B0	Y	4		
 SFX	B0		ь	ь	.
@@ -332,8 +302,7 @@ SFX	B0		ь	ьта	.
 SFX	B0		ь	и	.
 SFX	B0		ь	итѣ	.
 					
-SFX	B1	Y	2		
-SFX	B1		0	0	.
+SFX	B1	Y	1		
 SFX	B1		0	та	.
 					
 SFX	B2	Y	4		
@@ -430,12 +399,7 @@ SFX	C1		ть	тината	.
 SFX	C1		ъ	ъ/D9	.
 SFX	C1		ъ	а	.
 					
-SFX	C2	Y	8		
-SFX	C2		0	0	.
-SFX	C2		0	тѣ	.
-SFX	C2		0	0	.
-SFX	C2		0	тѣ	.
-SFX	C2		0	0	.
+SFX	C2	Y	3		
 SFX	C2		0	тѣ	.
 SFX	C2		0	тина	.
 SFX	C2		0	тината	.
