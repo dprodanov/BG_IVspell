@@ -1,47 +1,38 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.1.20)  18 MAR 2022 23:13
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.5.13)  13 MAY 2022 00:33
  restricted system commands enabled.
 **testcyrold2.tex
 (./testcyrold2.tex
-LaTeX2e <2020-02-02> patch level 2
-Lua module: luaotfload-main 2020-02-02 3.12 luaotfload entry point
-Lua module: luaotfload-init 2020-02-02 3.12 luaotfload submodule / initializatio
-n
-Lua module: lualibs 2020-02-02 2.70 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2020-02-02 2.70 ConTeXt Lua libraries -- extended c
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
 ollection.
-Lua module: luaotfload-log 2020-02-02 3.12 luaotfload submodule / logging
-Lua module: luaotfload-parsers 2020-02-02 3.12 luaotfload submodule / filelist
-Lua module: luaotfload-configuration 2020-02-02 3.12 luaotfload submodule / conf
-ig file reader
-luaotfload | conf : Root cache directory is /home/dimiter/.texlive2019/texmf-var
-/luatex-cache/generic-dev/names.
-luaotfload | init : Loading fontloader “fontloader-2020-01-26.lua” from kpse
--resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
--2020-01-26.lua”.
-Lua-only attribute luaotfload@state = 2
-Lua-only attribute luaotfload@noligature = 3
-Lua-only attribute luaotfload@syllabe = 4
-luaotfload | init : Context OpenType loader version “3.11”
+luaotfload | conf : Root cache directory is "/home/dimiter/.texlive2022/texmf-va
+r/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
+olved path "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/fontloader-
+2022-02-24.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.119
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Lua module: luaotfload-loaders 2020-02-02 3.12 luaotfload submodule / callback h
-andling
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua module: luaotfload-database 2020-02-02 3.12 luaotfload submodule / database
-Lua module: luaotfload-unicode 2020-02-02 3.12 luaotfload submodule / Unicode he
-lpers
-Lua module: luaotfload-colors 2020-02-02 3.12 luaotfload submodule / color
-Lua-only attribute luaotfload_color_attribute = 5
-Lua module: luaotfload-resolvers 2020-02-02 3.12 luaotfload submodule / resolver
-s
-luaotfload | conf : Root cache directory is /home/dimiter/.texlive2019/texmf-var
-/luatex-cache/generic-dev/names.
-Lua module: luaotfload-features 2020-02-02 3.12 luaotfload submodule / features
-Lua module: luaotfload-letterspace 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-embolden 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-notdef 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-auxiliary 2020-02-02 3.12 luaotfload submodule / auxiliar
-y functions
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/dimiter/.texlive2022/texmf-va
+r/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
+.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
 Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
@@ -53,75 +44,63 @@ t_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Lua module: luaotfload-fallback 2020-02-02 3.12 luaotfload submodule / fallback
-Lua module: luaotfload-multiscript 2020-02-02 3.12 luaotfload submodule / multis
-cript
-Lua module: luaotfload-script 2020-02-02 3.12 luaotfload submodule / Script help
-ers
-Lua module: luaotfload-tounicode 2020-02-02 3.12 luaotfload submodule / tounicod
-e
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2020-02-14>
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/dimiter/.texlive2019/tex
-mf-var/luatex-cache/generic-dev/names/luaotfload-names.luc)
-\c@part=\count163
-\c@section=\count164
-\c@subsection=\count165
-\c@subsubsection=\count166
-\c@paragraph=\count167
-\c@subparagraph=\count168
-\c@figure=\count169
-\c@table=\count170
+. L3 programming layer <2022-02-24>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database not found, generating new one.
+luaotfload | db : This can take several minutes; please be patient.)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
+\bibindent=\dimen137
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-02-14 L3 programming layer (loader) 
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count171
-\l__pdf_internal_box=\box45
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count191
+\l__pdf_internal_box=\box50
 ))
-Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count172
-\g__xparse_grabber_int=\count173
-\l__xparse_m_args_int=\count174
-\l__xparse_v_nesting_int=\count175
+Package: xparse 2022-01-12 L3 Experimental document command parser
 )
-Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2020/02/03 2.7h Font selection for XeLaTeX and LuaLaTeX
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count176
-\l__fontspec_language_int=\count177
-\l__fontspec_strnum_int=\count178
-\l__fontspec_tmp_int=\count179
-\l__fontspec_tmpa_int=\count180
-\l__fontspec_tmpb_int=\count181
-\l__fontspec_tmpc_int=\count182
-\l__fontspec_em_int=\count183
-\l__fontspec_emdef_int=\count184
-\l__fontspec_strong_int=\count185
-\l__fontspec_strongdef_int=\count186
-\l__fontspec_tmpa_dim=\dimen135
-\l__fontspec_tmpb_dim=\dimen136
-\l__fontspec_tmpc_dim=\dimen137
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX (/
+usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count192
+\l__fontspec_language_int=\count193
+\l__fontspec_strnum_int=\count194
+\l__fontspec_tmp_int=\count195
+\l__fontspec_tmpa_int=\count196
+\l__fontspec_tmpb_int=\count197
+\l__fontspec_tmpc_int=\count198
+\l__fontspec_em_int=\count199
+\l__fontspec_emdef_int=\count266
+\l__fontspec_strong_int=\count267
+\l__fontspec_strongdef_int=\count268
+\l__fontspec_tmpa_dim=\dimen138
+\l__fontspec_tmpb_dim=\dimen139
+\l__fontspec_tmpc_dim=\dimen140
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-luaotfload | cache : Lookup cache loaded from /home/dimiter/.texlive2019/texmf-v
-ar/luatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 
 Package fontspec Info: Font family 'OldStandard(0)' created for font 'Old
 (fontspec)             Standard' with options [Ligatures=TeX].
@@ -130,81 +109,84 @@ Package fontspec Info: Font family 'OldStandard(0)' created for font 'Old
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"OldStandard:mode=node;script=latn;language=dflt;+tlig
-;"
+(fontspec)             <->"OldStandard:mode=node;script=latn;language=dflt;+tli
+g;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"OldStandard:mode=node;script=latn;language=dflt;+tlig
-;+smcp;"
+(fontspec)             <->"OldStandard:mode=node;script=latn;language=dflt;+tli
+g;+smcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"OldStandard/B:mode=node;script=latn;language=dflt;+tl
-ig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"OldStandard/B:mode=node;script=latn;language=dflt;+tl
-ig;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"OldStandard/I:mode=node;script=latn;language=dflt;+tl
-ig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"OldStandard/I:mode=node;script=latn;language=dflt;+tl
-ig;+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"OldStandard/BI:mode=node;script=latn;language=dflt;+t
+(fontspec)             <->"OldStandard/B:mode=node;script=latn;language=dflt;+t
 lig;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"OldStandard/BI:mode=node;script=latn;language=dflt;+t
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"OldStandard/B:mode=node;script=latn;language=dflt;+t
 lig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"OldStandard/I:mode=node;script=latn;language=dflt;+t
+lig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"OldStandard/I:mode=node;script=latn;language=dflt;+t
+lig;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"OldStandard/BI:mode=node;script=latn;language=dflt;+
+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"OldStandard/BI:mode=node;script=latn;language=dflt;+
+tlig;+smcp;"
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
-Package: polyglossia 2020/01/29 v1.47 Modern multilingual typesetting with XeLaT
-eX and LuaLaTeX
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2021/04/12 v1.53 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count187
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
 )
-(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/makecmds/makecmds.sty
 Package: makecmds 2009/09/03 v1.0a extra command making commands
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks14
-\XKV@tempa@toks=\toks15
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count188
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count270
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
 
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-))
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
-)
-(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
-Package: filehook 2020/02/03 v0.7 Hooks for input files
-)
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
+(hooks)              Use hook 'file/tracklang.sty/after' instead.
+
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
 Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
 
-(/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count189
+\@catcodetablestackcnt=\count271
 )
-\CatcodeTableOther=\catcodetable5
-\CatcodeTableExpl=\catcodetable6
+\CatcodeTableOther=\catcodetable12
+\CatcodeTableExpl=\catcodetable13
 )
 Lua module: polyglossia 2013/05/11 1.3 Polyglossia
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+
+LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
+(hooks)              Use hook 'package/bidi/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
+(hooks)              Use hook 'package/luabidi/after' instead.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
 File: gloss-latex.ldf polyglossia: module for default language
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -226,9 +208,9 @@ braces):
 >  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 )
 Package polyglossia Info: Default language is latex.
-Package polyglossia Info: Option: localmarks.
+Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-bulgarian.ldf
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-bulgarian.ldf
 File: gloss-bulgarian.ldf polyglossia: module for bulgarian
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -265,18 +247,21 @@ braces):
 >  {bulgarian/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {bulgarian/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for bulgarian
-(polyglossia)            patterns	hyph-bg.pat.txt
-(polyglossia)            loader	loadhyph-bg.tex
 (polyglossia)            synonyms	
-(polyglossia)            lefthyphenmin	2
+(polyglossia)            loader	loadhyph-bg.tex
+(polyglossia)            righthyphenmin	2
 (polyglossia)            hyphenation	
-(polyglossia)            righthyphenmin	2 on input line 12
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            patterns	hyph-bg.pat.txt on input line 12
 Module polyglossia Info: Language bulgarian was not yet loaded; created with id 
 2 on input line 12
 )
 Package polyglossia Info: Default language is bulgarian.
 
 (./testcyrold2.aux
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
 
 Package fontspec Info: Font family 'OldStandard(1)' created for font 'Old
 (fontspec)             Standard' with options [Ligatures=TeX,Script=Cyrillic].
@@ -285,689 +270,695 @@ Package fontspec Info: Font family 'OldStandard(1)' created for font 'Old
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"OldStandard:mode=node;script=cyrl;language=dflt;+tlig
-;"
+(fontspec)             <->"OldStandard:mode=node;script=cyrl;language=dflt;+tli
+g;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"OldStandard:mode=node;script=cyrl;language=dflt;+tlig
-;+smcp;"
+(fontspec)             <->"OldStandard:mode=node;script=cyrl;language=dflt;+tli
+g;+smcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"OldStandard/B:mode=node;script=cyrl;language=dflt;+tl
-ig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"OldStandard/B:mode=node;script=cyrl;language=dflt;+tl
-ig;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"OldStandard/I:mode=node;script=cyrl;language=dflt;+tl
-ig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"OldStandard/I:mode=node;script=cyrl;language=dflt;+tl
-ig;+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"OldStandard/BI:mode=node;script=cyrl;language=dflt;+t
+(fontspec)             <->"OldStandard/B:mode=node;script=cyrl;language=dflt;+t
 lig;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"OldStandard/BI:mode=node;script=cyrl;language=dflt;+t
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"OldStandard/B:mode=node;script=cyrl;language=dflt;+t
 lig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"OldStandard/I:mode=node;script=cyrl;language=dflt;+t
+lig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"OldStandard/I:mode=node;script=cyrl;language=dflt;+t
+lig;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"OldStandard/BI:mode=node;script=cyrl;language=dflt;+
+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"OldStandard/BI:mode=node;script=cyrl;language=dflt;+
+tlig;+smcp;"
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr)
 \openout1 = testcyrold2.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 23
-.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+1.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 23.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 23.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 23.
-LaTeX Font Info:    Redeclaring math accent \check on input line 23.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 23.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 23.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 23.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 21.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 21.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 21.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 21.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 21.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 21.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 21.
+LaTeX Font Info:    Redeclaring math accent \check on input line 21.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 21.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 21.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 21.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 23.
+(Font)              `operators' in the math version `normal' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/OldStandard(0)/m/n on input line 23.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 23.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/OldStandard(0)/m/n on input line 23.
+(Font)                  OT1/cmr/m/n --> TU/OldStandard(0)/m/n on input line 21.
 
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/OldStandard(0)/m/n --> TU/OldStandard(0)/m/n on input
- line 23.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/OldStandard(0)/m/it on input line 23
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/OldStandard(0)/m/n on input line 21
 .
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/OldStandard(0)/m/n --> TU/OldStandard(0)/m/n on inpu
+t line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/OldStandard(0)/m/it on input line 2
+1.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/OldStandard(0)/b/n on input line 23.
-
+(Font)                  OT1/cmr/bx/n --> TU/OldStandard(0)/b/n on input line 21
+.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 23.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/OldStandard(0)/m/n --> TU/OldStandard(0)/b/n on input
- line 23.
+(Font)                  TU/OldStandard(0)/m/n --> TU/OldStandard(0)/b/n on inpu
+t line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/OldStandard(0)/b/it on input line 2
-3.
+(Font)                  OT1/cmr/bx/it --> TU/OldStandard(0)/b/it on input line 
+21.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 23.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 23.
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 21.
+LaTeX Info: Redefining \rmfamily on input line 21.
+LaTeX Info: Redefining \sffamily on input line 21.
+LaTeX Info: Redefining \ttfamily on input line 21.
+LaTeX Info: Redefining \rmfamily on input line 21.
+LaTeX Info: Redefining \sffamily on input line 21.
+LaTeX Info: Redefining \ttfamily on input line 21.
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 28.
+(Font)              <12> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 28.
+(Font)              <6> on input line 26.
 
 
 LaTeX Warning: No \author given.
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (17.69333pt too wide) in paragraph at lines 45--47
+Overfull \hbox (17.69333pt too wide) in paragraph at lines 43--45
 []\TU/OldStandard(1)/m/n/10 : вѫди-ца, вѫди-чар-с-ки, вѫди-
 чар-с-т-во, вѫди-ча-рь, вѫдич-
  []
 
 
-Overfull \hbox (2.00003pt too wide) in paragraph at lines 45--47
+Overfull \hbox (2.00003pt too wide) in paragraph at lines 43--45
 \TU/OldStandard(1)/m/n/10 ка, вѫдя, го-ве-до-вѫде-нъ, го-
 ве-до-вѫд-с-тво, го-ве-до-вѫдъ, жи-вот-но-вѫде-
 нъ, жи-
  []
 
 
-Overfull \hbox (1.87332pt too wide) in paragraph at lines 45--47
+Overfull \hbox (1.87332pt too wide) in paragraph at lines 43--45
 \TU/OldStandard(1)/m/n/10 вот-но-вѫд-ка, жи-вот-но-вѫд-с-
 тво, жи-вот-но-вѫдъ, за-вѫдя, за-вѫж-да-мъ, за-
 вѫж-
  []
 
 
-Overfull \hbox (0.4pt too wide) in paragraph at lines 45--47
+Overfull \hbox (0.4pt too wide) in paragraph at lines 43--45
 \TU/OldStandard(1)/m/n/10 вѫд-с-тво, ко-не-вѫдъ, ле-со-вѫ
 де-нъ, ле-со-вѫд-с-тво, ле-со-вѫдъ, на-вѫдя, на-
 вѫж-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (22.43997pt too wide) in paragraph at lines 56--57
+Overfull \hbox (22.43997pt too wide) in paragraph at lines 54--55
 []\TU/OldStandard(1)/m/n/10 : вглѫбе-нос-ть, вглѫбя, вглѫ
 бя-ва-мъ, вглѫбя-ва-не, глѫби-на, углѫбя,
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (4.14668pt too wide) in paragraph at lines 58--59
+Overfull \hbox (4.14668pt too wide) in paragraph at lines 56--57
 \TU/OldStandard(1)/m/n/10 та, гнѫсо-тия, гнѫсь, гнѫся, д
 огнѫся-ва-мъ, догнѫся-ва-не, погнѫса, погнѫс
 е-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (3.45992pt too wide) in paragraph at lines 70--71
+Overfull \hbox (3.45992pt too wide) in paragraph at lines 68--69
 \TU/OldStandard(1)/m/n/10 гѫзя, огѫз-ва-мъ, огѫзя, раз-г
 о-ло-гѫз-ва-мъ, раз-го-ло-гѫз-ва-не, раз-гѫз-в
 а-мъ, раз-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (0.49338pt too wide) in paragraph at lines 82--83
+Overfull \hbox (0.49338pt too wide) in paragraph at lines 80--81
 \TU/OldStandard(1)/m/n/10 с-т-во, зѫбо-лѣка-рь, зѫбо-лѣч
 е-бе-нъ, зѫбо-лѣчеб-ни-ца, зѫбо-лѣче-ние, зѫб
 о-тех-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr [2]
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (23.18663pt too wide) in paragraph at lines 84--85
+Overfull \hbox (23.18663pt too wide) in paragraph at lines 82--83
 []\TU/OldStandard(1)/m/n/10 : закрѫг-ле-ни-чъ-къ, закрѫг-
 ле-но, закрѫг-ле-нос-ть, закрѫг-
  []
 
 
-Overfull \hbox (10.69328pt too wide) in paragraph at lines 84--85
+Overfull \hbox (10.69328pt too wide) in paragraph at lines 82--83
 \TU/OldStandard(1)/m/n/10 че, крѫгъ, крѫгъ-лъ, крѫжа, кр
 ѫже-не, крѫже-цъ, крѫжи-ло, крѫжо-къ, крѫжо-
  []
 
 
-Overfull \hbox (10.57658pt too wide) in paragraph at lines 84--85
+Overfull \hbox (10.57658pt too wide) in paragraph at lines 82--83
 \TU/OldStandard(1)/m/n/10 закрѫг-ля-ва-мъ, по-закрѫг-ля-
 ва-не, по-закрѫг-ля-мъ, по-закрѫг-ля-не, по-ли
 т-крѫжо-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (20.92662pt too wide) in paragraph at lines 86--87
-[]\TU/OldStandard(1)/m/n/10 : всѣкѫдѣ, до-кѫдѣ, до-кѫдѣто,
- до-ни-кѫдѣ, до-нѣкѫдѣ, кѫдѣ, кѫдѣто,
+Overfull \hbox (20.92662pt too wide) in paragraph at lines 84--85
+[]\TU/OldStandard(1)/m/n/10 : всѣкѫдѣ, до-кѫдѣ, до-кѫдѣто, 
+до-ни-кѫдѣ, до-нѣкѫдѣ, кѫдѣ, кѫдѣто,
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (5.25993pt too wide) in paragraph at lines 88--89
+Overfull \hbox (5.25993pt too wide) in paragraph at lines 86--87
 []\TU/OldStandard(1)/m/n/10 : за-кѫд-ря, за-кѫд-ря-мъ, за-к
 ѫд-ря-не, кѫд-ра-вос-ть, кѫд-ра-въ, кѫд-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (2.32672pt too wide) in paragraph at lines 93--94
-\TU/OldStandard(1)/m/n/10 кѫсок-ра-къ, кѫсо-мет-ра-же-нъ,
- кѫсо-па-ме-те-нъ, кѫсо-па-мет-с-тво, кѫсо-под-
+Overfull \hbox (2.32672pt too wide) in paragraph at lines 91--92
+\TU/OldStandard(1)/m/n/10 кѫсок-ра-къ, кѫсо-мет-ра-же-нъ, 
+кѫсо-па-ме-те-нъ, кѫсо-па-мет-с-тво, кѫсо-под-
 с-три-
  []
 
 
-Overfull \hbox (0.37335pt too wide) in paragraph at lines 93--94
+Overfull \hbox (0.37335pt too wide) in paragraph at lines 91--92
 \TU/OldStandard(1)/m/n/10 на-тос-ть, неп-рѣкѫс-на-тъ, не-
 раз-кѫса-нъ, не-раз-кѫс-ва-е-мъ, нес-кѫсе-нъ, 
 окѫса-
  []
 
 
-Overfull \hbox (0.48007pt too wide) in paragraph at lines 93--94
+Overfull \hbox (0.48007pt too wide) in paragraph at lines 91--92
 \TU/OldStandard(1)/m/n/10 кѫса-мъ, по-о-кѫса-мъ, по-о-кѫс
 а-не, по-о-кѫся, по-о-кѫся-ва-мъ, по-о-кѫся-ва-
 не, по-
  []
 
 
-Overfull \hbox (2.12004pt too wide) in paragraph at lines 93--94
+Overfull \hbox (2.12004pt too wide) in paragraph at lines 91--92
 \TU/OldStandard(1)/m/n/10 о-кѫсѣя, поскѫса-мъ, поскѫса-
 не, поскѫся, поскѫся-ва-мъ, поскѫся-ва-не, пр
 о-
  []
 
 
-Overfull \hbox (3.47334pt too wide) in paragraph at lines 93--94
+Overfull \hbox (3.47334pt too wide) in paragraph at lines 91--92
 \TU/OldStandard(1)/m/n/10 кѫса-не, раз-кѫса-нос-ть, раз-
 кѫс-ва-мъ, раз-кѫс-ва-не, раз-по-кѫса-мъ, раз-
 по-кѫса-
  []
 
 
-Overfull \hbox (12.82004pt too wide) in paragraph at lines 93--94
+Overfull \hbox (12.82004pt too wide) in paragraph at lines 91--92
 \TU/OldStandard(1)/m/n/10 не, раз-по-кѫса-нос-ть, раз-по-
 кѫс-ва-мъ, раз-по-кѫс-ва-не, скѫса-мъ, скѫса-н
 е, скѫса-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr [3]
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (2.56001pt too wide) in paragraph at lines 95--96
+Overfull \hbox (2.56001pt too wide) in paragraph at lines 93--94
 []\TU/OldStandard(1)/m/n/10 : за-кѫта-мъ, за-кѫта-но, за-к
 ѫта-нъ, за-кѫт-ва-мъ, за-кѫт-ва-не, кѫта-
  []
 
 
-Overfull \hbox (4.78pt too wide) in paragraph at lines 95--96
+Overfull \hbox (4.78pt too wide) in paragraph at lines 93--94
 \TU/OldStandard(1)/m/n/10 при-кѫта-не, при-кѫт-ва-мъ, пр
 и-кѫт-ва-не, скѫта-мъ, скѫта-не, скѫт-ва-мъ, с
 кѫт-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (8.54004pt too wide) in paragraph at lines 97--98
+Overfull \hbox (8.54004pt too wide) in paragraph at lines 95--96
 []\TU/OldStandard(1)/m/n/10 : вкѫщи, вър-то-кѫщ-ни-къ, вър-
 то-кѫщ-ни-ца, кѫща, кѫще-нъ, кѫщи-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (0.45331pt too wide) in paragraph at lines 101--102
+Overfull \hbox (0.45331pt too wide) in paragraph at lines 99--100
 []\TU/OldStandard(1)/m/n/10 : бе-зот-лѫче-нъ, из-лѫча, из-
 лѫч-ва-мъ, из-лѫч-ва-не, лѫка,
  []
 
 
-Overfull \hbox (13.26003pt too wide) in paragraph at lines 101--102
+Overfull \hbox (13.26003pt too wide) in paragraph at lines 99--100
 \TU/OldStandard(1)/m/n/10 лѫка-ве-цъ, лѫка-во, лѫка-вос-
 ть, лѫкав-с-т-ва-мъ, лѫкав-с-т-ва-не, лѫкав-с-т-
 во, лѫкав-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (0.57323pt too wide) in paragraph at lines 105--106
-[]\TU/OldStandard(1)/m/n/10 : все-мѫдъ-ръ, из-мѫд-ру-ва-мъ,
- из-мѫд-ру-ва-не, из-мѫд-ря, из-мѫд-
+Overfull \hbox (0.57323pt too wide) in paragraph at lines 103--104
+[]\TU/OldStandard(1)/m/n/10 : все-мѫдъ-ръ, из-мѫд-ру-ва-мъ, 
+из-мѫд-ру-ва-не, из-мѫд-ря, из-мѫд-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (14.89325pt too wide) in paragraph at lines 107--108
+Overfull \hbox (14.89325pt too wide) in paragraph at lines 105--106
 []\TU/OldStandard(1)/m/n/10 : въз-мѫжа-ва-мъ, въз-мѫжа-ва-
 не, въз-мѫжа-лос-ть, въз-мѫжея, мѫжа-
  []
 
 
-Overfull \hbox (9.13994pt too wide) in paragraph at lines 107--108
+Overfull \hbox (9.13994pt too wide) in paragraph at lines 105--106
 \TU/OldStandard(1)/m/n/10 мѫж-ле, мѫжо-въ, мѫжъ, не-мѫже
 с-т-ве-нъ, не-о-мѫже-нъ, но-во-о-мѫже-нъ, омѫжа,
-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (4.6266pt too wide) in paragraph at lines 109--110
+Overfull \hbox (4.6266pt too wide) in paragraph at lines 107--108
 \TU/OldStandard(1)/m/n/10 до-мѫч-нѣя, за-мѫча, из-мѫча, и
 з-мѫч-ва-мъ, из-мѫч-ва-не, из-мѫче-нъ, мѫка, мѫ
 ча,
  []
 
 
-Overfull \hbox (7.50002pt too wide) in paragraph at lines 109--110
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 107--108
 \TU/OldStandard(1)/m/n/10 мѫче-не, мѫче-ние, мѫче-ни-къ, 
 мѫче-ни-ца, мѫче-ни-чес-ки, мѫче-ни-чес-т-во, 
 мѫче-
  []
 
 
-Overfull \hbox (5.83327pt too wide) in paragraph at lines 109--110
+Overfull \hbox (5.83327pt too wide) in paragraph at lines 107--108
 \TU/OldStandard(1)/m/n/10 мъ, мѫч-но-раз-то-пи-мъ, мѫч-но
 с-ми-ла-е-мъ, мѫч-нос-ми-ла-те-ле-нъ, мѫч-но-ти
 я, мѫч-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr [4]
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (2.15332pt too wide) in paragraph at lines 117--118
+Overfull \hbox (2.15332pt too wide) in paragraph at lines 115--116
 []\TU/OldStandard(1)/m/n/10 : из-пѫк-ва-мъ, из-пѫк-ва-не, и
 з-пѫк-на, из-пѫк-на-лос-ть, из-
  []
 
 
-Overfull \hbox (9.12662pt too wide) in paragraph at lines 117--118
+Overfull \hbox (9.12662pt too wide) in paragraph at lines 115--116
 \TU/OldStandard(1)/m/n/10 пѫк-на-лъ, из-пѫк-на-ти-на, из-
 пѫча, из-пѫч-ва-мъ, из-пѫч-ва-не, пѫк-на, пѫча, 
 пѫче-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (0.73332pt too wide) in paragraph at lines 121--122
+Overfull \hbox (0.73332pt too wide) in paragraph at lines 119--120
 \TU/OldStandard(1)/m/n/10 нъ, по-пѫту-ва-мъ, по-пѫту-ва-н
 е, про-пѫту-ва-мъ, про-пѫту-ва-не, про-ти-вос-
 пѫт-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr [5]
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (4.78998pt too wide) in paragraph at lines 125--126
+Overfull \hbox (4.78998pt too wide) in paragraph at lines 123--124
 []\TU/OldStandard(1)/m/n/10 :въ-о-рѫжа, въ-о-рѫжа-ва-мъ, в
 ъ-о-рѫжа-ва-не, въ-
  []
 
 
-Overfull \hbox (12.63336pt too wide) in paragraph at lines 125--126
-\TU/OldStandard(1)/m/n/10 обе-зо-рѫжа, обе-зо-рѫжа-ва-мъ,
- обе-зо-рѫжа-ва-не, орѫде-е-нъ, орѫже-е-нъ, ор
-ѫжей-
+Overfull \hbox (12.63336pt too wide) in paragraph at lines 123--124
+\TU/OldStandard(1)/m/n/10 обе-зо-рѫжа, обе-зо-рѫжа-ва-мъ, 
+обе-зо-рѫжа-ва-не, орѫде-е-нъ, орѫже-е-нъ, орѫ
+жей-
  []
 
 
-Overfull \hbox (6.97997pt too wide) in paragraph at lines 125--126
-\TU/OldStandard(1)/m/n/10 ние, съ-о-рѫжа, съ-о-рѫжа-ва-мъ,
- съ-о-рѫжа-ва-не, съ-о-рѫже-ние, съп-ру-жес-ки, 
+Overfull \hbox (6.97997pt too wide) in paragraph at lines 123--124
+\TU/OldStandard(1)/m/n/10 ние, съ-о-рѫжа, съ-о-рѫжа-ва-мъ, 
+съ-о-рѫжа-ва-не, съ-о-рѫже-ние, съп-ру-жес-ки, 
 съп-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (8.66333pt too wide) in paragraph at lines 127--128
+Overfull \hbox (8.66333pt too wide) in paragraph at lines 125--126
 []\TU/OldStandard(1)/m/n/10 : без-рѫкъ, бър-зо-рѫкъ, вза-и-
 мо-по-рѫчи-те-ль, врѫча, врѫч-
  []
 
 
-Overfull \hbox (0.62665pt too wide) in paragraph at lines 127--128
+Overfull \hbox (0.62665pt too wide) in paragraph at lines 125--126
 \TU/OldStandard(1)/m/n/10 рѣпо-рѫчи-те-ле-нъ, неп-рѣпо-р
 ѫчи-тел-нос-ть, не-рѫкот-во-ре-нъ, нес-рѫче-н
 ъ, нес-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (7.29997pt too wide) in paragraph at lines 131--133
-\TU/OldStandard(1)/m/n/10 ва-мъ, поскѫп-ва-не, поскѫп-на,
- поскѫп-нѣя, поскѫпя, поскѫпя-ва-мъ, поскѫпя-
-
+Overfull \hbox (7.29997pt too wide) in paragraph at lines 129--131
+\TU/OldStandard(1)/m/n/10 ва-мъ, поскѫп-ва-не, поскѫп-на, 
+поскѫп-нѣя, поскѫпя, поскѫпя-ва-мъ, поскѫпя-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (28.79333pt too wide) in paragraph at lines 134--136
+Overfull \hbox (28.79333pt too wide) in paragraph at lines 132--134
 \TU/OldStandard(1)/m/n/10 застѫп-ва-не, застѫп-ни-къ, за
 стѫп-ни-ца, застѫп-ни-чес-ки, застѫп-ни-чес-т-
 во, застѫпя,
  []
 
 
-Overfull \hbox (4.1pt too wide) in paragraph at lines 134--136
+Overfull \hbox (4.1pt too wide) in paragraph at lines 132--134
 \TU/OldStandard(1)/m/n/10 тѫп-ни-ца, клет-воп-рѣс-тѫп-ни-
 чес-ки, клет-воп-рѣс-тѫп-ни-чес-т-во, кон-т-ра-
 нас-тѫп-
  []
 
 
-Overfull \hbox (17.71332pt too wide) in paragraph at lines 134--136
+Overfull \hbox (17.71332pt too wide) in paragraph at lines 132--134
 \TU/OldStandard(1)/m/n/10 ле-ние, настѫпа-те-ле-нъ, наст
 ѫпа-тел-но, настѫпа-тел-нос-ть, настѫп-ва-мъ, 
 настѫп-
  []
 
 
-Overfull \hbox (6.91338pt too wide) in paragraph at lines 134--136
+Overfull \hbox (6.91338pt too wide) in paragraph at lines 132--134
 \TU/OldStandard(1)/m/n/10 от-стѫп-ка, от-стѫп-ле-ние, от-
-стѫп-ни-къ, от-стѫп-ни-ца, от-стѫп-ни-чес-т-во,
- от-стѫп-
+стѫп-ни-къ, от-стѫп-ни-ца, от-стѫп-ни-чес-т-во, 
+от-стѫп-
  []
 
 
-Overfull \hbox (6.26004pt too wide) in paragraph at lines 134--136
+Overfull \hbox (6.26004pt too wide) in paragraph at lines 132--134
 \TU/OldStandard(1)/m/n/10 чи-во, от-стѫп-чи-вос-ть, от-ст
 ѫп-чи-въ, от-стѫпъ, от-стѫпя, под-стѫпъ, по-от-
 стѫпя,
  []
 
 
-Overfull \hbox (10.19333pt too wide) in paragraph at lines 134--136
+Overfull \hbox (10.19333pt too wide) in paragraph at lines 132--134
 \TU/OldStandard(1)/m/n/10 постѫпа-те-ле-нъ, постѫпа-тел-
 но, постѫп-ва-мъ, постѫп-ва-не, постѫп-ка, по
 стѫп-
  []
 
 
-Overfull \hbox (14.47993pt too wide) in paragraph at lines 134--136
+Overfull \hbox (14.47993pt too wide) in paragraph at lines 132--134
 \TU/OldStandard(1)/m/n/10 ле-ние, постѫпя, пристѫп-ва-м
 ъ, пристѫп-ва-не, пристѫпъ, пристѫпя, пристѫ
 пя-
  []
 
 
-Overfull \hbox (3.29994pt too wide) in paragraph at lines 134--136
+Overfull \hbox (3.29994pt too wide) in paragraph at lines 132--134
 \TU/OldStandard(1)/m/n/10 мъ, пристѫпя-не, простѫп-ва-м
 ъ, простѫп-ва-не, простѫп-ка, простѫпя, прѣо
 т-
  []
 
 
-Overfull \hbox (9.61325pt too wide) in paragraph at lines 134--136
+Overfull \hbox (9.61325pt too wide) in paragraph at lines 132--134
 \TU/OldStandard(1)/m/n/10 с-тѫп-ва-мъ, прѣот-с-тѫп-ва-не, 
-прѣот-с-тѫпя, прѣот-с-тѫпя-не, прѣс-тѫп-ва-мъ,
- прѣс-
+прѣот-с-тѫпя, прѣот-с-тѫпя-не, прѣс-тѫп-ва-мъ, 
+прѣс-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr [6]
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (11.42674pt too wide) in paragraph at lines 137--138
+Overfull \hbox (11.42674pt too wide) in paragraph at lines 135--136
 []\TU/OldStandard(1)/m/n/10 : Сѫбе-въ, Сѫби, Сѫб-ко-въ, сѫ
 бо-та, сѫбо-те-нъ, Сѫбо-ти-но-въ, Сѫбо-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (0.52666pt too wide) in paragraph at lines 139--140
+Overfull \hbox (0.52666pt too wide) in paragraph at lines 137--138
 []\TU/OldStandard(1)/m/n/10 : без-раз-сѫде-нъ, без-раз-сѫ
 д-но, без-раз-сѫд-нос-ть, без-
  []
 
 
-Overfull \hbox (6.40666pt too wide) in paragraph at lines 139--140
+Overfull \hbox (6.40666pt too wide) in paragraph at lines 137--138
 \TU/OldStandard(1)/m/n/10 без-сѫдър-жа-тел-нос-ть, во-ен-
 но-сѫде-бе-нъ, из-вън-сѫде-бе-нъ, на-сѫдя, не-
 об-сѫде-
  []
 
 
-Overfull \hbox (8.22662pt too wide) in paragraph at lines 139--140
+Overfull \hbox (8.22662pt too wide) in paragraph at lines 137--138
 \TU/OldStandard(1)/m/n/10 не-раз-сѫди-те-ле-нъ, не-раз-с
 ѫд-ли-во, не-раз-сѫд-ли-вос-ть, не-раз-сѫд-ли-
 въ, не-сѫде-
  []
 
 
-Overfull \hbox (1.03317pt too wide) in paragraph at lines 139--140
+Overfull \hbox (1.03317pt too wide) in paragraph at lines 137--138
 \TU/OldStandard(1)/m/n/10 сѫдя, при-сѫж-да-мъ, при-сѫж-д
 а-не, прѣд-раз-сѫдъ-къ, прѣд-раз-сѫдъ-че-нъ, р
 аз-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr [7]
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (2.45338pt too wide) in paragraph at lines 145--146
+Overfull \hbox (2.45338pt too wide) in paragraph at lines 143--144
 []\TU/OldStandard(1)/m/n/10 : вез-де-сѫщ-нос-ть, вез-де-сѫ
 щъ, всѫщ-нос-ть, до-сѫщъ, еди-но-сѫще-
  []
 
 
-Overfull \hbox (8.43344pt too wide) in paragraph at lines 145--146
+Overfull \hbox (8.43344pt too wide) in paragraph at lines 143--144
 \TU/OldStandard(1)/m/n/10 не, не-сѫщес-т-ву-ва-ние, не-сѫ
 щес-т-ву-ва-щъ, не-сѫщъ, осѫщес-т-ви-мос-ть, о
 сѫщес-
  []
 
 
-Overfull \hbox (17.70673pt too wide) in paragraph at lines 145--146
+Overfull \hbox (17.70673pt too wide) in paragraph at lines 143--144
 \TU/OldStandard(1)/m/n/10 сѫщес-т-ву-ва-те-ль, съ-сѫщес-
 т-ву-ва-мъ, съ-сѫщес-т-ву-ва-не, сѫщев-рѣме-не-
 нъ, сѫщев-
  []
 
 
-Overfull \hbox (9.23341pt too wide) in paragraph at lines 145--146
+Overfull \hbox (9.23341pt too wide) in paragraph at lines 143--144
 \TU/OldStandard(1)/m/n/10 рѣмен-но, сѫщес-т-ве-но, сѫщес-
 т-ве-нос-ть, сѫщес-т-ве-нъ, сѫщес-т-ви-тел-но, 
 сѫщес-
  []
 
 
-Overfull \hbox (8.91345pt too wide) in paragraph at lines 145--146
+Overfull \hbox (8.91345pt too wide) in paragraph at lines 143--144
 \TU/OldStandard(1)/m/n/10 т-во, сѫщес-т-во-ва-ние, сѫщес-
 т-ву-ва-мъ, сѫщес-т-ву-ва-не, сѫщес-т-ву-ва-ни
 е, сѫщес-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (11.07997pt too wide) in paragraph at lines 147--148
+Overfull \hbox (11.07997pt too wide) in paragraph at lines 145--146
 \TU/OldStandard(1)/m/n/10 ва-мъ, протрѫбя-ва-не, раз-трѫ
 бя, раз-трѫбя-ва-мъ, раз-трѫбя-ва-не, трѫба, т
 рѫба-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (2.55994pt too wide) in paragraph at lines 153--154
+Overfull \hbox (2.55994pt too wide) in paragraph at lines 151--152
 \TU/OldStandard(1)/m/n/10 к-ва-не, по-тѫп-ча, при-тѫп-ча, 
 при-тѫпя, при-тѫпя-ва-мъ, при-тѫпя-ва-не, прѣ
 тѫп-
  []
 
 
-Overfull \hbox (1.62663pt too wide) in paragraph at lines 153--154
+Overfull \hbox (1.62663pt too wide) in paragraph at lines 151--152
 \TU/OldStandard(1)/m/n/10 къ, тѫпа-нар-ка, тѫпа-нар-с-ки, 
 тѫпа-на-рь, тѫпан-че, тѫпа-нъ, тѫпач-ка, тѫпа
 ш-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr [8]
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-Overfull \hbox (5.51668pt too wide) in paragraph at lines 157--158
+Overfull \hbox (5.51668pt too wide) in paragraph at lines 155--156
 []\TU/OldStandard(1)/m/n/10 : два-на-де-се-то-ѫгъл-ни-къ, 
 де-се-то-ѫгъ-ле-нъ, де-се-то-ѫгъл-ни-къ, кра-
  []
 
 
-Overfull \hbox (4.0633pt too wide) in paragraph at lines 157--158
+Overfull \hbox (4.0633pt too wide) in paragraph at lines 155--156
 \TU/OldStandard(1)/m/n/10 е-ѫгъ-ле-нъ, кра-йѫгъ-ле-нъ, мн
 о-го-ѫгъ-ле-нъ, мно-го-ѫгъл-ни-къ, ос-мо-ѫгъ-л
 е-нъ, ос-
  []
 
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -1003,27 +994,30 @@ braces):
 >  {bulgarian/babelname}  =>  {bulgarian}
 >  {bulgarian/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {bulgarian/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr [9] (./testcyrold2.aux
-luaotfload | aux : font no 46 (nil) defines no feature for script cyrl with lang
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+luaotfload | aux : font no 36 (nil) defines no feature for script cyrl with lang
 uage bgr))
 
 Here is how much of LuaTeX's memory you used:
- 4626 strings out of 481365
- 125171,552014 words of node,token memory allocated
+ 4226 strings out of 477785
+ 100000,552014 words of node,token memory allocated
  406 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 48 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:189,3:71,4:5,5:710,6:17,7:5669,8:1,9:88,10:4,11:963
- 21400 multiletter control sequences out of 65536+600000
- 63 fonts using 12043043 bytes
- 50i,6n,82p,3576b,349s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texlive/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Bol
-d.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/oldstandard/OldStanda
-rd-Regular.otf>
-Output written on testcyrold2.pdf (9 pages, 28192 bytes).
+   avail lists: 2:253,3:136,4:5,5:1067,6:33,7:8828,8:1,9:156,10:4,11:1494,12:1
+ 24857 multiletter control sequences out of 65536+600000
+ 53 fonts using 9542431 bytes
+ 68i,6n,88p,3576b,351s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/oldstandard/OldStandar
+d-Bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/oldstandard
+/OldStandard-Regular.otf>
+Output written on testcyrold2.pdf (9 pages, 29408 bytes).
 
 PDF statistics: 46 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
