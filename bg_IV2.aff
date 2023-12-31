@@ -52,7 +52,7 @@ REP	гъг гѫг
 REP	гъд гѫд
 REP	гъж гѫж
 REP	гъз гѫз
-REP	гълъб гълѫб
+REP	гълъб гѫлѫб
 REP	гъс	гѫс			
 REP	гъст гѫст
 REP	гъш гѫш
@@ -189,6 +189,37 @@ PFX SP 0  прѣ
 PFX SP 0  про
 PFX SP 0  при [бвгдлмнжраоуиеѫѭяѣѫ]
 
+
+# 1-во склонение 
+# същ. склонение на -ъ основа м. р - народъ
+SFX G0 Y  7	    
+SFX G0  ъ           а          ъ       is:singular  Р, В
+SFX G0  ъ           у          ъ       is:singular  Д
+SFX G0  ъ           омь      ъ       is:singular  Т
+SFX G0  ъ           е          ъ       is:singular  З
+SFX G0  ъ           и          ъ      is:plural   И,З
+SFX G0  ъ           омъ      ъ      is:plural  Д
+SFX G0  ъ           ы        ъ      is:plural  В,Т
+
+# 1-во склонение 
+# същ. склонение на -ъ основа м. р - родъ; градъ - едносрични
+SFX G1 Y  7	    
+SFX G1  ъ           а          ъ       is:singular    Р, В
+SFX G1  ъ           у          ъ       is:singular  Д
+SFX G1  ъ           омь      ъ       is:singular  Т
+SFX G1  ъ           е          ъ       is:singular  З
+SFX G1  ъ           ове       ъ      is:plural   И В,Т
+SFX G1  ъ           овъ       ъ      is:plural  Р
+SFX G1  ъ           омъ      ъ      is:plural  Д
+
+# -нкъ, -ьникъ, -ъкъ, -етъ, -ътъ, -отъ, -инъ 
+SFX G2 Y 5
+SFX G2  ъ           а          ъ       is:singular    Р, В, Т
+SFX G2  ъ           у          ъ       is:singular  Д
+SFX G2  инъ       е           инъ    is:plural   И,З
+SFX G2  инъ       ы        ъ      is:plural  В,Т
+SFX G2  инъ       и        ъ      is:plural  В,Т
+
 # 2-ро склонение -а основи, ж.р и м.р 
 # същ. спряжение на -а основа жена
 # -ина, -[рдлвн]ота, -[мбпф]ета, -[ь]да, -тва, -оба, -[рдлвн]ова, -[мбпф]ева, -ьба
@@ -317,5 +348,5 @@ SFX V6  шъ  те    .
 SFX V6  ашъ  атъ    [а]шъ
 SFX V6  ашъ  ѫтъ    [а]шъ
 SFX V6  яшъ  ятъ    [я]шъ
-SFX V6  яшъ  ѭтъ    [я]шъ
+SFX V6  ѫшъ  ѭтъ    [ѫ]шъ
 
