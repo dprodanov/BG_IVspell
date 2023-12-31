@@ -199,17 +199,18 @@ SFX G0  ъ           омь      ъ       is:singular  Т
 SFX G0  ъ           е          ъ       is:singular  З
 SFX G0  ъ           и          ъ      is:plural   И,З
 SFX G0  ъ           омъ      ъ      is:plural  Д
-SFX G0  ъ           ы        ъ      is:plural  В,Т
+SFX G0  ъ           ы         ъ      is:plural  В,Т
 
 # 1-во склонение 
 # същ. склонение на -ъ основа м. р - родъ; градъ - едносрични
+# прѫтъ, сватъ
 SFX G1 Y  7	    
 SFX G1  ъ           а          ъ       is:singular    Р, В
 SFX G1  ъ           у          ъ       is:singular  Д
 SFX G1  ъ           омь      ъ       is:singular  Т
 SFX G1  ъ           е          ъ       is:singular  З
 SFX G1  ъ           ове       ъ      is:plural   И В,Т
-SFX G1  ъ           овъ       ъ      is:plural  Р
+SFX G1  тъ          тѥ       [^ѣ]тъ      is:plural  Р
 SFX G1  ъ           омъ      ъ      is:plural  Д
 
 # -нкъ, -ьникъ, -ъкъ, -етъ, -ътъ, -отъ, -инъ 
