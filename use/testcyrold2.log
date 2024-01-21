@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.16)  14 JAN 2024 13:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2024.1.20)  21 JAN 2024 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -11,69 +11,428 @@ Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
+)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+
+(C:\Users\prodanov\AppData\Roaming\MiKTeX\tex/latex/cyrillic\x2enc.def
+File: x2enc.def 2022/06/11 v1.0j Cyrillic encoding definition file
+)
+LaTeX Font Info:    Trying to load font information for X2+lmr on input line 11
+2.
+LaTeX Font Info:    No file X2lmr.fd. on input line 112.
+LaTeX Font Info:    Trying to load font information for X2+cmr on input line 11
+2.
+
+(C:\Users\prodanov\AppData\Roaming\MiKTeX\tex/latex/cyrillic\x2cmr.fd
+File: x2cmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+
+LaTeX Font Warning: Font shape `X2/lmr/m/n' undefined
+(Font)              using `X2/cmr/m/n' instead on input line 112.
+
+)
+(C:\Users\prodanov\AppData\Roaming\MiKTeX\tex/latex/oldstandard\OldStandard.sty
+Package: OldStandard 2023/12/16 (Bob Tennent and autoinst) Style file for OldSt
+andard fonts.
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\keyval.tex))
+\XKV@depth=\count189
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.sty
 (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2023-04-20 L3 programming layer (loader) 
 
-(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count193
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
+\g__graphics_track_int=\count190
 \l__pdf_internal_box=\box51
+\g__pdf_backend_object_int=\count191
+\g__pdf_backend_annotation_int=\count192
+\g__pdf_backend_link_int=\count193
 ))
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
+(C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count194
+\l__fontspec_language_int=\count195
+\l__fontspec_strnum_int=\count196
+\l__fontspec_tmp_int=\count197
+\l__fontspec_tmpa_int=\count198
+\l__fontspec_tmpb_int=\count199
+\l__fontspec_tmpc_int=\count266
+\l__fontspec_em_int=\count267
+\l__fontspec_emdef_int=\count268
+\l__fontspec_strong_int=\count269
+\l__fontspec_strongdef_int=\count270
+\l__fontspec_tmpa_dim=\dimen141
+\l__fontspec_tmpb_dim=\dimen142
+\l__fontspec_tmpc_dim=\dimen143
 
-! Fatal Package fontspec Error: The fontspec package requires either XeTeX or
-(fontspec)                      LuaTeX.
-(fontspec)                      
-(fontspec)                      You must change your typesetting engine to,
-(fontspec)                      e.g., "xelatex" or "lualatex" instead of
-(fontspec)                      "latex" or "pdflatex".
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.cfg)))
 
-Type <return> to continue.
- ...                                              
-                                                  
-l.45 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
-                                                 
+Package fontspec Info: Font family 'OldStandard(0)' created for font
+(fontspec)             'OldStandard' with options [Ligatures = TeX,Scale =
+(fontspec)             1.0,Extension = .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic,SlantedFont =
+(fontspec)             *-Regular,SlantedFeatures =
+(fontspec)             {FakeSlant=0.25},BoldSlantedFont =
+(fontspec)             *-Bold,BoldSlantedFeatures = {FakeSlant=0.25}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Regular.otf]/OT:script=latn;lang
+uage=dflt;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Regular.otf]/OT:script=latn;lang
+uage=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Bold.otf]/OT:script=latn;languag
+e=dflt;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Bold.otf]/OT:script=latn;languag
+e=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Italic.otf]/OT:script=latn;langu
+age=dflt;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Italic.otf]/OT:script=latn;langu
+age=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Regular.otf]/OT:script=latn;lang
+uage=dflt;slant=0.25;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Regular.otf]/OT:script=latn;lang
+uage=dflt;slant=0.25;+pnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-BoldItalic.otf]/OT:script=latn;l
+anguage=dflt;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-BoldItalic.otf]/OT:script=latn;l
+anguage=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Bold.otf]/OT:script=latn;languag
+e=dflt;slant=0.25;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Bold.otf]/OT:script=latn;languag
+e=dflt;slant=0.25;+pnum;+onum;+smcp;mapping=tex-text;"
 
-LaTeX does not know anything more about this error, sorry.
+LaTeX Font Info:    Font shape `TU/OldStandard(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 88.
 
-Try typing <return> to proceed.
-If that doesn't work, type X <return> to quit.
+Package fontspec Info: Font family 'OldStandard(1)' created for font
+(fontspec)             'OldStandard' with options [Ligatures = TeX,Scale =
+(fontspec)             1.0,Extension = .otf,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic,SlantedFont =
+(fontspec)             *-Regular,SlantedFeatures =
+(fontspec)             {FakeSlant=0.25},BoldSlantedFont =
+(fontspec)             *-Bold,BoldSlantedFeatures = {FakeSlant=0.25}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Regular.otf]/OT:script=latn;lang
+uage=dflt;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Regular.otf]/OT:script=latn;lang
+uage=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Bold.otf]/OT:script=latn;languag
+e=dflt;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Bold.otf]/OT:script=latn;languag
+e=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Italic.otf]/OT:script=latn;langu
+age=dflt;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Italic.otf]/OT:script=latn;langu
+age=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Regular.otf]/OT:script=latn;lang
+uage=dflt;slant=0.25;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Regular.otf]/OT:script=latn;lang
+uage=dflt;slant=0.25;+pnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-BoldItalic.otf]/OT:script=latn;l
+anguage=dflt;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-BoldItalic.otf]/OT:script=latn;l
+anguage=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Bold.otf]/OT:script=latn;languag
+e=dflt;slant=0.25;+pnum;+onum;mapping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[OldStandard-Bold.otf]/OT:script=latn;languag
+e=dflt;slant=0.25;+pnum;+onum;+smcp;mapping=tex-text;"
 
-This is a fatal error: LaTeX will abort.
+LaTeX Info: Redefining \oldstylenums on input line 105.
+LaTeX Info: Redefining \liningnums on input line 106.
+)
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/04/18 3.88 The Babel package
+\babel@savecnt=\count271
+\U@D=\dimen144
+\l@unhyphenated=\language79
+
+(C:\Program Files\MiKTeX\tex/generic/babel\xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count272
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\prodanov\AppData\Roaming\MiKTeX\tex/latex/babel-bulgarian\bulgarian.l
+df
+Language: bulgarian 2013/10/14 v1.2g Bulgarian support from the babel system
+Package babel Info: Using `X2' as a default Cyrillic encoding on input line 89.
 
 
 
-! Emergency stop.
-<read *> 
-         
-l.45 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
-                                                 
-*** (cannot \read from terminal in nonstop modes)
+Package bulgarian.ldf Warning: inputenc should not be used with LuaTeX or XeTeX
+ on input line 140.
 
- 
-Here is how much of TeX's memory you used:
- 500 strings out of 476315
- 10344 string characters out of 5797002
- 1850068 words of memory out of 5000000
- 21032 multiletter control sequences out of 15000+600000
- 512287 words of font info for 32 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 72i,0n,77p,241b,44s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+Package bulgarian.ldf Info: Executing the post 3.9 branch for captions on input
+ line 197.
+Package bulgarian.ldf Info: Executing the post 3.9 branch for dates on input li
+ne 302.
+Package babel Info: Making " an active character on input line 344.
+)) (C:\Program Files\MiKTeX\tex/generic/babel/locale/bg\babel-bulgarian.tex
+Package babel Info: Importing font and identification data for bulgarian
+(babel)             from babel-bg.ini. Reported on input line 11.
+)
+(testcyrold2.aux
+LaTeX Font Info:    Trying to load font information for X2+OldStandard(0) on in
+put line 5.
+LaTeX Font Info:    No file X2OldStandard(0).fd. on input line 5.
+
+
+LaTeX Font Warning: Font shape `X2/OldStandard(0)/m/n' undefined
+(Font)              using `X2/cmr/m/n' instead on input line 5.
+
+)
+\openout1 = `testcyrold2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+7.
+ (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for X2/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 27.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 27.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 27.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 27.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 27.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 27.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 27.
+LaTeX Font Info:    Redeclaring math accent \check on input line 27.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 27.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 27.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 27.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 27.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/OldStandard(0)/m/n on input line 27.
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/OldStandard(0)/m/n on input line 27
+.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/OldStandard(0)/m/n --> TU/OldStandard(0)/m/n on inpu
+t line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/OldStandard(0)/m/it on input line 2
+7.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/OldStandard(0)/b/n on input line 27
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/OldStandard(0)/m/n --> TU/OldStandard(0)/b/n on inpu
+t line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/OldStandard(0)/b/it on input line 
+27.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 27.
+LaTeX Font Info:    Font shape `TU/OldStandard(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 32.
+LaTeX Font Info:    Font shape `TU/OldStandard(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 32.
+LaTeX Font Info:    Font shape `TU/OldStandard(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 32.
+LaTeX Font Info:    Font shape `TU/OldStandard(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 32.
+
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    Font shape `TU/OldStandard(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 40.
+
+Overfull \hbox (3.16002pt too wide) in paragraph at lines 47--48
+\TU/OldStandard(0)/m/n/10 чъ, вѫгленочеренъ, вѫгленъ, вѫглероденъ, вѫглеродъ, в
+ѫглехидратъ, вѫг-
+ []
+
+
+Overfull \hbox (17.69337pt too wide) in paragraph at lines 49--51
+[]\TU/OldStandard(0)/m/n/10 : вѫдица, вѫдичарски, вѫдичарство, вѫдичарь, вѫдич-
+
+ []
+
+
+Overfull \hbox (2.00002pt too wide) in paragraph at lines 49--51
+\TU/OldStandard(0)/m/n/10 ка, вѫдя, говедовѫденъ, говедовѫдство, говедовѫдъ, жи
+вотновѫденъ, жи-
+ []
+
+
+Overfull \hbox (1.87335pt too wide) in paragraph at lines 49--51
+\TU/OldStandard(0)/m/n/10 вотновѫдка, животновѫдство, животновѫдъ, завѫдя, завѫ
+ждамъ, завѫж-
+ []
+
+
+Overfull \hbox (0.40001pt too wide) in paragraph at lines 49--51
+\TU/OldStandard(0)/m/n/10 вѫдство, коневѫдъ, лесовѫденъ, лесовѫдство, лесовѫдъ,
+ навѫдя, навѫж-
+ []
+
+[1
+
+]
+Overfull \hbox (22.44005pt too wide) in paragraph at lines 60--61
+[]\TU/OldStandard(0)/m/n/10 : вглѫбеность, вглѫбя, вглѫбявамъ, вглѫбяване, глѫб
+ина, углѫбя,
+ []
+
+
+Overfull \hbox (4.1467pt too wide) in paragraph at lines 62--63
+\TU/OldStandard(0)/m/n/10 та, гнѫсотия, гнѫсь, гнѫся, догнѫсявамъ, догнѫсяване,
+ погнѫса, погнѫсе-
+ []
+
+
+Overfull \hbox (3.46005pt too wide) in paragraph at lines 74--75
+\TU/OldStandard(0)/m/n/10 гѫзя, огѫзвамъ, огѫзя, разгологѫзвамъ, разгологѫзване
+, разгѫзвамъ, раз-
+ []
+
+
+Overfull \hbox (0.49336pt too wide) in paragraph at lines 86--87
+\TU/OldStandard(0)/m/n/10 ство, зѫболѣкарь, зѫболѣчебенъ, зѫболѣчебница, зѫболѣ
+чение, зѫботех-
+ []
+
+[2

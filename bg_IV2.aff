@@ -189,37 +189,96 @@ PFX SP 0  прѣ
 PFX SP 0  про
 PFX SP 0  при [бвгдлмнжраоуиеѫѭяѣѫ]
 
+SFX K0 Y  2
+SFX K0 ь  ка   .
+SFX K0 й  ка   .
 
 # 1-во склонение 
 # същ. склонение на -ъ основа м. р - народъ
-SFX G0 Y  7	    
+SFX G0 Y  6	    
 SFX G0  ъ           а          ъ       is:singular  Р, В
 SFX G0  ъ           у          ъ       is:singular  Д
-SFX G0  ъ           омь      ъ       is:singular  Т
+SFX G0  ъ           омъ      ъ       is:singular  Т  is:plural  Д
 SFX G0  ъ           е          ъ       is:singular  З
 SFX G0  ъ           и          ъ      is:plural   И,З
-SFX G0  ъ           омъ      ъ      is:plural  Д
 SFX G0  ъ           ы         ъ      is:plural  В,Т
 
 # 1-во склонение 
 # същ. склонение на -ъ основа м. р - родъ; градъ - едносрични
 # прѫтъ, сватъ
-SFX G1 Y  7	    
-SFX G1  ъ           а          ъ       is:singular    Р, В
-SFX G1  ъ           у          ъ       is:singular  Д
-SFX G1  ъ           омь      ъ       is:singular  Т
-SFX G1  ъ           е          ъ       is:singular  З
-SFX G1  ъ           ове       ъ      is:plural   И В,Т
-SFX G1  тъ          тѥ       [^ѣ]тъ      is:plural  Р
-SFX G1  ъ           омъ      ъ      is:plural  Д
+SFX G1 Y  8	    
+SFX G1  ъ           а          ъ         is:singular    Р, В
+SFX G1  ъ           у          ъ         is:singular  Д
+SFX G1  ъ           омъ      ъ         is:singular  Т s:plural  Д
+SFX G1  ъ           е          [^к]ъ         is:singular  З
+SFX G1  ъ           о          [к]ъ         is:singular  З
+SFX G1  ъ           ове       ъ        is:plural   И В,Т
+SFX G1  тъ          тіе       [^ѣ]тъ   is:plural  Р
+SFX G3  тъ          тье      [^ѣ]тъ       is:singular  Д, З
+
+# едносрични
+SFX G2 Y  5	    
+SFX G2  й           я          й       is:singular    Р, В
+SFX G2  й           ю         й       is:singular  Д, З
+SFX G2  й           емь      й       is:singular  Т
+SFX G2  й           еве       й      is:plural 
+SFX G2  й           ища      й      is:plural  
+
+# случай
+SFX G4 Y  5	    
+SFX G4  й           я          й       is:singular    Р, В
+SFX G4  й           ю         й       is:singular  Д, З
+SFX G4  й           емь      й       is:singular  Т
+SFX G4  й           и          й      is:plural 
+SFX G4  й           е          й      is:plural 
+
+
+# меки  - царь лѣкар
+SFX G3 Y  6	    
+SFX G3  ь           я          ь       is:singular    Р, В
+SFX G3  ь           ю         ь       is:singular  Д, З
+SFX G3  ь           емь      ь       is:singular  Т
+SFX G3  ь           е          .       is:singular  Д, З
+SFX G3  ь           іе         ь        is:singular  Д, З
+SFX G3  ь           и          ь       is:plural   И В,Т
+
+# врагъ
+SFX G7 Y  11	    
+SFX G7  ъ           а         ъ       is:singular    Р, В
+SFX G7  ъ           у         ъ       is:singular  Д
+SFX G7  ъ           омъ      .       is:singular  Т
+SFX G7  гъ           же       [г]ъ   is:singular   З
+SFX G7  ъ           о      .       is:singular  З
+SFX G7  ъ           ове      [^е][г]ъ      is:singular  И, 
+SFX G7  гъ           зи       ъ       is:plural   З В,Т
+SFX G7  къ           ци       ъ       is:plural   З В,Т
+SFX G7  къ           цы       ъ       is:plural   З В,Т
+SFX G7  хъ           хы       ъ       is:plural   З В,Т
+SFX G7  хъ           си       ъ       is:plural   З В,Т
+
+# воевода
+SFX G5  Y  4	    
+SFX G5  а           и          а       is:singular  Р, В is:plural   И,З
+SFX G5  а           ѫ          а       is:singular  Д
+SFX G5  а           о          а       is:singular  З
+SFX G5  а           ы         а      is:plural  В,Т
+
+# кадия, сѫдия
+SFX G6  Y  6	    
+SFX G6  я           и          я       is:singular  Р, В is:plural  В,Т
+SFX G6  я           ѫ          [і]я       is:singular  Д
+SFX G6  я           о          [і]я       is:singular  З
+SFX G6  ия         ии         [^іи]я      is:plural  В,Т
+SFX G6  я           ио         [^і]я      is:plural  В,Т
+SFX G6  я           іѫ         [^і]я      is:plural  В,Т
 
 # -нкъ, -ьникъ, -ъкъ, -етъ, -ътъ, -отъ, -инъ 
-SFX G2 Y 5
-SFX G2  ъ           а          ъ       is:singular    Р, В, Т
-SFX G2  ъ           у          ъ       is:singular  Д
-SFX G2  инъ       е           инъ    is:plural   И,З
-SFX G2  инъ       ы        ъ      is:plural  В,Т
-SFX G2  инъ       и        ъ      is:plural  В,Т
+# SFX G2 Y 5
+# SFX G2  ъ           а        ъ       is:singular    Р, В, Т
+# SFX G2  ъ           у        ъ       is:singular  Д
+# SFX G2  инъ       е        инъ    is:plural   И,З
+# SFX G2  инъ       ы       ъ      is:plural  В,Т
+# SFX G2  инъ       и        ъ      is:plural  В,Т
 
 # 2-ро склонение -а основи, ж.р и м.р 
 # същ. спряжение на -а основа жена
@@ -229,8 +288,8 @@ SFX Z0   а           ѣ           а      is:singular  Д,М
 SFX Z0   а           ѫ           а      is:singular  В
 SFX Z0   а           о           а      is:singular  З
 SFX Z0   а           ъ           а       is:plural  Р
-SFX Z0   а           амъ       а       is:plural  Д
-SFX Z0   а           ами       а       is:plural  Т
+SFX Z0   а           и           а       is:plural  И
+SFX Z0   а           ы          а       is:plural  Д, Т
 SFX Z0   а           ахъ       а       is:plural  М
 
 # словообразуване
