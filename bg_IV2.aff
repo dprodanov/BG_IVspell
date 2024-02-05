@@ -10,11 +10,11 @@ LANG bg_BG
 			
 TRY аеноиървтслкмпздяубчгѣцжьхшфйщѫюКСМБДПТВГАРНЛХИЧЕЗЦФОШЯЙЖУЮЩЪЬѢѪ			
 
-# меки гласни отъ преднаго реда - е, и, ѣ, ь
-# твърди гласни отъ заднаго реда - а, о, у,  ъ, ѫ
+# меки гласни отъ преднаго рѣда - е, и, ѣ, ь
+# твърди гласни отъ заднаго рѣда - а, о, у,  ъ, ѫ
 # еиѣаоуѫ
 # сонантични съгласни - р, л 
-# ерове - ъ ь
+# ерове - ъ, ь
 #  меки съгласни -  ц, ч,  ш, ж, щ, жд, дж, л', р', н'
 #  консонантно    - й
 #  носови съгласни -     м, н
@@ -97,8 +97,8 @@ REP	мля	млѣ
 REP	могъщ	могѫщ
 REP	мъж	мѫж			
 REP	мък	мѫк			
-REP	мът мѫт		
-REP	мъч мѫч
+REP	мът	мѫт		
+REP	мъч	мѫч
 REP	мян	мѣн			
 REP	мяр	мѣр			
 REP	мяст	мѣст			
@@ -173,8 +173,8 @@ REP	ят	ятъ
 REP	ѣ	е			
 REP	ѣ	я			
 REP	ѫ	ъ
-REP	в	въ	
-REP	с	съ				
+ 
+ 			
 					
 MAP	7				
 MAP	еѣя				
@@ -197,7 +197,7 @@ SFX K0 й  ка   .
 
 # творителна форма
 SFX T0 Y  3
-SFX T0  ъ           омъ     ъ      is:singular  
+SFX T0  ъ           омъ     ъ       is:singular  
 SFX T0  й           емь      й       is:singular 
 SFX T0  ь           емь      ь       is:singular 
 
@@ -212,9 +212,10 @@ SFX C1  ъ      ътъ    ъ      is:singular
 SFX C1  ь      ьтъ     ь      is:singular  
 SFX C1  й      ятъ     й      is:singular  
 
-SFX C2 Y 2
+SFX C2 Y 3
 SFX C2 и      итѣ     и      is:plural  
 SFX C2 е      етѣ     е      is:plural  
+SFX C2 ы     ытѣ     ы      is:plural  
 
 SFX C3 Y 1
 SFX C3  0     та      .     is:plural  
@@ -225,18 +226,18 @@ SFX G0 Y  6
 SFX G0  ъ           а          ъ       is:singular  Р, В
 SFX G0  ъ           у          ъ       is:singular  Д
 SFX G0  ъ           е          ъ       is:singular  З
-SFX G0  ъ           ы         ъ      is:plural  В,Т
-SFX G0  ъ           и/C2     ъ     is:plural   И,З
+SFX G0  ъ           ы         ъ       is:plural  В,Т
+SFX G0  ъ           и/C2     ъ       is:plural   И,З
 
 
 # 1-во склонение 
 # меки  - царь, лѣкарь
 SFX G3 Y 6	     
-SFX G3  ь           я            .       is:singular    Р, В
-SFX G3  ь           ю           ь       is:singular  Д, З
-SFX G3  ь           е            .         is:singular  Д, З
-SFX G3  ь           іе           ь        is:singular  Д, З
-SFX G3  ь           и       ь        is:plural   И В,Т
+SFX G3  ь           я       .        is:singular    Р, В
+SFX G3  ь           ю      ь       is:singular  Д, З
+SFX G3  ь           е/C2       .        is:singular  Д, З
+SFX G3  ь           іе/C2      ь       is:singular  Д, З
+SFX G3  ь           и       ь       is:plural   И В,Т
 SFX G3  ь           ь       ь       is:singular    
 
 # 1-во склонение 
@@ -249,11 +250,11 @@ SFX G1  ъ           у          [^р]ъ         is:singular  Д
 SFX G1  ъ           е          [^кхр]ъ      is:singular  З
 SFX G1  ъ           о          [к]ъ           is:singular  З
 SFX G1  ъ           ше          [х]ъ        is:singular  З
-SFX G1  ъ           ове       [^р]ъ        is:plural   И В,Т
+SFX G1  ъ           ове/C2        [^р]ъ        is:plural   И В,Т
 SFX G1  тъ          тіе       [^ѣ]тъ       is:plural  Р
 SFX G1  тъ          тье      [^ѣ]тъ       is:singular  Д, З
 SFX G1  ъръ       ру          [р]ъ         is:singular  Д
-SFX G1  ъръ       рове       ъ           is:plural   И В,Т
+SFX G1  ъръ       рове/C2        ъ           is:plural   И В,Т
 
 # 1-во склонение 
 # едносрични - край
@@ -269,8 +270,8 @@ SFX G2  й           и/C2       й      is:plural
 SFX G4 Y  4	
 SFX G4  й           я     й       is:singular    Р, В
 SFX G4  й           ю          й       is:singular  Д, З
-SFX G4  й           и     й       is:plural 
-SFX G4  й           е           й       is:plural 
+SFX G4  й           и/C2     й       is:plural 
+SFX G4  й           е/C2           й       is:plural 
 
 
 
@@ -281,23 +282,24 @@ SFX G7  ъ           а          ъ       is:singular    Р, В
 SFX G7  ъ           у           ъ       is:singular  Д
 SFX G7  гъ          же       [г]ъ    is:singular   З
 SFX G7  ъ           о          .         is:singular  З
-SFX G7  ъ           ове      [^е][г]ъ      is:singular  И, 
+SFX G7  ъ           ове/C2        [^е][гх]ъ      is:singular  И, 
 SFX G7  гъ          зи       ъ        is:plural   З В,Т
-SFX G7  къ         ци       ъ        is:plural   З В,Т
-SFX G7  къ         цы       ъ       is:plural   З В,Т
-SFX G7  хъ         хы        ъ       is:plural   З В,Т
-SFX G7  хъ         си        ъ       is:plural   З В,Т
+SFX G7  къ         ци/C2         ъ        is:plural   З В,Т
+SFX G7  къ         цы/C2       ъ       is:plural   З В,Т
+SFX G7  хъ         хы/C2        ъ       is:plural   З В,Т
+SFX G7  хъ         си/C2          ъ       is:plural   З В,Т
 
 # 1-во склонение - старецъ, орелъ
-SFX G8 Y  8	    
-SFX G8  ъ           а          ъ       is:singular  Р, В
-SFX G8  ъ           у            ъ       is:singular  Д
+SFX G8 Y  9	    
+SFX G8  ъ           а           ъ       is:singular  Р, В
+SFX G8  ъ           у           ъ       is:singular  Д
 SFX G8  ецъ       че          ъ       is:singular  З
-SFX G8  ецъ       ци          ъ      is:plural   И,З
-SFX G8  ецъ       цы         ъ      is:plural  В,Т
-SFX G8  елъ       ле          ъ       is:singular  З
-SFX G8  елъ       ли          ъ      is:plural   И,З
-SFX G8  елъ       лы         ъ      is:plural  В,Т
+SFX G8  ецъ       ци/C2     ъ      is:plural   И,З
+SFX G8  ецъ       цы/C2     ъ      is:plural  В,Т
+SFX G8  елъ       ле           ъ       is:singular  З
+SFX G8  елъ       льо         ъ       is:singular  З
+SFX G8  елъ       ли/C2      ъ      is:plural   И,З
+SFX G8  елъ       лы/C2     ъ      is:plural  В,Т
 
 # воевода
 SFX G5  Y  4	    
