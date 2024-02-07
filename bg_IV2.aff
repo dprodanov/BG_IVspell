@@ -10,11 +10,11 @@ LANG bg_BG
 			
 TRY аеноиървтслкмпздяубчгѣцжьхшфйщѫюКСМБДПТВГАРНЛХИЧЕЗЦФОШЯЙЖУЮЩЪЬѢѪ			
 
-# меки гласни отъ преднаго рѣда - е, и, ѣ, ь
-# твърди гласни отъ заднаго рѣда - а, о, у,  ъ, ѫ
-# еиѣаоуѫ
-# сонантични съгласни - р, л 
-# ерове - ъ, ь
+#  меки гласни отъ преднаго рѣда - е, и, ѣ, ь
+#  твърди гласни отъ заднаго рѣда - а, о, у,  ъ, ѫ
+#  еиѣаоуѫ
+#  сонантични съгласни - р, л 
+#  ерове - ъ, ь
 #  меки съгласни -  ц, ч,  ш, ж, щ, жд, дж, л', р', н'
 #  консонантно    - й
 #  носови съгласни -     м, н
@@ -173,7 +173,6 @@ REP	ят	ятъ
 REP	ѣ	е			
 REP	ѣ	я			
 REP	ѫ	ъ
- 
  			
 					
 MAP	7				
@@ -192,8 +191,8 @@ PFX SP 0  про
 PFX SP 0  при [бвгдлмнжраоуиеѫѭяѣѫ]
 
 SFX K0 Y  2
-SFX K0 ь  ка   .
-SFX K0 й  ка   .
+SFX K0 ъ  ка   ъ
+SFX K0 й  ка   й
 
 # творителна форма
 SFX T0 Y  3
@@ -206,11 +205,19 @@ SFX M0 Y  2
 SFX M0  о         ѣ     о      is:singular  
 SFX M0  а         ѣ     а      is:singular  
 
+SFX M1 Y  4
+SFX M1  о      енъ      .      is:singular  
+SFX M1  е      енъ      .      is:singular  
+SFX M1  а      на        .      is:singular  
+SFX M1  о      ниятъ   о      is:singular  
+
 # членна форма
-SFX C1  Y  3
-SFX C1  ъ      ътъ    ъ      is:singular  
-SFX C1  ь      ьтъ     ь      is:singular  
-SFX C1  й      ятъ     й      is:singular  
+SFX C1  Y  5
+SFX C1  ъ      ътъ        ъ      is:singular  
+SFX C1  ь      ьтъ         ь      is:singular  
+SFX C1  й      ятъ         й      is:singular  
+SFX C1  о      ото         о      is:singular  
+SFX C1  о      осъ/K0    о      is:singular  
 
 SFX C2 Y 3
 SFX C2 и      итѣ     и      is:plural  
