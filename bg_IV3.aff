@@ -1,0 +1,267 @@
+﻿# Ivanchevski spelling of the Bulgarian language 
+#
+SET UTF-8
+FLAG long					
+NOSUGGEST NN					
+FULLSTRIP		
+NAME  Бѫлгарски Иванчевско-Дриновски првописенъ речникъ
+VERSION 1.0 (2023/05/21)
+LANG bg_BG
+			
+TRY аеноиървтслкмпздяубчгѣцжьхшфйщѫюКСМБДПТВГАРНЛХИЧЕЗЦФОШЯЙЖУЮЩЪЬѢѪ			
+
+#  меки гласни отъ преднаго рѣда - е, и, ѣ, ь
+#  твърди гласни отъ заднаго рѣда - а, о, у,  ъ, ѫ
+#  еиѣаоуѫ
+#  сонантични съгласни - р, л 
+#  ерове - ъ, ь
+#  меки съгласни -  ц, ч,  ш, ж, щ, жд, дж, л', р', н'
+#  консонантно    - й
+#  носови съгласни -     м, н
+#  звучни съгласни -       в,  д, г, ж,       з
+#  беззвучни съгласни - ф, т,  к, ш, щ, с
+		
+REP	151				
+REP	а	ъ			
+REP	бел	бѣл			
+REP	бъбр	бѫбр	
+REP	бъд	бѫд			
+REP	бял	бѣл
+REP	в	въ			
+REP	вед	вѣд			
+REP	вер	вѣр			
+REP	во	въ			
+REP	все	всѣ			
+REP	вся	всѣ			
+REP	въб	вѫб	
+REP	въг	вѫг			
+REP	въгл	вѫгл
+REP	въд	вѫд			
+REP	въж	вѫж	
+REP	въжд	вѫжд		
+REP	въз	вѫз
+REP	въс	вѫс
+REP	вът	вѫт			
+REP	вътр	вѫтр
+REP	вяд	вѣд			
+REP	вяр	вѣр	
+REP	глъб	глѫб
+REP	гнъс	гнѫс
+REP	гъб	гѫб
+REP	гъг	гѫг
+REP	гъд	гѫд
+REP	гъж	гѫж
+REP	гъз	гѫз
+REP	гълъб	гѫлѫб
+REP	гъс	гѫс			
+REP	гъст	гѫст
+REP	гъш	гѫш
+REP	две	двѣ					
+REP	дед	дѣд			
+REP	дел	дѣл			
+REP	дес	дѣс			
+REP	дяд	дѣд			
+REP	дял	дѣл			
+REP	дяс	дѣс	
+REP	е	ѣ			
+REP	зъб	зѫб			
+REP	ис	из			
+REP	й	ѝ			
+REP	кръ	крѫ			
+REP	кръг	крѫг
+REP	кръж	крѫж
+REP	къд	кѫд
+REP	къде	кѫдѣ			
+REP	къдр	кѫдр
+REP	кък	кѫк
+REP	къп	кѫп
+REP	къс	кѫс
+REP	кът	кѫт			
+REP	къщ	кѫщ			
+REP	къщ	кѫщ		
+REP	леб	лѣб			
+REP	лев	лѣв			
+REP	лег	лѣг			
+REP	лъ	ъл			
+REP	лъг	лѫг
+REP	лък	лѫк
+REP	лъч	лѫч			
+REP	ляб	лѣб			
+REP	ляв	лѣв			
+REP	ляг	лѣг
+REP	мен	мѣн			
+REP	мер	мѣр			
+REP	мест	мѣст			
+REP	мле	млѣ			
+REP	мля	млѣ
+REP	могъщ	могѫщ
+REP	мъж	мѫж			
+REP	мък	мѫк			
+REP	мът	мѫт		
+REP	мъч	мѫч
+REP	мян	мѣн			
+REP	мяр	мѣр			
+REP	мяст	мѣст			
+REP	нат	над			
+REP	нем	нѣм			
+REP	ням	нѣм			
+REP	од	от			
+REP	пре	прѣ			
+REP	пред	прѣд
+REP	прът	прѫт
+REP	пръч	прѫч	
+REP	пря	прѣ			
+REP	пъд	пѫд
+REP	пъжд	пѫжд
+REP	пък	пѫк
+REP	пъп	пѫп
+REP	път	пѫт			
+REP	пъч	пѫч
+REP	рас	раз			
+REP	ръ	ър			
+REP	ръб	рѫб		
+REP	ръг	рѫг
+REP	ръд	рѫд
+REP	ръж	рѫж
+REP	рък	рѫк	
+REP	ръч	рѫч			
+REP	с	съ			
+REP	свет	свѣт			
+REP	свят	свѣт			
+REP	сег	сѣг			
+REP	скъд	скѫд			
+REP	скъп	скѫп
+REP	скъп	скѫп			
+REP	со	съ			
+REP	сред	срѣд			
+REP	сряд	срѣд	
+REP	стъд	стѫд	
+REP	съ	сѫ
+REP	съб	сѫб
+REP	съд	сѫд	
+REP	съжд	сѫжд
+REP	сък	сѫк		
+REP	съст	сѫст
+REP	съч	сѫч		
+REP	същ	сѫщ								
+REP	сяг	сѣг			
+REP	те	тѣ			
+REP	тех	тѣх			
+REP	тръб	трѫб
+REP	тта	тьта			
+REP	тъг	тѫг
+REP	тъд	тѫд
+REP	тъж	тѫж
+REP	тъп	тѫп
+REP	тът	тѫт
+REP	тях	тѣх	
+REP	тѣ	те			
+REP	цел	цѣл			
+REP	цял	цѣл	
+REP	шт	щ			
+REP	ъ	а			
+REP	ъ	ь			
+REP	ъ	ѫ			
+REP	ъгъл	ѫгъл	
+REP	ъл	лъ			
+REP	ър	ръ			
+REP	ът	ътъ			
+REP	ь	ъ			
+REP	я	ѣ			
+REP	ят	ьтъ			
+REP	ят	ятъ			
+REP	ѣ	е			
+REP	ѣ	я			
+REP	ѫ	ъ
+ 			
+					
+MAP	7				
+MAP	еѣя				
+MAP	аъѫ				
+MAP	ъь				
+MAP	ийі				
+MAP	ая				
+MAP	еи				
+MAP	оу				
+
+
+PFX SP Y 3
+PFX SP 0  при [бвгдлмнжраоуиеѫѭяѣѫ]
+PFX SP 0  про
+PFX SP 0  прѣ  
+
+
+# творителна форма
+SFX T0 Y  3
+SFX T0  й    емь      й       is:singular 
+SFX T0  ь    емь      ь       is:singular 
+SFX T0  ъ    омъ     ъ       is:singular  
+
+# местна форма
+SFX M0 Y  2
+SFX M0  а      ѣ     а      is:singular  
+SFX M0  о      ѣ     о      is:singular  
+
+# членна форма
+SFX C1  Y  5
+SFX C1  о      осъ    о      is:singular  
+SFX C1  о      ото    о      is:singular  
+SFX C1  ъ      ътъ    ъ      is:singular  
+SFX C1  ь      ьтъ    ь      is:singular  
+SFX C1  й      ятъ    й      is:singular  
+
+SFX C2 Y 3
+SFX C2 е      етѣ     е      is:plural  
+SFX C2 и      итѣ     и      is:plural  
+SFX C2 ы      ытѣ     ы      is:plural  
+
+
+SFX C3 Y 1
+SFX C3  а     ата     а     is:singular  is:f
+
+# 1-во склонение 
+# същ. склонение на -ъ основа м. р - народъ
+SFX G0 Y  5  
+SFX G0  ъ    а          ъ       is:singular  Р, В
+SFX G0  ъ    е          ъ       is:singular  З
+SFX G0  ъ    и/C2     ъ       is:plural   И,З
+SFX G0  ъ    у          ъ       is:singular  Д
+SFX G0  ъ    ы         ъ       is:plural  В,Т
+
+# 1-во склонение 
+# същ. склонение на -ъ основа м. р - родъ; градъ - едносрични 
+# вѣтъръ
+# прѫтъ, сватъ
+ 
+SFX G1 Y  10	 
+SFX G1  ъ           а             ъ    is:singular    Р, В
+SFX G1  ъ           е       [^кхр]ъ    is:singular  З
+SFX G1  ъ           о          [к]ъ    is:singular  З
+SFX G1  ъ           ове/C2    [^р]ъ    is:plural   И В,Т
+SFX G1  ъръ         рове/C2       ъ    is:plural   И В,Т
+SFX G1  ъръ         ру         [р]ъ     is:singular  Д
+SFX G1  тъ          тье       [^ѣ]тъ    is:singular  Д, З
+SFX G1  тъ          тіе       [^ѣ]тъ    is:plural  Р
+SFX G1  ъ           у         [^р]ъ     is:singular  Д
+SFX G1  ъ           ше         [х]ъ     is:singular  З
+
+# 1-во склонение 
+# едносрични - край
+SFX G2 Y  5	    
+SFX G2  й           й/C1           й       is:singular
+SFX G2  й           ю           й       is:singular  Д, З
+SFX G2  й           я            й       is:singular    Р, В
+SFX G2  й           еве/C2    й      is:plural 
+SFX G2  й           и/C2       й      is:plural 
+
+# 1-во склонение 
+# меки  - царь, лѣкарь
+SFX G3 Y 6	     
+SFX G3  ь      ю        ь       is:singular  Д, З
+SFX G3  ь      я         ь       is:singular    Р, В
+SFX G3  ь      и         ь       is:plural   И В,Т 
+SFX G3  ь      е/C2    ь       is:singular  Д
+SFX G3  ь      іе/C2   ь       is:plural   В
+SFX G3  ь      ь/C1    ь       is:singular    И
+
+
