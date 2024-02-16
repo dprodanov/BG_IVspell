@@ -221,8 +221,11 @@ SFX C2 0 тѣ   .      is:plural
 #SFX C2 ы      ытѣ     ы      is:plural  
   
 
-SFX C3 Y 1
-SFX C3 0 та   .     is:f  
+SFX C3 Y 4
+SFX C3 а  ата   а     is:f  
+SFX C3 ѫ ѫтѫ   ѫ     is:f  
+SFX C3 я ята   я     is:f  
+SFX C3 ь ьта   ь     is:f  
 
 # 1-во склонение 
 # същ. склонение на -ъ основа м. р - народъ
@@ -283,11 +286,11 @@ SFX G4  ь      ь/C1    ь       is:singular    И
 # воевода
 SFX G5  Y  4	    
 SFX G5  а           о          а       is:singular  З
-SFX G5  а           ѫ          а       is:singular  В 
+SFX G5  а           ѫ/C3     а       is:singular  В 
 SFX G5  а           и/C2     а       is:singular  Р,  is:plural   И,З
 SFX G5  а           ы/C2     а      is:plural  В,Т
 
-# кадия, сѫдия
+# кадія, сѫдія
 SFX G6  Y  5	    
 SFX G6  я           и/C2            я      is:singular  Р, В is:plural  В,Т
 SFX G6  я           и      [^іи]я      is:plural  В,Т
@@ -339,23 +342,22 @@ SFX G9  инъ       іе       инъ      is:plural
 # -ина, -[рдлвн]ота, -[мбпф]ета, -[ь]да, -тва, -оба, -[рдлвн]ова, -[мбпф]ева, -ьба
 SFX Z0 Y 5    
 SFX Z0   а           ѣ           а      is:singular  Д  
-SFX Z0   а           ѫ           а      is:singular  В 
+SFX Z0   а           ѫ/C3           а      is:singular  В 
 SFX Z0   а           о           а      is:singular  З
-SFX Z0   а           и           а       is:plural  И
-SFX Z0   а           ы          а       is:plural  Д, В, Т
+SFX Z0   а           и/C2           а       is:plural  И
+SFX Z0   а           ы/C2          а       is:plural  Д, В, Т
 
 # душа
-SFX Z1 Y 8    
+SFX Z1 Y 7    
 SFX Z1   а           ѣ           [ш]а      is:singular  Д  
 SFX Z1   ка         цѣ           [к]а      is:singular  Д  
-SFX Z1   а           іѫ          [ш]а      is:singular  В 
-SFX Z1   а           ѫ          [к]а      is:singular  В 
-SFX Z1   а           о           а      is:singular  З
-SFX Z1   а           е          [ш]а      is:singular  З
-SFX Z1   а           и           а       is:plural  И
-SFX Z1   а           ы         [ш]а       is:plural  Д, В, Т
+SFX Z1   а           іѫ/C3          [ш]а      is:singular  В 
+SFX Z1   а           ѫ/C3          [к]а      is:singular  В 
+SFX Z1   а           о             а      is:singular  З
+SFX Z1   а           и/C2         а       is:plural  И
+SFX Z1   а           ы/C2         [ш]а       is:plural  Д, В, Т
 
-#радость богиня
+#радость, богиня
 SFX Z2 Y 7  
 SFX Z2   ь           е           ь      is:singular  З
 SFX Z2   ь           и/C2      ь      is:singular  Д    
