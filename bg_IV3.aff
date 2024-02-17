@@ -284,11 +284,11 @@ SFX G4  ь      ь/C1    ь       is:singular    И
 
 
 # воевода
-SFX G5  Y  4	    
-SFX G5  а           о          а       is:singular  З
-SFX G5  а           ѫ/C3     а       is:singular  В 
-SFX G5  а           и/C2     а       is:singular  Р,  is:plural   И,З
-SFX G5  а           ы/C2     а      is:plural  В,Т
+# SFX G5  Y  4	    
+# SFX G5  а           о          а       is:singular  З
+# SFX G5  а           ѫ/C3     а       is:singular  В 
+# SFX G5  а           и/C2     а       is:singular  Р,  is:plural   И,З
+# SFX G5  а           ы/C2     а      is:plural  В,Т
 
 # кадія, сѫдія
 SFX G6  Y  5	    
@@ -338,7 +338,7 @@ SFX G9  инъ       іе       инъ      is:plural
 
 
 # 2-ро склонение -а основи, ж.р и м.р 
-# същ. спряжение на -а основа жена
+#  ж р -а   жена -- мр. -а воевода
 # -ина, -[рдлвн]ота, -[мбпф]ета, -[ь]да, -тва, -оба, -[рдлвн]ова, -[мбпф]ева, -ьба
 SFX Z0 Y 5    
 SFX Z0   а           ѣ           а      is:singular  Д  
@@ -360,14 +360,14 @@ SFX Z1   а           ы/C2         [ш]а       is:plural  Д, В, Т
 #радость, богиня
 SFX Z2 Y 7  
 SFX Z2   ь           е           ь      is:singular  З
-SFX Z2   ь           и/C2      ь      is:singular  Д    
+SFX Z2   ь           и/C2      ь      is:plural  Д    
 SFX Z2   ь           ь/C3     ь      is:singular  Д  
 SFX Z2   я           о           я      is:singular  З
-SFX Z2   я           іѫ           я      is:singular  З
-SFX Z2   я           и/C2      я      is:singular  Д    
+SFX Z2   я           іѫ           я      is:singular  Д
+SFX Z2   я           и/C2      я      is:plural  Д    
 SFX Z2   я           я/C3     я      is:singular  Д  
 
-
+# ср. род
 SFX S0   Y 3
 SFX S0   о        а/C3      о       is:plural  
 SFX S0   е        а/C3      [^іирлт]е       is:plural  
