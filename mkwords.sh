@@ -2,8 +2,12 @@
 # makes suggestion sequence
 
 
-xmlstarlet tr xml2txt.xslt bg_wordlist_iv.xml > output.txt
+xmlstarlet tr xml2txt.xslt bg_wordlist_iv.xml | uniq >> output.txt
 
-awk 'BEGIN {RS=""}{gsub(/\n\n/,"\n",$0); print $0}' output.txt > wordlist.txt
+sort  output.txt  > output2.txt
 
-rm output.txt
+awk 'BEGIN {RS=""}{gsub(/\n\n/,"\n",$0); print $0}' output2.txt > wordlist.txt
+
+
+ 
+rm output.txt output2.txt
