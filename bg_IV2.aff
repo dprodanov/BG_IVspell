@@ -1,4 +1,4 @@
-# Ivanchevski spelling of the Bulgarian language 
+﻿# Ivanchevski spelling of the Bulgarian language 
 #
 SET UTF-8
 FLAG long					
@@ -241,6 +241,16 @@ PFX SP Y 3
 PFX SP 0  при [бвгдлмнжраоуиеѫѭяѣѫ]
 PFX SP 0  про
 PFX SP 0  прѣ  
+
+PFX SQ Y 8
+PFX SQ 0  въз [^ктпхчшщ] 
+PFX SQ 0  въс [ктпхчшщ]  
+PFX SQ 0  из [^ктпхчшщ] 
+PFX SQ 0  ис [ктпхчшщ]  
+PFX SQ 0  низ [^ктпхчшщ] 
+PFX SQ 0  нис [ктпхчшщ]  
+PFX SQ 0  раз [^ктпхчшщ] 
+PFX SQ 0  рас [ктпхчшщ]  
 
 SFX K0 Y  2
 SFX K0 й  ка  й
